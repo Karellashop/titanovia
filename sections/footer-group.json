@@ -110,7 +110,7 @@
           "settings": {
             "title": "Service client",
             "content": "<p>Service client : contact@luvixia.com<br/><br/>Horaires : Du Lun au Ven de 9h à 12h et de 14h à 18h / Sam et Dim de 10h à 12h </p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
