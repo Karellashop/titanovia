@@ -21,14 +21,14 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "La seule planche antibactérienne, inrayable et conçue pour durer à vie.",
+            "text": "La planche qui révolutionne l’hygiène en cuisine",
             "heading_tag": "h3"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Transformez chaque coupe en précision parfaite.</p>"
+            "content": "<p>Antibactérienne, inrayable et élégante, Titanovia est conçue pour t’accompagner toute une vie.</p>"
           }
         }
       },
@@ -47,7 +47,7 @@
         "mobile_image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_1300_x_1500_px.png",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
-        "text_color": "#3b2f2f",
+        "text_color": "#2b2626",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 0
       }
