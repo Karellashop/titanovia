@@ -247,6 +247,12 @@
             "heading_tag": "h2"
           }
         },
+        "liquid_PkXT4h": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"promo-mini\">\n  -50% sur toute la boutique ⚡\n</div>\n\n<style>\n.promo-mini {\n  font-size: 16px;\n  font-weight: 700;\n  color: #000;\n  text-align: center;\n  margin: 12px 0;\n  display: inline-block;\n  animation: bounce 1.4s infinite, glow 2s infinite alternate;\n}\n\n@keyframes bounce {\n  0%, 100% { transform: translateY(0); }\n  50% { transform: translateY(-4px); }\n}\n\n@keyframes glow {\n  0% { text-shadow: 0 0 0px rgba(0,0,0,0); }\n  100% { text-shadow: 0 0 8px rgba(0,0,0,0.25); }\n}\n</style>"
+          }
+        },
         "price_6UGGkn": {
           "type": "price",
           "disabled": true,
@@ -348,6 +354,7 @@
       "block_order": [
         "liquid_GPeXmt",
         "title_azFcDa",
+        "liquid_PkXT4h",
         "price_6UGGkn",
         "liquid_4rGEkF",
         "vendor_mqxUBt",
