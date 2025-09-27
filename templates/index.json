@@ -231,6 +231,111 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_product_Hhj93J": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_mqxUBt": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title_azFcDa": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_PDFcCz": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_6UGGkn": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_wVzYEz": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_t6edwd": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_N8rwCU": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_T8yJLr": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_pE8XNq": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_PaPeTJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_V3W6TR": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_mqxUBt",
+        "title_azFcDa",
+        "badges_PDFcCz",
+        "price_6UGGkn",
+        "rating_wVzYEz",
+        "separator_t6edwd",
+        "description_N8rwCU",
+        "variant_picker_T8yJLr",
+        "quantity_selector_pE8XNq",
+        "buy_buttons_PaPeTJ",
+        "pickup_availability_V3W6TR"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "planche-a-decouper-en-titane",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
     }
   },
   "order": [
@@ -239,6 +344,7 @@
     "custom_liquid_d6yBXc",
     "custom_liquid_XFjJMJ",
     "rich_text_KxEj6w",
-    "multi_column_Nywd4T"
+    "multi_column_Nywd4T",
+    "featured_product_Hhj93J"
   ]
 }
