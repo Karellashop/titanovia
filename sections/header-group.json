@@ -69,7 +69,7 @@
         "logo": "shopify://shop_images/Copie_de_Copie_de_Copie_de_BRAZZARY_2048_x_2048_px_8.png",
         "logo_max_width": 140,
         "logo_mobile_max_width": 140,
-        "menu": "main-menu",
+        "menu": "menu-principal-du-compte-client",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
