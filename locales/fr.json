@@ -318,7 +318,7 @@
       "empty": "Votre panier est vide",
       "item_count": {
         "one": "{{ count }} article",
-        "other": "Aucun article",
+        "other": "{{ count }} articles",
         "zero": "{{ count }} articles"
       },
       "continue_shopping": "Explorer nos produits",
