@@ -21,14 +21,14 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "",
-            "heading_tag": "h1"
+            "text": "Transformez chaque coupe en précision parfaite.",
+            "heading_tag": "h3"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>La seule planche antibactérienne, inrayable et conçue pour durer à vie.</p>"
           }
         }
       },
@@ -43,12 +43,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_5.png",
-        "mobile_image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_5.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
+        "image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_6.png",
+        "mobile_image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_1300_x_1500_px.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#3b2f2f",
+        "overlay_color": "#1a1a1a",
         "overlay_opacity": 0
       }
     },
