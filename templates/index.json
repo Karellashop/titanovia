@@ -346,6 +346,14 @@
             "payment_button_text_color": ""
           }
         },
+        "image_Grigew": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CleanShot_2025-08-29_at_17.44.05_2x_3543a68e-736d-4921-8131-9497981d8bcd.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "liquid_6rKVcz": {
           "type": "liquid",
           "settings": {
@@ -375,6 +383,7 @@
         "variant_picker_T8yJLr",
         "quantity_selector_pE8XNq",
         "buy_buttons_PaPeTJ",
+        "image_Grigew",
         "liquid_6rKVcz",
         "pickup_availability_V3W6TR"
       ],
