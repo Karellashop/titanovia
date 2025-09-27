@@ -110,10 +110,51 @@
         "logo_item_background": "",
         "logo_item_border": ""
       }
+    },
+    "rich_text_ykayTh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_FnfrAC": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KMNANU": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Luvixia ?",
+            "heading_tag": "h3",
+            "text_color": "#000000",
+            "gradient": ""
+          }
+        },
+        "richtext_7tJekT": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FnfrAC",
+        "heading_KMNANU",
+        "richtext_7tJekT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_fM3LQQ",
-    "logo_list_FDNLNw"
+    "logo_list_FDNLNw",
+    "rich_text_ykayTh"
   ]
 }
