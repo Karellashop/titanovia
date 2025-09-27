@@ -241,6 +241,12 @@
             "liquid": "<div class=\"luvixia-rating-badge\" role=\"link\" tabindex=\"0\" aria-label=\"Voir les avis LOOX\"\n     onclick=\"window.dispatchEvent(new Event('luvixia-scroll-to-loox'))\">\n  <span class=\"stars\" aria-hidden=\"true\">\n    <!-- 5 étoiles SVG -->\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n  </span>\n  <span class=\"text\">\n    <strong>4.8/5</strong> Excellent · <strong>1200+</strong> Avis\n  </span>\n</div>\n\n<style>\n.luvixia-rating-badge{\n  display:inline-flex; align-items:center; gap:.6rem; cursor:pointer;\n  padding:.5rem .75rem; border-radius:.5rem; background:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,.06);\n  font-size:14px; line-height:1; user-select:none;\n}\n.luvixia-rating-badge .stars{ display:inline-flex; gap:.25rem; }\n.luvixia-rating-badge .star{ width:18px; height:18px; fill:#00B67A; /* vert type Trustpilot */ }\n.luvixia-rating-badge .text{ color:#111; }\n.luvixia-rating-badge:hover{ transform:translateY(-1px); transition:transform .15s ease; }\n</style>\n\n<script>\n(function(){\n  function goToLoox(){\n    // Ids/ancres Loox les plus courantes\n    var targets = [\n      '#looxReviews',          // Loox Product Reviews widget\n      '#loox-reviews',\n      '[data-loox-aggregate]', // parfois présent\n      '.loox-rating'           // fallback\n    ];\n    var el = null;\n    for (var i=0;i<targets.length;i++){\n      el = document.querySelector(targets[i]);\n      if (el) break;\n    }\n    if (el){\n      el.scrollIntoView({behavior:'smooth', block:'start'});\n    } else {\n      // Fallback : aller sur la même page avec l’ancre (utile si le bloc charge plus tard)\n      var href = (location.pathname || '/') + '#looxReviews';\n      location.assign(href);\n    }\n  }\n  window.addEventListener('luvixia-scroll-to-loox', goToLoox);\n})();\n</script>"
           }
         },
+        "title_azFcDa": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
         "liquid_4rGEkF": {
           "type": "liquid",
           "settings": {
@@ -252,10 +258,10 @@
           "disabled": true,
           "settings": {}
         },
-        "title_azFcDa": {
-          "type": "title",
+        "liquid_PnGyND": {
+          "type": "liquid",
           "settings": {
-            "heading_tag": "h2"
+            "liquid": "<div class=\"promo-hero promo-hero--titanium\">\n  <div class=\"promo-hero__bg\"></div>\n  <div class=\"promo-hero__sheen\"></div>\n  <div class=\"promo-hero__content\">\n    <div class=\"promo-hero__kicker\">🔥 Promo de fin septembre</div>\n    <h3 class=\"promo-hero__title\">-50% à -70% sur nos packs</h3>\n    <div class=\"promo-hero__sub\">Jusqu’à épuisement des stocks</div>\n  </div>\n</div>\n\n<style>\n/* === Palette TITANIUM (graphite, acier, argent) === */\n.promo-hero--titanium{\n  --graphite:#0B0F14;     /* noir profond */\n  --charcoal:#171C23;     /* gris anthracite */\n  --steel:#2A313B;        /* gris acier */\n  --titanium:#9AA3AD;     /* gris titane clair */\n  --silver:#C9D1D9;       /* argent froid pour reflets */\n}\n\n/* ---- Layout / dimensions ---- */\n.promo-hero{\n  position:relative;\n  width:100%;\n  border-radius:18px;\n  overflow:hidden;\n  height:220px; /* ajuste au besoin */\n  isolation:isolate;\n  box-shadow:0 8px 28px rgba(0,0,0,.30);\n}\n\n/* ---- Fond titane brossé (dégradés froids) ---- */\n.promo-hero__bg{\n  position:absolute; inset:-2px;\n  background:\n    radial-gradient(120% 120% at 20% 0%, var(--steel) 0%, var(--charcoal) 45%, var(--graphite) 100%),\n    linear-gradient(90deg, rgba(255,255,255,.06) 0%, rgba(255,255,255,0) 6%, rgba(255,255,255,.06) 12%) repeat;\n  background-size:auto, 22px 100%; /* fines stries pour vibe titane */\n  z-index:0;\n}\n\n/* Halo/contour animé discret (argent froid) */\n.promo-hero::before{\n  content:\"\";\n  position:absolute; inset:-2px;\n  background: conic-gradient(from 0deg,\n    rgba(201,209,217,0),\n    rgba(201,209,217,.38),\n    rgba(201,209,217,0) 30%);\n  filter: blur(18px);\n  animation:borderGlow 6s linear infinite;\n  z-index:0;\n  opacity:.40;\n}\n@keyframes borderGlow{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}\n\n/* Reflet balayage (sheen) */\n.promo-hero__sheen{\n  position:absolute; inset:0;\n  background:linear-gradient(115deg,\n    rgba(255,255,255,0) 0%,\n    rgba(255,255,255,.12) 45%,\n    rgba(255,255,255,0) 60%);\n  transform:translateX(-120%);\n  animation:sheen 4.8s ease-in-out infinite;\n  mix-blend-mode:screen;\n  z-index:1; pointer-events:none;\n}\n@keyframes sheen{\n  0%{transform:translateX(-120%)}\n  40%{transform:translateX(120%)}\n  100%{transform:translateX(120%)}\n}\n\n/* ---- Contenu ---- */\n.promo-hero__content{\n  position:relative; z-index:2;\n  height:100%;\n  display:flex; flex-direction:column;\n  align-items:center; justify-content:center;\n  text-align:center; padding:0 20px;\n  color:#fff; font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n}\n.promo-hero__kicker{\n  font-size:14px; letter-spacing:.12em; text-transform:uppercase; margin-bottom:6px;\n  color:var(--titanium); opacity:.95;\n}\n.promo-hero__title{\n  margin:0; line-height:1.08; font-size:clamp(20px,5.2vw,30px); font-weight:800;\n  background:linear-gradient(90deg,#FFFFFF,var(--silver),#FFFFFF);\n  -webkit-background-clip:text; -webkit-text-fill-color:transparent;\n  background-size:200% auto; animation:titleShimmer 6s linear infinite;\n}\n@keyframes titleShimmer{\n  0%{background-position:200% 50%}\n  100%{background-position:-200% 50%}\n}\n.promo-hero__sub{\n  margin-top:8px; font-size:14px; color:var(--titanium); opacity:.9;\n}\n\n/* Accessibilité */\n@media (prefers-reduced-motion: reduce){\n  .promo-hero::before, .promo-hero__sheen, .promo-hero__title{animation:none}\n}\n</style>"
           }
         },
         "badges_PDFcCz": {
@@ -322,9 +328,10 @@
       },
       "block_order": [
         "liquid_GPeXmt",
+        "title_azFcDa",
         "liquid_4rGEkF",
         "vendor_mqxUBt",
-        "title_azFcDa",
+        "liquid_PnGyND",
         "badges_PDFcCz",
         "price_6UGGkn",
         "rating_wVzYEz",
