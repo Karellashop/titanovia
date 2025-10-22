@@ -21,14 +21,14 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "La planche qui révolutionne l’hygiène en cuisine",
+            "text": "Avant, il fuyait la brosse. Maintenant, il s’endort pendant.",
             "heading_tag": "h3"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Antibactérienne, inrayable et élégante, Titanovia est conçue pour t’accompagner toute une vie.</p>"
+            "content": "<p>La brosse vapeur douce qui apaise, nettoie et renforce le lien avec votre compagnon.</p>"
           }
         }
       },
@@ -43,10 +43,10 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_6.png",
-        "mobile_image": "shopify://shop_images/LUVIXIA_3200_x_1200_px_1300_x_1500_px.png",
-        "mobile_text_position": "place-self-end-center text-center",
-        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_7.png",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_17.png",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#605252",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 0
@@ -293,12 +293,6 @@
           "type": "badges",
           "settings": {}
         },
-        "kaching_bundles_app_block_fyyaah": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "liquid_WGipVt": {
           "type": "liquid",
           "settings": {
@@ -382,7 +376,6 @@
         "vendor_mqxUBt",
         "liquid_PnGyND",
         "badges_PDFcCz",
-        "kaching_bundles_app_block_fyyaah",
         "liquid_WGipVt",
         "rating_wVzYEz",
         "separator_t6edwd",
@@ -481,23 +474,6 @@
     },
     "175897978814972c46": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_pKqyQG": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": false,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 20,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_pKqyQG"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
