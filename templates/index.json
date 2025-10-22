@@ -55,22 +55,6 @@
     "logo_list_FDNLNw": {
       "type": "logo-list",
       "blocks": {
-        "logo_qKdCKj": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/4.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_LWDNUV": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/3.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
         "logo_tGBTMm": {
           "type": "logo",
           "settings": {
@@ -86,19 +70,35 @@
             "logo_width": 300,
             "link": ""
           }
+        },
+        "logo_LWDNUV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/3.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_qKdCKj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/4.png",
+            "logo_width": 300,
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "logo_qKdCKj",
-        "logo_LWDNUV",
         "logo_tGBTMm",
-        "logo_QkRt3a"
+        "logo_QkRt3a",
+        "logo_LWDNUV",
+        "logo_qKdCKj"
       ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "title": "",
+        "title": "Vu sur :",
         "content": "",
         "text_alignment": "center",
         "items_per_row": 4,
