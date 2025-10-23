@@ -107,8 +107,8 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#f2f2f2"
       }
     },
     "rich_text_tQmTXg": {
