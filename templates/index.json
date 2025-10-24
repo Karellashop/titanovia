@@ -46,7 +46,7 @@
         "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_7.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_17.png",
         "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#1a1a1a",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 0
@@ -166,8 +166,8 @@
         "heading_KEK4Rj": {
           "type": "heading",
           "settings": {
-            "text": "Ce que les internautes disent à propos de Titanovia",
-            "heading_tag": "h3",
+            "text": "Des résultats concrets",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -193,11 +193,11 @@
         "item_PmycMV": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Merci Glissiya Pro (19).mp4",
+            "video": "shopify://files/videos/6643716d93a643c9b22a9a7bbd64ed7d.mp4",
             "column_size": "3",
-            "title": "Linda P.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>⭐️⭐️⭐️⭐️⭐️</p><p>Avant, je redoutais de couper des fruits, car mes couteaux s'émoussent vite sur mes vieilles planches. Avec la planche à découper Titanovia, mes couteaux restent aiguisés et je n'ai plus besoin d'utiliser l'aiguiseur sans cesse. Il faut absolument l'avoir.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -206,11 +206,11 @@
         "item_JtUE3E": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Merci Glissiya Pro (16).mp4",
+            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
             "column_size": "3",
-            "title": "Céline K.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>⭐️⭐️⭐️⭐️⭐️</p><p>Je découpe poulet, bœuf et agneau dessus : <strong>zéro odeur</strong>, <strong>zéro trace</strong>. Le jus ne pénètre pas ; un rinçage + éponge et c’est propre. J’utilise une face pour le <strong>cru</strong> et l’autre pour le <strong>cuit</strong> : parfait pour éviter la contamination croisée. Les couteaux glissent sans s’émousser.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -219,11 +219,11 @@
         "item_nFMkgX": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Merci Glissiya Pro (18).mp4",
+            "video": "shopify://files/videos/1b18146cb65a457aa3f20db485a2f648.mp4",
             "column_size": "3",
-            "title": "Camille B.",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>⭐️⭐️⭐️⭐️⭐️</p><p>Planche hyper facile à nettoyer, ne garde aucune odeur et mes couteaux glissent parfaitement. Après plusieurs semaines d’usage, <strong>aucune trace</strong> : rien à voir avec mes anciennes planches en plastique.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
