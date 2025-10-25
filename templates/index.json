@@ -154,6 +154,48 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_nHxV4y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iCfhkJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Un geste, un lien, une émotion. Découvrez ZenBrosse.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_iCfhkJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_mDcz8T": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Filmez comme un pro (1200 x 628 px) (8).mp4",
+        "mobile_video": "shopify://files/videos/Design sans titre (8).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_KxEj6w": {
       "type": "rich-text",
       "blocks": {
@@ -575,6 +617,8 @@
     "logo_list_FDNLNw",
     "rich_text_tQmTXg",
     "image_with_text_overlay_RGpYnq",
+    "rich_text_nHxV4y",
+    "video_mDcz8T",
     "rich_text_KxEj6w",
     "multi_column_Nywd4T",
     "rich_text_M3jUYw",
