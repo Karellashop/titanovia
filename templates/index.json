@@ -156,20 +156,6 @@
     },
     "rich_text_nHxV4y": {
       "type": "rich-text",
-      "blocks": {
-        "heading_iCfhkJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Un geste, un lien, une émotion. Découvrez ZenBrosse.",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_iCfhkJ"
-      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -180,20 +166,17 @@
         "text_color": ""
       }
     },
-    "video_mDcz8T": {
-      "type": "video",
-      "name": "Video",
+    "custom_liquid_ADDCRk": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/Filmez comme un pro (1200 x 628 px) (8).mp4",
-        "mobile_video": "shopify://files/videos/Design sans titre (8).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section id=\"zenbrosse-video\" style=\"background:#ffffff;padding:60px 0;text-align:center;\">\n  <div style=\"max-width:820px;margin:0 auto;padding:0 16px;\">\n    <h2 style=\"font-size:28px;font-weight:800;margin-bottom:12px;color:#2b2b2b;\">\n      Un geste, un lien, une émotion.<br>Découvrez ZenBrosse.\n    </h2>\n\n    <div style=\"position:relative;display:inline-block;width:100%;max-width:700px;\">\n      <video id=\"zenVideo\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/a7cf7325ae864ecaa3f279405c175be0.mp4\"\n        playsinline\n        preload=\"metadata\"\n        style=\"width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.1);\">\n      </video>\n\n      <!-- bouton son -->\n      <button id=\"soundToggle\"\n        style=\"position:absolute;bottom:20px;right:20px;\n               background:rgba(255,255,255,0.9);\n               border:none;border-radius:50%;\n               width:54px;height:54px;\n               display:flex;align-items:center;justify-content:center;\n               box-shadow:0 4px 14px rgba(0,0,0,0.15);\n               cursor:pointer;font-size:22px;\">\n        🔈\n      </button>\n    </div>\n\n    <p style=\"font-size:16px;margin-top:18px;color:#555;\">\n      Le calme, la connexion et la douceur réunis en un geste.\n    </p>\n  </div>\n\n  <style>\n    /* 🔹 Mobile (jusqu’à 640px) */\n    @media (max-width:640px){\n      #zenbrosse-video{padding:45px 0;}\n      #zenbrosse-video h2{\n        font-size:20px;\n        line-height:1.35;\n        margin-bottom:10px;\n        padding:0 6px;\n      }\n      #zenbrosse-video p{\n        font-size:14px;\n        line-height:1.5;\n        padding:0 10px;\n      }\n      #zenbrosse-video video{\n        border-radius:12px;\n        box-shadow:0 6px 20px rgba(0,0,0,0.1);\n      }\n      #soundToggle{\n        width:42px;\n        height:42px;\n        font-size:17px;\n        bottom:12px;\n        right:12px;\n      }\n    }\n\n    /* Hover desktop */\n    #soundToggle:hover{background:#f7f7f7;transition:background .2s ease;}\n  </style>\n\n  <script>\n    const video = document.getElementById('zenVideo');\n    const btn = document.getElementById('soundToggle');\n\n    // Lecture muette autorisée (autoplay)\n    video.muted = true;\n    video.autoplay = true;\n    video.loop = true;\n    video.play();\n\n    // Active le son à la première interaction (scroll, clic, touch)\n    const enableSound = () => {\n      video.muted = false;\n      btn.textContent = '🔊';\n      video.play();\n      window.removeEventListener('scroll', enableSound);\n      window.removeEventListener('click', enableSound);\n      window.removeEventListener('touchstart', enableSound);\n    };\n    window.addEventListener('scroll', enableSound);\n    window.addEventListener('click', enableSound);\n    window.addEventListener('touchstart', enableSound);\n\n    // Bouton manuel\n    btn.addEventListener('click', () => {\n      video.muted = !video.muted;\n      btn.textContent = video.muted ? '🔈' : '🔊';\n      if (!video.paused) video.play();\n    });\n  </script>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_KxEj6w": {
@@ -618,7 +601,7 @@
     "rich_text_tQmTXg",
     "image_with_text_overlay_RGpYnq",
     "rich_text_nHxV4y",
-    "video_mDcz8T",
+    "custom_liquid_ADDCRk",
     "rich_text_KxEj6w",
     "multi_column_Nywd4T",
     "rich_text_M3jUYw",
