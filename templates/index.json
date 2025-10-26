@@ -492,6 +492,12 @@
             "max_width": 500
           }
         },
+        "liquid_k7QaKG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== ZENBROSSE | Bloc émotion premium — autoplay vidéo ===== -->\n<div style=\"\n  font-family:'Poppins',system-ui,sans-serif;color:#111;border:1px solid #eee;border-radius:14px;\n  padding:28px 22px;margin:28px auto;max-width:720px;line-height:1.6;background:#fff;text-align:center;\n  box-shadow:0 6px 24px rgba(0,0,0,.04);\n\">\n  <h3 style=\"font-size:18px;font-weight:700;letter-spacing:.3px;margin-bottom:6px;\">\n    La brosse préférée des chiens (et de leurs humains) 🐶\n  </h3>\n\n  <p style=\"font-size:14.5px;color:#555;margin-bottom:18px;line-height:1.7;\">\n    <em>Moins de poils partout, moins de nœuds, plus de douceur.</em><br>\n    <strong style=\"color:#000;\">Zenbrosse</strong> démêle sans tirer, masse en douceur<br>\n    pour un pelage <strong>propre, soyeux et apaisé.</strong>\n  </p>\n\n  <div style=\"width:40px;height:2px;background:#ffc9b6;margin:0 auto 18px;border-radius:2px;\"></div>\n\n  <!-- Vidéo autoplay -->\n  <div style=\"\n    position: relative;\n    width: 90%;\n    max-width:400px;\n    aspect-ratio:9/16;\n    margin: 20px auto;\n    border-radius:16px;\n    overflow:hidden;\n    background:#000;\n    box-shadow:0 10px 22px rgba(0,0,0,.12);\n    transition:transform .3s ease;\n  \" onmouseover=\"this.style.transform='scale(1.02)'\" onmouseout=\"this.style.transform='scale(1)'\">\n    <video autoplay muted loop playsinline preload=\"auto\"\n      style=\"width:100%;height:100%;object-fit:cover;display:block;border-radius:16px;\"\n      poster=\"{{ 'zenbrosse-poster.jpg' | asset_url }}\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/8b74a3c02f19460698e1730f9c976355.mov\" type=\"video/quicktime\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/8b74a3c02f19460698e1730f9c976355.mov\" type=\"video/mp4\">\n      Votre navigateur ne supporte pas la vidéo HTML5.\n    </video>\n  </div>\n\n  <p style=\"font-size:15px;margin-top:16px;color:#111;line-height:1.5;\">\n    🐾 <strong>95 %</strong> des maîtres constatent<br>\n    <strong>moins de mue, moins de nœuds</strong> et un chien plus détendu*<br>\n    <span style=\"display:block;font-size:13px;opacity:.6;margin-top:4px;\">\n      (*Enquête interne utilisateurs Zenbrosse)\n    </span>\n  </p>\n</div>\n<!-- ===== /ZENBROSSE ===== -->"
+          }
+        },
         "pickup_availability_V3W6TR": {
           "type": "pickup_availability",
           "settings": {}
@@ -517,6 +523,7 @@
         "liquid_NMn3YM",
         "image_Grigew",
         "image_kGUi4Y",
+        "liquid_k7QaKG",
         "pickup_availability_V3W6TR"
       ],
       "name": "Featured product",
@@ -536,19 +543,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "custom_liquid_38DXQe": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- ===== ZENBROSSE | Bloc émotion premium — autoplay vidéo ===== -->\n<div style=\"\n  font-family:'Poppins',system-ui,sans-serif;color:#111;border:1px solid #eee;border-radius:14px;\n  padding:28px 22px;margin:28px auto;max-width:720px;line-height:1.6;background:#fff;text-align:center;\n  box-shadow:0 6px 24px rgba(0,0,0,.04);\n\">\n  <h3 style=\"font-size:18px;font-weight:700;letter-spacing:.3px;margin-bottom:6px;\">\n    La brosse préférée des chiens (et de leurs humains) 🐶\n  </h3>\n\n  <p style=\"font-size:14.5px;color:#555;margin-bottom:18px;line-height:1.7;\">\n    <em>Moins de poils partout, moins de nœuds, plus de douceur.</em><br>\n    <strong style=\"color:#000;\">Zenbrosse</strong> démêle sans tirer, masse en douceur<br>\n    pour un pelage <strong>propre, soyeux et apaisé.</strong>\n  </p>\n\n  <div style=\"width:40px;height:2px;background:#ffc9b6;margin:0 auto 18px;border-radius:2px;\"></div>\n\n  <!-- Vidéo autoplay -->\n  <div style=\"\n    position: relative;\n    width: 90%;\n    max-width:400px;\n    aspect-ratio:9/16;\n    margin: 20px auto;\n    border-radius:16px;\n    overflow:hidden;\n    background:#000;\n    box-shadow:0 10px 22px rgba(0,0,0,.12);\n    transition:transform .3s ease;\n  \" onmouseover=\"this.style.transform='scale(1.02)'\" onmouseout=\"this.style.transform='scale(1)'\">\n    <video autoplay muted loop playsinline preload=\"auto\"\n      style=\"width:100%;height:100%;object-fit:cover;display:block;border-radius:16px;\"\n      poster=\"{{ 'zenbrosse-poster.jpg' | asset_url }}\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/8b74a3c02f19460698e1730f9c976355.mov\" type=\"video/quicktime\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/8b74a3c02f19460698e1730f9c976355.mov\" type=\"video/mp4\">\n      Votre navigateur ne supporte pas la vidéo HTML5.\n    </video>\n  </div>\n\n  <p style=\"font-size:15px;margin-top:16px;color:#111;line-height:1.5;\">\n    🐾 <strong>95 %</strong> des maîtres constatent<br>\n    <strong>moins de mue, moins de nœuds</strong> et un chien plus détendu*<br>\n    <span style=\"display:block;font-size:13px;opacity:.6;margin-top:4px;\">\n      (*Enquête interne utilisateurs Zenbrosse)\n    </span>\n  </p>\n</div>\n<!-- ===== /ZENBROSSE ===== -->",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "custom_liquid_LkPVt6": {
@@ -609,7 +603,6 @@
     "rich_text_M3jUYw",
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
-    "custom_liquid_38DXQe",
     "custom_liquid_LkPVt6",
     "175897978814972c46",
     "contact_tCDA47"
