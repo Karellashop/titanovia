@@ -464,8 +464,8 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
+            "atc_button_background": "#ecca7c",
+            "atc_button_text_color": "#1a1a1a",
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
@@ -480,6 +480,14 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/CleanShot_2025-08-29_at_17.44.05_2x_3543a68e-736d-4921-8131-9497981d8bcd.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_kGUi4Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CleanShot_2025-10-26_at_20.29.26_2x_f76ab644-3e7a-4655-8f41-00a66a7bc1ce.png",
             "alignment": "center",
             "max_width": 500
           }
@@ -508,6 +516,7 @@
         "buy_buttons_PaPeTJ",
         "liquid_NMn3YM",
         "image_Grigew",
+        "image_kGUi4Y",
         "pickup_availability_V3W6TR"
       ],
       "name": "Featured product",
