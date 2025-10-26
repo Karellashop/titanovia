@@ -538,6 +538,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_LkPVt6": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Hero validé par les vétérinaires ===== -->\n<section class=\"lvx-hero\" style=\"--violet:#c98e4d; --ring:rgba(0,0,0,.06)\">\n  <!-- Image -->\n  <figure class=\"lvx-hero__media\">\n    <img\n      src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/pexels-tima-miroshnichenko-6234633.jpg?v=1761509116\"\n      alt=\"Vétérinaire — Zenbrosse\"\n      loading=\"lazy\" width=\"1600\" height=\"1200\">\n  </figure>\n\n  <!-- Texte -->\n  <div class=\"lvx-hero__body\">\n    <h2 class=\"lvx-hero__title\">\n      Recommandée par les vétérinaires.<br>\n      Pensée pour le confort de votre chien.\n    </h2>\n\n    <div class=\"lvx-hero__underline\" aria-hidden=\"true\"></div>\n\n    <p class=\"lvx-hero__text\">\n      Conçue avec l’avis de professionnels, <strong>Zenbrosse</strong> démêle le sous-poil\n      <strong>sans tirer</strong>, réduit la <strong>mue</strong> et masse en douceur\n      pour un pelage <strong>propre, soyeux et apaisé</strong>.\n    </p>\n\n    <p class=\"lvx-hero__text lvx-hero__text--last\">\n      Résultats observés : <strong>moins de nœuds</strong>, <strong>moins de poils au sol</strong>,\n      et un moment de brossage <strong>plus calme</strong> pour votre compagnon.*\n      <br>\n      <span style=\"display:block;font-size:13px;opacity:.6;margin-top:4px;\">\n        *Retour d’expérience utilisateurs et retours de praticiens partenaires.\n      </span>\n    </p>\n  </div>\n</section>\n\n<style>\n  .lvx-hero{padding:0 0 28px}\n  .lvx-hero__body{max-width:1080px;margin:0 auto;padding:0 18px;text-align:center}\n  .lvx-hero__media{position:relative;margin:0;overflow:hidden;text-align:center;border-bottom:1px solid var(--ring)}\n  .lvx-hero__media img{display:block;width:100%;height:auto;margin:0 auto}\n  @media (min-width:992px){.lvx-hero__media img{max-width:600px;width:100%}}\n  .lvx-hero__media:after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:28%;\n    background:linear-gradient(180deg, rgba(255,255,255,0) 0%, #fff 80%)}\n  .lvx-hero__title{\n    margin:18px 0 8px;font-weight:700;line-height:1.2;color:#111;\n  }\n  @media (max-width:991px){.lvx-hero__title{font-size:26px}}\n  @media (min-width:992px){.lvx-hero__title{font-size:38px}}\n  .lvx-hero__underline{\n    width:100px;height:2px;background:#1f1f1f;border-radius:2px;margin:8px auto 16px;\n  }\n  .lvx-hero__text{\n    margin:0 auto 14px;color:#1f1f1f;font-size:17px;line-height:1.55;max-width:740px;\n  }\n  .lvx-hero__text strong{color:#111}\n  .lvx-hero__text--last{margin-bottom:0}\n  @media(min-width:1200px){.lvx-hero__text{font-size:18px}}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_38DXQe": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -596,6 +609,7 @@
     "rich_text_M3jUYw",
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
+    "custom_liquid_LkPVt6",
     "custom_liquid_38DXQe",
     "175897978814972c46",
     "contact_tCDA47"
