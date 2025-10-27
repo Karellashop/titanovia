@@ -558,6 +558,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_kc6itV": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSS | Ingrédients Naturels du Sérum Intégré ===== -->\n<section id=\"zenbross-ingredients-horizontal\" class=\"lxv-ingredients-horizontal\">\n  <div class=\"lxv-ing__container\">\n    <h2 class=\"lxv-ing__title\">Les 4 extraits naturels qui apaisent et embellissent le pelage</h2>\n    <p class=\"lxv-ing__subtitle\">\n      Le sérum intégré à la brosse <strong>ZenBross</strong> associe des extraits végétaux doux et efficaces pour apaiser la peau, hydrater et sublimer le pelage de votre compagnon.\n    </p>\n\n    <div class=\"lxv-ing__row\">\n      <!-- 1 | Extrait d’avoine -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Raw-oats-for-oat-extract-in-skincare.webp?v=1761593621\" alt=\"Extrait d’avoine\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait d’avoine</h3>\n          <p>Calme les démangeaisons, apaise la peau sensible et apporte douceur au pelage.</p>\n        </div>\n      </div>\n\n      <!-- 2 | Camomille -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/infusion-camomille.avif?v=1761593623\" alt=\"Camomille\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Camomille</h3>\n          <p>Apaisante et anti-inflammatoire, elle calme les irritations et laisse un poil brillant.</p>\n        </div>\n      </div>\n\n      <!-- 3 | Extrait de noix de coco -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/shutterstock_1450759553_1_54b822d8-d4f2-4b23-984e-f2386afcc8f8.webp?v=1761593625\" alt=\"Extrait de noix de coco\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de noix de coco</h3>\n          <p>Hydrate en profondeur, nourrit le poil et prévient le dessèchement cutané.</p>\n        </div>\n      </div>\n\n      <!-- 4 | Aloe vera -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/feuille-d-aloe-vera-1000x667.webp?v=1761593629\" alt=\"Aloe vera\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Aloe vera</h3>\n          <p>Hydrate, apaise les petites irritations et favorise une peau saine sous le pelage.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    /* ===== Structure globale ===== */\n    #zenbross-ingredients-horizontal{\n      background:#fff;\n      padding:60px 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      color:#1d1b20;\n    }\n\n    .lxv-ing__container{\n      max-width:1200px;\n      margin:0 auto;\n      padding:0 24px;\n      text-align:center;\n    }\n\n    .lxv-ing__title{\n      font-size:32px;\n      font-weight:700;\n      margin-bottom:10px;\n      line-height:1.2;\n    }\n\n    .lxv-ing__subtitle{\n      color:#555;\n      font-size:16px;\n      margin-bottom:42px;\n      max-width:700px;\n      margin-left:auto;\n      margin-right:auto;\n      line-height:1.6;\n    }\n\n    /* ===== Grille d’ingrédients ===== */\n    .lxv-ing__row{\n      display:grid;\n      grid-template-columns:repeat(4,1fr);\n      gap:24px;\n    }\n\n    @media(max-width:950px){\n      .lxv-ing__row{grid-template-columns:repeat(2,1fr);}\n    }\n\n    @media(max-width:600px){\n      .lxv-ing__row{grid-template-columns:1fr;}\n    }\n\n    /* ===== Carte ingrédient ===== */\n    .lxv-ing__item{\n      background:#f8fcff;\n      border:1px solid #e3f1ff;\n      border-radius:14px;\n      padding:20px 16px;\n      box-shadow:0 6px 16px rgba(0,0,0,.04);\n      transition:transform .3s ease, box-shadow .3s ease;\n    }\n\n    .lxv-ing__item:hover{\n      transform:translateY(-4px);\n      box-shadow:0 10px 24px rgba(0,0,0,.08);\n    }\n\n    /* Image */\n    .lxv-ing__img{\n      width:100%;\n      aspect-ratio:1/1;\n      border-radius:12px;\n      overflow:hidden;\n      margin-bottom:14px;\n    }\n\n    .lxv-ing__img img{\n      width:100%;height:100%;object-fit:cover;transition:transform .4s ease;\n    }\n\n    .lxv-ing__item:hover .lxv-ing__img img{\n      transform:scale(1.05);\n    }\n\n    /* Texte */\n    .lxv-ing__text h3{\n      font-size:17px;\n      font-weight:700;\n      margin:0 0 6px;\n      color:#215172;\n    }\n\n    .lxv-ing__text p{\n      font-size:14px;\n      color:#444;\n      margin:0;\n      line-height:1.55;\n    }\n  </style>\n</section>\n<!-- ===== /ZENBROSS | Ingrédients Naturels ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "175897978814972c46": {
       "type": "apps",
       "settings": {
@@ -604,6 +617,7 @@
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
     "custom_liquid_LkPVt6",
+    "custom_liquid_kc6itV",
     "175897978814972c46",
     "contact_tCDA47"
   ]
