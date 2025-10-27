@@ -46,7 +46,7 @@
         "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_7.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_17.png",
         "mobile_text_position": "place-self-start text-start",
-        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "text_color": "#1a1a1a",
         "overlay_color": "#1a1a1a",
         "overlay_opacity": 0
