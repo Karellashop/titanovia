@@ -21,14 +21,14 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Avant, il se cachait à chaque brossage.Maintenant, il vient chercher sa séance de détente.",
+            "text": "Avant, il fuyait la brosse. Aujourd’hui, il vient chercher ses câlins 🐾",
             "heading_tag": "h3"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>La brosse vapeur douce qui apaise, nettoie et renforce le lien avec votre compagnon.</em></p>"
+            "content": "<p><em>La brosse vapeur douce qui apaise, nettoie et transforme le bain en moment de lien et de détente.</em></p>"
           }
         }
       },
@@ -536,7 +536,7 @@
         "mobile_carousel_control": "floating_dots",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
-        "enable_image_zoom": true,
+        "enable_image_zoom": false,
         "max_image_zoom_level": 3,
         "background": "",
         "background_gradient": "",
