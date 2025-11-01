@@ -303,19 +303,6 @@
     "multi_column_KMggKq": {
       "type": "multi-column",
       "blocks": {
-        "item_C4FPcm": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (4).mp4",
-            "column_size": "3",
-            "title": "Léa R – Cliente vérifiée ✓",
-            "heading_tag": "h6",
-            "content": "<p>Mon chien détestait qu’on le brosse, c’était toujours un combat. Depuis que j’utilise ZenBrosse, il reste calme tout du long. La brosse glisse sans tirer, et son poil est devenu super doux en quelques jours. Maintenant, il adore ce moment, et moi aussi.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_LihWnj": {
           "type": "item",
           "settings": {
@@ -324,6 +311,19 @@
             "title": "Mathieu L  – Client vérifié ✓",
             "heading_tag": "h6",
             "content": "<p>Franchement bluffé. La ZenBrosse retire une quantité de poils incroyable, sans forcer. En cinq minutes, j’enlève tout, et je vois beaucoup moins de poils sur les vêtements et le canapé. Simple, rapide et efficace, exactement ce qu’il me fallait.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_C4FPcm": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (4).mp4",
+            "column_size": "3",
+            "title": "Léa R – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>Mon chien détestait qu’on le brosse, c’était toujours un combat. Depuis que j’utilise ZenBrosse, il reste calme tout du long. La brosse glisse sans tirer, et son poil est devenu super doux en quelques jours. Maintenant, il adore ce moment, et moi aussi.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -344,8 +344,8 @@
         }
       },
       "block_order": [
-        "item_C4FPcm",
         "item_LihWnj",
+        "item_C4FPcm",
         "item_gQNY8G"
       ],
       "name": "Multi-column",
