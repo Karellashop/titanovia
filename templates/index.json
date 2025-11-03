@@ -429,6 +429,7 @@
         },
         "liquid_tV7zmz": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "{%- assign now_ts = 'now' | date: '%s' -%}\n{%- assign plus_1d_ts = now_ts | plus: 86400 -%}\n{%- assign expiry = plus_1d_ts | date: \"%d/%m/%Y\" -%}\n\n<style>\n  #zb-line {\n    font-family:'Poppins',system-ui,sans-serif;\n    display:flex; align-items:center; justify-content:center; gap:10px;\n    margin:6px 0 10px; text-align:center;\n    font-size:13px; color:#222;\n  }\n  #zb-line .pill {\n    display:inline-flex; align-items:center; gap:6px;\n    background:#f7f7f8; border:1px solid #e6e6ea; border-radius:999px;\n    padding:6px 10px; line-height:1;\n    box-shadow:0 2px 6px rgba(0,0,0,.04);\n  }\n  #zb-line .badge {\n    background:linear-gradient(135deg,#ffffff,#e9e9ee);\n    border:1px solid #d9d9df; border-radius:999px;\n    padding:2px 8px; font-weight:800; color:#000; font-size:12.5px;\n  }\n  #zb-line .code {\n    font-weight:800; letter-spacing:.3px;\n  }\n  /* Garde tout sur une seule ligne, même mobile */\n  @media (max-width:420px){\n    #zb-line { font-size:12.5px; gap:8px }\n    #zb-line .pill { padding:5px 8px }\n    #zb-line .badge { font-size:12px; padding:2px 7px }\n  }\n</style>\n\n<div id=\"zb-line\" aria-label=\"Promotion ZenBrosse\">\n  <span class=\"badge\">-10%</span>\n  <span class=\"pill\">\n    Code <span class=\"code\">BLACK10</span> — jusqu’au <strong>{{ expiry }}</strong>\n  </span>\n</div>"
           }
