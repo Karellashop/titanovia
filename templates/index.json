@@ -21,14 +21,14 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Transformez chaque brossage en moment d’amour. 🐾",
-            "heading_tag": "h3"
+            "text": "Le vrai secret pour en finir avec les poils partout à la maison.🐾",
+            "heading_tag": "h2"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p><br/>ZenBrosse apaise, détend et crée un lien unique entre vous et votre chien. Fini le stress, place à la tendresse.<br/><br/></p>"
+            "content": "<p><strong>ZenBrosse</strong> agit en profondeur pour une maison propre et un chien apaisé.</p>"
           }
         }
       },
