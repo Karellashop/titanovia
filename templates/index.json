@@ -12,12 +12,6 @@
     "image_with_text_overlay_fM3LQQ": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_G8x88C": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
@@ -28,12 +22,11 @@
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>ZenBrosse agit en profondeur pour une maison propre et un chien apaisé.</strong></p>"
+            "content": "<p><em><strong>ZenBrosse agit en profondeur pour une maison propre et un chien apaisé.</strong></em></p>"
           }
         }
       },
       "block_order": [
-        "subheading_G8x88C",
         "heading_jkYEqC",
         "richtext_JdnaUX"
       ],
@@ -46,7 +39,7 @@
         "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_52d7c0af-4813-4a2d-a36a-b3a7a1148062.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_29.png",
         "mobile_text_position": "place-self-end-center text-center",
-        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#ffffff",
         "overlay_opacity": 0
