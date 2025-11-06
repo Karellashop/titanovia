@@ -15,14 +15,14 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Votre chien mérite plus qu’un simple brossage.🐾",
+            "text": "La brosse qui détend et apaise en douceur votre compagnon🐾",
             "heading_tag": "h2"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em><strong>Zenbrosse élimine les poils en douceur et offre à votre chien un vrai moment de détente et d’amour.</strong></em></p>"
+            "content": "<p><em>Enlève les poils en douceur tout en offrant un pur moment de bien-être.</em></p>"
           }
         }
       },
@@ -41,8 +41,8 @@
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0
+        "overlay_color": "#000000",
+        "overlay_opacity": 9
       }
     },
     "logo_list_FDNLNw": {
