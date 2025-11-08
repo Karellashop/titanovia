@@ -281,7 +281,7 @@
           "type": "heading",
           "settings": {
             "text": "Ils en parlent le mieux",
-            "heading_tag": "h3",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
