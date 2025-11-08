@@ -235,6 +235,94 @@
         "text_color": ""
       }
     },
+    "rich_text_7ABLYt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tch3kh": {
+          "type": "heading",
+          "settings": {
+            "text": "Transformez chaque toilettage en moment de bien-être.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tch3kh"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_bpPNTx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3NMAfx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_30.png",
+            "column_size": "3",
+            "title": "Mathieu L  – Client vérifié ✓",
+            "heading_tag": "h4",
+            "content": "<p>Avant, mon chien détestait qu’on le brosse.<br/>Avec la vapeur ZenBrosse, tout a changé.<br/>La chaleur douce ouvre le poil, élimine les impuretés et hydrate sa peau.<br/>Il ferme les yeux, se relaxe, et je retrouve une maison sans poils.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FHgwaJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_31.png",
+            "column_size": "3",
+            "title": "Léa R – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>Je pensais que la vapeur, c’était un gadget.<br/>Mais en réalité, elle fait toute la différence.<br/>Elle adoucit le pelage, réduit les démangeaisons et rend le brossage fluide.<br/>Mon chien adore, et moi je profite enfin d’un moment calme et sans stress.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yfzDbL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_32.png",
+            "column_size": "3",
+            "title": "Sarah D – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Milo attend ce moment avec les yeux pleins de joie.<br/>La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p><h5></h5>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3NMAfx",
+        "item_FHgwaJ",
+        "item_yfzDbL"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -246,6 +334,20 @@
           "type": "title",
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "liquid_tRNFBf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"luvixia-rating-badge\" role=\"link\" tabindex=\"0\" aria-label=\"Voir les avis LOOX\"\n     onclick=\"window.dispatchEvent(new Event('luvixia-scroll-to-loox'))\">\n  <span class=\"stars\" aria-hidden=\"true\">\n    <!-- 5 étoiles SVG -->\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n  </span>\n  <span class=\"text\">\n    <strong>4.8/5</strong> Excellent · <strong>1200+</strong> Avis\n  </span>\n</div>\n\n<style>\n.luvixia-rating-badge{\n  display:inline-flex; align-items:center; gap:.6rem; cursor:pointer;\n  padding:.5rem .75rem; border-radius:.5rem; background:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,.06);\n  font-size:14px; line-height:1; user-select:none;\n}\n.luvixia-rating-badge .stars{ display:inline-flex; gap:.25rem; }\n.luvixia-rating-badge .star{ width:18px; height:18px; fill:#00B67A; /* vert type Trustpilot */ }\n.luvixia-rating-badge .text{ color:#111; }\n.luvixia-rating-badge:hover{ transform:translateY(-1px); transition:transform .15s ease; }\n</style>\n\n<script>\n(function(){\n  function goToLoox(){\n    // Ids/ancres Loox les plus courantes\n    var targets = [\n      '#looxReviews',          // Loox Product Reviews widget\n      '#loox-reviews',\n      '[data-loox-aggregate]', // parfois présent\n      '.loox-rating'           // fallback\n    ];\n    var el = null;\n    for (var i=0;i<targets.length;i++){\n      el = document.querySelector(targets[i]);\n      if (el) break;\n    }\n    if (el){\n      el.scrollIntoView({behavior:'smooth', block:'start'});\n    } else {\n      // Fallback : aller sur la même page avec l’ancre (utile si le bloc charge plus tard)\n      var href = (location.pathname || '/') + '#looxReviews';\n      location.assign(href);\n    }\n  }\n  window.addEventListener('luvixia-scroll-to-loox', goToLoox);\n})();\n</script>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
           }
         },
         "badges": {
@@ -273,12 +375,22 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
+        "liquid_wcU76P": {
+          "type": "liquid",
           "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
+            "liquid": "<!-- ===== ZENBROSSE | Avantages émotionnels — angle sous-poil (version courte) ===== -->\n<style>\n  :root{\n    --ink:#1A1A1A; --bg1:#FFF5DE; --bg2:#FFF9E9; --ring:#F1E0B0;\n  }\n  .zb-stack{\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color:var(--ink);\n    background:linear-gradient(180deg,var(--bg1),var(--bg2));\n    border:1px solid var(--ring);\n    border-radius:14px;\n    width:min(100% - 20px,700px);\n    margin:16px auto; padding:10px 14px;\n    box-shadow:0 3px 12px rgba(255,200,0,.08);\n  }\n  .zb-line{display:flex;align-items:center;gap:10px;padding:7px 0;\n    font-size:14px;font-weight:600;line-height:1.3;opacity:0;transform:translateY(8px);\n    transition:.5s ease;}\n  .zb-line.show{opacity:1;transform:none;}\n  .zb-ico{width:20px;height:20px;flex:0 0 20px;color:#6A5715;display:grid;place-items:center;}\n  .zb-ico svg{width:100%;height:100%;}\n  .anim-heart{animation:beat 1.6s ease-in-out infinite;}\n  @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}\n  .anim-leaf{animation:float 2.5s ease-in-out infinite;}\n  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}\n  .anim-spark{animation:spin 4s linear infinite;}\n  @keyframes spin{to{transform:rotate(360deg)}}\n</style>\n\n<div class=\"zb-stack\" aria-label=\"Avantages ZenBrosse\">\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z\"/></svg>\n    </span>\n    Fini les poils partout, la vraie cause est enfin traitée.\n  </div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-leaf\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 20c8 0 14-6 14-14V4a1 1 0 0 0-1-1h-2C8 3 3 8 3 15a5 5 0 0 0 5 5z\"/></svg>\n    </span>\n    Votre chien se détend, vous respirez enfin.\n  </div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-spark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v4M12 18v4M4 12h4M16 12h4M4.5 4.5l2 2M17.5 17.5l2 2M4.5 19.5l2-2M17.5 6.5l2-2\"/></svg>\n    </span>\n    Une maison propre, sans effort ni stress.\n  </div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12l5 5L20 7\"/></svg>\n    </span>\n    Le brossage redevient un moment de calme et de complicité.\n  </div>\n</div>\n\n<script>\n  (function(){\n    const lines=document.querySelectorAll('.zb-line');\n    const io=new IntersectionObserver((entries)=>{\n      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target);} });\n    },{threshold:.2});\n    lines.forEach(l=>io.observe(l));\n  })();\n</script>\n<!-- ===== /ZENBROSSE ===== -->"
+          }
+        },
+        "liquid_PkbCW8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign zb_bg     = zb_bg     | default: '#FFF8E7' -%}\n{%- assign zb_border = zb_border | default: '#FFE7B3' -%}\n{%- assign zb_ink    = zb_ink    | default: '#1A1A1A' -%}\n{%- assign zb_muted  = zb_muted  | default: '#8A6F3F' -%}\n{%- assign zb_gold   = zb_gold   | default: '#F5B301' -%}\n{%- assign zb_glow   = zb_glow   | default: '#FFED8A' -%}\n\n<section class=\"zb-offer-banner\" aria-label=\"Bandeau promotion ZenBrosse\" data-variant=\"moment\">\n  <div class=\"zbob__inner\">\n    <p class=\"zbob__subtitle\">Offre avant Black Friday</p>\n\n    <h3 class=\"zbob__title\">\n      <span class=\"zbob__pill\"> \n        <span class=\"zbob__pill-glow\"></span>\n        <span class=\"zbob__pill-text zbob__pill--moment\">Promotion exclusive</span>\n        <span class=\"zbob__pill-text zbob__pill--finannee\">Offre spéciale</span>\n      </span>\n      <span class=\"zbob__percent\">-50%</span>\n    </h3>\n\n    <p class=\"zbob__footnote\">Jusqu’à épuisement des stocks</p>\n  </div>\n</section>\n\n<style>\n  .zb-offer-banner{\n    --bg: {{ zb_bg }};\n    --border: {{ zb_border }};\n    --ink: {{ zb_ink }};\n    --muted: {{ zb_muted }};\n    --gold: {{ zb_gold }};\n    --glow: {{ zb_glow }};\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color:var(--ink);\n  }\n  .zbob__inner{\n    width:min(92%,680px);\n    margin:18px auto;\n    text-align:center;\n    padding:16px 14px;\n    background:linear-gradient(180deg,#ffffff 0%, var(--bg) 100%);\n    border:1px solid var(--border);\n    border-radius:16px;\n    box-shadow:0 8px 24px rgba(0,0,0,.06);\n    display:grid; gap:8px;\n  }\n  .zbob__subtitle{\n    margin:0;\n    font-weight:800;\n    font-size:clamp(15px,3.6vw,17px);\n    color:var(--muted);\n    text-transform:uppercase;\n    letter-spacing:.02em;\n  }\n  .zbob__title{\n    margin:0;\n    line-height:1.05;\n    letter-spacing:.01em;\n    font-size:clamp(22px,5.5vw,34px);\n    font-weight:900;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n    gap:10px;\n    flex-wrap:wrap;\n  }\n  .zbob__percent{\n    color:var(--gold);\n    text-shadow:0 0 6px var(--glow);\n  }\n  .zbob__pill{\n    position:relative;\n    display:inline-flex;\n    align-items:center;\n    justify-content:center;\n    padding:6px 10px;\n    border-radius:999px;\n    background:#fff;\n    border:1px solid var(--border);\n    box-shadow:0 3px 10px rgba(0,0,0,.04) inset;\n    min-width:180px;\n  }\n  .zbob__pill-glow{\n    position:absolute;\n    inset:-1px;\n    border-radius:999px;\n    background:radial-gradient(60% 60% at 50% 50%, var(--glow) 0%, transparent 65%);\n    opacity:.55;\n    pointer-events:none;\n  }\n  .zbob__pill-text{\n    position:relative;\n    font-weight:800;\n    font-size:14px;\n    color:var(--ink);\n  }\n  .zb-offer-banner[data-variant=\"moment\"] .zbob__pill--finannee{ display:none; }\n  .zb-offer-banner[data-variant=\"finannee\"] .zbob__pill--moment{ display:none; }\n  .zbob__footnote{\n    margin:2px 0 0;\n    font-weight:700;\n    color:var(--muted);\n    font-size:12px;\n    letter-spacing:.02em;\n  }\n  @media (max-width:768px){\n    .zbob__title{ font-size:26px; gap:8px; }\n    .zbob__subtitle{ font-size:15px; }\n    .zbob__footnote{ font-size:11.5px; }\n    .zbob__pill{ min-width:auto; padding:6px 10px; }\n  }\n</style>"
+          }
+        },
+        "liquid_bDTpd9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"love-message\">\n  <span class=\"love-text\">\n    Votre amour pour lui, le nôtre pour vous.<br>\n    <strong>Livraison offerte aujourd’hui <span class=\"car\">🚗</span></strong>\n  </span>\n</div>\n\n<style>\n.love-message {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  font-size: 13px;\n  font-weight: 600;\n  color: #b85c00; /* ton chaud assorti à ta charte ZenBrosse */\n  margin-top: 6px;\n  text-align: center;\n}\n\n.love-message .car {\n  display: inline-block;\n  margin-left: 4px;\n  animation: drive 2s ease-in-out infinite;\n}\n\n/* Animation de la voiture qui bouge légèrement */\n@keyframes drive {\n  0%, 100% { transform: translateX(0); }\n  50% { transform: translateX(5px); }\n}\n\n/* Responsive mobile */\n@media (max-width: 600px) {\n  .love-message {\n    font-size: 12px;\n  }\n}\n</style>"
           }
         },
         "variant_picker": {
@@ -302,6 +414,12 @@
             "product": "{{product}}"
           }
         },
+        "liquid_FgHT34": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"stock-alert\">\n  <span class=\"dot\"></span>\n  <span class=\"stock-text\">Plus que <strong id=\"stock-number\">3</strong> en stock !</span>\n</div>\n\n<style>\n/* 🔴 Alerte stock (adaptée beige/orangé) */\n.stock-alert {\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  gap: 5px;\n  font-size: 13px;\n  font-weight: 600;\n  color: #d45f00; /* orange chaud naturel */\n  margin-top: 1px;\n}\n\n.stock-alert .dot {\n  width: 8px;\n  height: 8px;\n  background-color: #d45f00;\n  border-radius: 50%;\n  animation: blink 1.2s ease-in-out infinite;\n}\n\n/* Animation du point clignotant */\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n\n/* Responsive */\n@media (max-width: 600px) {\n  .stock-alert {\n    font-size: 12px;\n  }\n}\n</style>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -311,6 +429,12 @@
             "atc_button_text_color": "#000000",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "liquid_eTD9Up": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- comment -%}\nZENBROSSE — Mini timer pro centré (tons beige / caramel)\nAffiche : \"⏱️ Dernières offres — se terminent à [heure]\"\n{%- endcomment -%}\n\n{%- assign zb_brand  = zb_brand  | default: '#c98e4d' -%}\n{%- assign zb_ink    = zb_ink    | default: '#2c1f13' -%}\n\n<div class=\"zb-urgency\" aria-live=\"polite\">\n  <p class=\"zb-urgency__title\">\n    ⏱️ <span id=\"zb-slot-line\">Dernières offres — se terminent à …</span>\n  </p>\n\n  <div class=\"zb-urgency__timer\" role=\"timer\" aria-label=\"Compte à rebours vers le prochain créneau\">\n    <span class=\"zb-d\" data-u=\"h\">00</span><span class=\"zb-sep\">:</span>\n    <span class=\"zb-d\" data-u=\"m\">00</span><span class=\"zb-sep\">:</span>\n    <span class=\"zb-d\" data-u=\"s\">00</span>\n  </div>\n</div>\n\n<style>\n  .zb-urgency{\n    display:grid; gap:8px; justify-items:center; text-align:center;\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color: {{ zb_ink }};\n    width:100%;\n  }\n\n  .zb-urgency__title{\n    margin:0;\n    font-weight:800;\n    font-size:14px;\n    letter-spacing:.02em;\n    color: {{ zb_brand }};\n  }\n\n  .zb-urgency__timer{\n    display:inline-flex; align-items:center; gap:6px;\n    padding:6px 10px;\n    border-radius:12px;\n    background:#fff9f3;               /* beige très clair */\n    border:1px solid #f1e0d1;          /* beige doux */\n  }\n\n  .zb-d{\n    min-width:26px; text-align:center;\n    font-weight:900; font-size:16px; line-height:1;\n    letter-spacing:.02em; color:#5a402c;           /* brun doux */\n  }\n\n  .zb-sep{\n    font-weight:900; font-size:16px; color:#c98e4d; opacity:.85;\n  }\n\n  @keyframes zbTick { 0%{transform:translateY(0)} 40%{transform:translateY(-1px)} 100%{transform:translateY(0)} }\n  .zb-d.tick{ animation: zbTick .22s ease; }\n\n  @media (max-width:768px){\n    .zb-urgency__title{ font-size:13.5px }\n    .zb-d,.zb-sep{ font-size:15px }\n    .zb-urgency__timer{ padding:5px 8px }\n  }\n</style>\n\n<script>\n(function(){\n  const SLOTS = [0,6,8,10,12,13,14,18,20,22];\n  const LABELS = {0:'minuit',6:'6h',8:'8h',10:'10h',12:'midi',13:'13h',14:'14h',18:'18h',20:'20h',22:'22h'};\n\n  const $h = document.querySelector('.zb-d[data-u=\"h\"]');\n  const $m = document.querySelector('.zb-d[data-u=\"m\"]');\n  const $s = document.querySelector('.zb-d[data-u=\"s\"]');\n  const $line = document.getElementById('zb-slot-line');\n\n  let target=null, prev={h:null,m:null,s:null};\n\n  function nextSlot(now){\n    for(let d=0; d<=1; d++){\n      for(const hr of SLOTS){\n        const t = new Date(now);\n        t.setDate(now.getDate()+d);\n        t.setHours(hr,0,0,0);\n        if(t>now){ return {date:t, hour:hr}; }\n      }\n    }\n    const t = new Date(now); t.setDate(now.getDate()+1); t.setHours(0,0,0,0);\n    return {date:t, hour:0};\n  }\n\n  function fmt(n){ return n.toString().padStart(2,'0'); }\n\n  function renderLine(hr){\n    $line.textContent = `Dernières offres — se terminent à ${LABELS[hr]}`;\n  }\n\n  function tick(){\n    const now = new Date();\n    if(!target || now >= target.date){\n      target = nextSlot(now);\n      renderLine(target.hour);\n    }\n    const diff = target.date - now;\n    if(diff <= 0) return;\n\n    const h = Math.floor(diff/36e5);\n    const m = Math.floor((diff%36e5)/6e4);\n    const s = Math.floor((diff%6e4)/1e3);\n    const cur = {h:fmt(h), m:fmt(m), s:fmt(s)};\n\n    if(cur.h !== prev.h){ $h.textContent = cur.h; $h.classList.add('tick'); }\n    if(cur.m !== prev.m){ $m.textContent = cur.m; $m.classList.add('tick'); }\n    if(cur.s !== prev.s){ $s.textContent = cur.s; $s.classList.add('tick'); }\n    prev = cur;\n\n    setTimeout(()=>{ $h.classList.remove('tick'); $m.classList.remove('tick'); $s.classList.remove('tick'); }, 230);\n  }\n\n  tick();\n  setInterval(tick, 1000);\n})();\n</script>"
           }
         },
         "image_n3NM3K": {
@@ -345,16 +469,22 @@
       "block_order": [
         "vendor",
         "title",
+        "liquid_tRNFBf",
+        "description",
         "badges",
         "price",
         "rating",
         "payment_terms",
         "separator",
-        "description",
+        "liquid_wcU76P",
+        "liquid_PkbCW8",
+        "liquid_bDTpd9",
         "variant_picker",
         "quantity_selector",
         "kaching_bundles_app_block_LaXdj7",
+        "liquid_FgHT34",
         "buy_buttons",
+        "liquid_eTD9Up",
         "image_n3NM3K",
         "image_FaUVQk",
         "liquid_JgHdwc",
@@ -467,6 +597,27 @@
         "text_color": ""
       }
     },
+    "contact_yNR4PV": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. </p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#ffecbf",
+        "button_text_color": "#1a1a1a"
+      }
+    },
     "176176583851e7135e": {
       "type": "apps",
       "blocks": {
@@ -502,12 +653,15 @@
     "image_with_text_overlay_PBWnVg",
     "rich_text_U49gjD",
     "multi_column_yM6kVg",
+    "rich_text_7ABLYt",
+    "multi_column_bpPNTx",
     "main",
     "custom_liquid_ffxKaw",
     "custom_liquid_BJ9nqy",
     "custom_liquid_GMWz8Y",
     "related-products",
     "1761764394f1208a69",
+    "contact_yNR4PV",
     "176176583851e7135e"
   ]
 }
