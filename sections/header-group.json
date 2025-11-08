@@ -17,14 +17,14 @@
         "message_NCVyB4": {
           "type": "message",
           "settings": {
-            "text": "Livraison offerte aujourd’hui",
+            "text": "Livraison offerte",
             "url": ""
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Offre spéciale : -50 % jusqu’à ce soir",
+            "text": "Offre spéciale : -50 %",
             "url": ""
           }
         },
