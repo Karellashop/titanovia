@@ -14,10 +14,17 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_NCVyB4": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison offerte aujourd’hui",
+            "url": ""
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Offre limitée : -50%",
+            "text": "Offre spéciale : -50 % jusqu’à ce soir",
             "url": ""
           }
         },
@@ -31,23 +38,16 @@
         "message_JpnGnA": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé",
-            "url": ""
-          }
-        },
-        "message_NCVyB4": {
-          "type": "message",
-          "settings": {
-            "text": "Livraison gratuite à domicile",
+            "text": "30 jours satisfait ou remboursé",
             "url": ""
           }
         }
       },
       "block_order": [
+        "message_NCVyB4",
         "message",
         "message_f7pRT8",
-        "message_JpnGnA",
-        "message_NCVyB4"
+        "message_JpnGnA"
       ],
       "settings": {
         "enable_sticky": false,

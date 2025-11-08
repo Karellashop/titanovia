@@ -15,20 +15,27 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Dites adieu aux poils qui volent et bonjour au pelage parfait. 🐾",
+            "text": "Le toilettage sans stress en 2 minutes 🐾",
             "heading_tag": "h2"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>Enlève les poils en douceur tout en offrant un pur moment de bien-être.</em></p>"
+            "content": "<p>La brosse vapeur apaisante recommandée par les vétérinaires —  pour un pelage propre et un chien détendu.</p>"
+          }
+        },
+        "liquid_TFDhEi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
           }
         }
       },
       "block_order": [
         "heading_jkYEqC",
-        "richtext_JdnaUX"
+        "richtext_JdnaUX",
+        "liquid_TFDhEi"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -42,7 +49,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 9
+        "overlay_opacity": 14
       }
     },
     "logo_list_FDNLNw": {
@@ -140,7 +147,7 @@
         "image_size": "auto",
         "image": "shopify://shop_images/Copie_de_Template_section_benefice_3200_x_1200_px_1300_x_1500_px_3000_x_1200_px_1.png",
         "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice_1.png",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
