@@ -219,7 +219,7 @@
         "item_PmycMV": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/6643716d93a643c9b22a9a7bbd64ed7d.mp4",
+            "video": "shopify://files/videos/Design sans titre (9).mp4",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -307,7 +307,7 @@
         "item_LihWnj": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Design sans titre (6).mp4",
+            "image": "shopify://shop_images/Design_sans_titre_30.png",
             "column_size": "3",
             "title": "Mathieu L  – Client vérifié ✓",
             "heading_tag": "h6",
@@ -320,7 +320,7 @@
         "item_C4FPcm": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Design sans titre (4).mp4",
+            "image": "shopify://shop_images/Design_sans_titre_31.png",
             "column_size": "3",
             "title": "Léa R – Cliente vérifiée ✓",
             "heading_tag": "h6",
@@ -333,7 +333,7 @@
         "item_gQNY8G": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Design sans titre (7).mp4",
+            "image": "shopify://shop_images/Design_sans_titre_32.png",
             "column_size": "3",
             "title": "Sarah D – Cliente vérifiée ✓",
             "heading_tag": "h6",
