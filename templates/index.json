@@ -216,6 +216,19 @@
     "multi_column_Nywd4T": {
       "type": "multi-column",
       "blocks": {
+        "item_nFMkgX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (11).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_PmycMV": {
           "type": "item",
           "settings": {
@@ -241,25 +254,12 @@
             "link_text": "",
             "link_style": "link"
           }
-        },
-        "item_nFMkgX": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/1b18146cb65a457aa3f20db485a2f648.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
         }
       },
       "block_order": [
+        "item_nFMkgX",
         "item_PmycMV",
-        "item_JtUE3E",
-        "item_nFMkgX"
+        "item_JtUE3E"
       ],
       "name": "Multi-column",
       "settings": {
