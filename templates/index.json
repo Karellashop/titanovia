@@ -15,12 +15,13 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Votre brosse douceur pour une maison sans poils et un lien plus apaisé chaque jour. 🐾",
+            "text": "Votre brosse douceur qui libère votre maison des poils et votre chien du stress. 🐾",
             "heading_tag": "h3"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p><em><strong>Faites de chaque toilettage un moment de tendresse.</strong></em></p>"
           }
@@ -45,7 +46,7 @@
         "image_size": "auto",
         "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_52d7c0af-4813-4a2d-a36a-b3a7a1148062.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_29.png",
-        "mobile_text_position": "place-self-end-center text-center",
+        "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
