@@ -367,8 +367,15 @@
     "featured_product_Hhj93J": {
       "type": "featured-product",
       "blocks": {
+        "text_d6ayJ6": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>ZenBrosse - La brosse vapeur 2-en-1 qui transforme le toilettage, vrai moment de bien-être</h4>"
+          }
+        },
         "title_azFcDa": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h4"
           }
@@ -520,6 +527,7 @@
         }
       },
       "block_order": [
+        "text_d6ayJ6",
         "title_azFcDa",
         "liquid_epmAan",
         "liquid_HrLQdw",
