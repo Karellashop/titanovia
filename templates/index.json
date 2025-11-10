@@ -411,13 +411,13 @@
       "blocks": {
         "text_d6ayJ6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h4>ZenBrosse - La brosse vapeur 2-en-1 qui transforme le toilettage, vrai moment de bien-être</h4>"
           }
         },
         "title_azFcDa": {
           "type": "title",
-          "disabled": true,
           "settings": {
             "heading_tag": "h4"
           }
