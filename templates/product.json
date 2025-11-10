@@ -274,11 +274,11 @@
         "item_3NMAfx": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_30.png",
+            "image": "shopify://shop_images/Design_sans_titre_36.png",
             "column_size": "3",
             "title": "Mathieu L  – Client vérifié ✓",
             "heading_tag": "h4",
-            "content": "<p>Avant, mon chien détestait qu’on le brosse.<br/>Avec la vapeur ZenBrosse, tout a changé.<br/>La chaleur douce ouvre le poil, élimine les impuretés et hydrate sa peau.<br/>Il ferme les yeux, se relaxe, et je retrouve une maison sans poils.</p>",
+            "content": "<p>Avant, mon chat détestait qu’on le brosse.<br/>Avec la vapeur ZenBrosse, tout a changé.<br/>La chaleur douce ouvre le poil, élimine les impuretés et hydrate sa peau.<br/>Il ferme les yeux, ronronne, et je retrouve enfin une maison sans poils.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -287,11 +287,11 @@
         "item_FHgwaJ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_31.png",
+            "image": "shopify://shop_images/Design_sans_titre_37.png",
             "column_size": "3",
             "title": "Léa R – Cliente vérifiée ✓",
             "heading_tag": "h4",
-            "content": "<p>Je pensais que la vapeur, c’était un gadget.<br/>Mais en réalité, elle fait toute la différence.<br/>Elle adoucit le pelage, réduit les démangeaisons et rend le brossage fluide.<br/>Mon chien adore, et moi je profite enfin d’un moment calme et sans stress.</p>",
+            "content": "<p>Je pensais que la vapeur, c’était un gadget.<br/>Mais en réalité, elle fait toute la différence.<br/>Elle adoucit le pelage, réduit les poils morts et rend le brossage super fluide.<br/>Mon chat adore, et moi je profite enfin d’un moment calme et sans stress.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -300,11 +300,11 @@
         "item_yfzDbL": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_32.png",
+            "image": "shopify://shop_images/Design_sans_titre_38.png",
             "column_size": "3",
             "title": "Sarah D – Cliente vérifiée ✓",
             "heading_tag": "h4",
-            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Milo attend ce moment avec les yeux pleins de joie.<br/>La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p><h5></h5>",
+            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Nala attend ce moment avec impatience. La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
