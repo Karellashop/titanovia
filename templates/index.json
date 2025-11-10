@@ -325,7 +325,7 @@
             "column_size": "3",
             "title": "Léa R – Cliente vérifiée ✓",
             "heading_tag": "h6",
-            "content": "<p>\"Avant, c’était la guerre à chaque brossage. Il bougeait, grognait, impossible de le calmer.<br/>Avec la ZenBrosse, il ferme les yeux et se détend. Je revis : fini les poils partout, et un chien enfin heureux.\"</p>",
+            "content": "<p>\"Avant, c’était la guerre à chaque brossage. Il bougeait, grognait, impossible de le calmer. Avec la ZenBrosse, il ferme les yeux et se détend. Je revis : fini les poils partout, et un chien enfin heureux.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -343,12 +343,54 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_MHAnzg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_40.png",
+            "column_size": "3",
+            "title": "Anaïs C. – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>Mon chien déteste d’habitude qu’on le brosse. Là, il s’est posé, a fermé les yeux… j’étais choquée. Adoptée dès la première séance.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dCK6Eq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_41.png",
+            "column_size": "3",
+            "title": "Martine R. – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>Franchement, j’y croyais pas trop. Mais en 2 minutes, j’avais déjà retiré une tonne de poils. C’est devenu notre petit rituel du soir.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DmDKjx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_42.png",
+            "column_size": "3",
+            "title": "Élodie V.  – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>J’ai deux chiens à poils courts, je pensais pas que ce serait utile. Résultat bluffant dès la première fois. J’en ai pris une pour ma mère aussi.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_LihWnj",
         "item_C4FPcm",
-        "item_gQNY8G"
+        "item_gQNY8G",
+        "item_MHAnzg",
+        "item_dCK6Eq",
+        "item_DmDKjx"
       ],
       "name": "Multi-column",
       "settings": {
