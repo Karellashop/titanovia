@@ -15,20 +15,27 @@
         "heading_Tt8CwE": {
           "type": "heading",
           "settings": {
-            "text": "Dites adieu aux poils qui envahissent votre maison chaque jour.",
-            "heading_tag": "h2"
+            "text": "Votre brosse douceur qui libère votre maison des poils et votre compagnon du stress. 🐾",
+            "heading_tag": "h3"
           }
         },
         "richtext_UFi8Va": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em><strong>Un moment de douceur qui apaise votre chien et votre maison.</strong></em></p>"
+            "content": ""
+          }
+        },
+        "liquid_UqGfCe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== LUVIXIA | Social Proof (Mobile optimisé - une ligne) ===== -->\n<style>\n.lx-social-proof {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n  background: rgba(0, 0, 0, 0.35);\n  border: 1px solid rgba(255, 255, 255, 0.18);\n  border-radius: 999px;\n  color: #fff;\n  font-weight: 700;\n  font-size: 11.5px;\n  padding: 5px 10px;\n  text-shadow: 0 1px 3px rgba(0,0,0,.5);\n  width: fit-content;\n  margin: 10px auto 0 auto;\n  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);\n}\n\n.lx-social-proof .stars {\n  color: #FFD700;\n  letter-spacing: 1px;\n  font-size: 12px;\n}\n\n/* Mobile adaptation */\n@media (max-width: 600px) {\n  .lx-social-proof {\n    font-size: 10.5px;\n    gap: 4px;\n    padding: 4px 9px;\n  }\n  .lx-social-proof .stars {\n    font-size: 11px;\n  }\n}\n</style>\n\n<div class=\"lx-social-proof\">\n  <span class=\"stars\">★★★★★</span>\n  <span>4,8/5 • 12 400+ avis</span>\n</div>\n<!-- ===== /LUVIXIA ===== -->"
           }
         }
       },
       "block_order": [
         "heading_Tt8CwE",
-        "richtext_UFi8Va"
+        "richtext_UFi8Va",
+        "liquid_UqGfCe"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -36,9 +43,9 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Kaching-Bundles-Marron_Beige_Logo_Cafe_Chien.png",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_29.png",
-        "mobile_text_position": "place-self-end-center text-center",
+        "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_5_4b65ebbd-9c23-4f01-8215-43759f3018da.png",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_35.png",
+        "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
