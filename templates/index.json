@@ -44,13 +44,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_1_a6f53362-9a5e-4c75-af91-7538ece5cfb0.png",
+        "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_3_d61ece70-ff2b-4396-8efd-bbaa2d7d9950.png",
         "mobile_image": "shopify://shop_images/Design_sans_titre_29.png",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 6
+        "overlay_opacity": 5
       }
     },
     "logo_list_FDNLNw": {
