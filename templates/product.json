@@ -37,7 +37,6 @@
         "richtext_UFi8Va",
         "liquid_UqGfCe"
       ],
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -45,7 +44,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_5_4b65ebbd-9c23-4f01-8215-43759f3018da.png",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_35.png",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_45.png",
         "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
@@ -95,7 +94,6 @@
         "logo_xbk9UK",
         "logo_yMPT3h"
       ],
-      "disabled": true,
       "name": "Logo list",
       "settings": {
         "full_width": true,
@@ -129,7 +127,6 @@
       "block_order": [
         "heading_7cHaXb"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -142,7 +139,6 @@
     },
     "image_with_text_overlay_PBWnVg": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -164,8 +160,8 @@
         "heading_Heacpy": {
           "type": "heading",
           "settings": {
-            "text": "Plus qu’un résultat, une émotion.",
-            "heading_tag": "h3",
+            "text": "Des résultats concrets. Des animaux apaisés",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -174,7 +170,6 @@
       "block_order": [
         "heading_Heacpy"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -233,7 +228,6 @@
         "item_fMcehf",
         "item_Ej8Pxk"
       ],
-      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -254,8 +248,8 @@
         "heading_Tch3kh": {
           "type": "heading",
           "settings": {
-            "text": "Transformez chaque toilettage en moment de bien-être.",
-            "heading_tag": "h3",
+            "text": "Ils en parlent le mieux",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -264,7 +258,6 @@
       "block_order": [
         "heading_Tch3kh"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -323,7 +316,6 @@
         "item_FHgwaJ",
         "item_yfzDbL"
       ],
-      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -505,7 +497,6 @@
     },
     "custom_liquid_ffxKaw": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -519,7 +510,6 @@
     },
     "custom_liquid_BJ9nqy": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -533,7 +523,6 @@
     },
     "custom_liquid_GMWz8Y": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -547,7 +536,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "recommendations_count": 6,
         "products": [],
@@ -587,7 +575,6 @@
       "block_order": [
         "loox_reviews_loox_dynamic_section_AxczQY"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -599,7 +586,6 @@
     },
     "custom_liquid_bQia93": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -613,7 +599,6 @@
     },
     "contact_yNR4PV": {
       "type": "contact",
-      "disabled": true,
       "name": "Contact form",
       "settings": {
         "full_width": true,
