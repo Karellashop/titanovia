@@ -15,7 +15,7 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Votre brosse douceur qui libère votre maison des poils et votre compagnon du stress. 🐾",
+            "text": "Retrouvez un toilettage serein en quelques instants.  🐾",
             "heading_tag": "h3"
           }
         },
@@ -29,7 +29,7 @@
         "liquid_TFDhEi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- ===== LUVIXIA | Social Proof (Mobile optimisé - une ligne) ===== -->\n<style>\n.lx-social-proof {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n  background: rgba(0, 0, 0, 0.35);\n  border: 1px solid rgba(255, 255, 255, 0.18);\n  border-radius: 999px;\n  color: #fff;\n  font-weight: 700;\n  font-size: 11.5px;\n  padding: 5px 10px;\n  text-shadow: 0 1px 3px rgba(0,0,0,.5);\n  width: fit-content;\n  margin: 10px auto 0 auto;\n  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);\n}\n\n.lx-social-proof .stars {\n  color: #FFD700;\n  letter-spacing: 1px;\n  font-size: 12px;\n}\n\n/* Mobile adaptation */\n@media (max-width: 600px) {\n  .lx-social-proof {\n    font-size: 10.5px;\n    gap: 4px;\n    padding: 4px 9px;\n  }\n  .lx-social-proof .stars {\n    font-size: 11px;\n  }\n}\n</style>\n\n<div class=\"lx-social-proof\">\n  <span class=\"stars\">★★★★★</span>\n  <span>4,8/5 • 12 400+ avis</span>\n</div>\n<!-- ===== /LUVIXIA ===== -->"
+            "liquid": ""
           }
         }
       },
@@ -44,13 +44,13 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_3_d61ece70-ff2b-4396-8efd-bbaa2d7d9950.png",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_44.png",
-        "mobile_text_position": "place-self-end-start text-start",
+        "image": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_7_a42bfb52-d81a-445c-b57b-284c153a580a.png",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_49.png",
+        "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 5
+        "overlay_opacity": 3
       }
     },
     "logo_list_FDNLNw": {
