@@ -181,101 +181,6 @@
         "text_color": ""
       }
     },
-    "rich_text_KxEj6w": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_xHwqx4": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_KEK4Rj": {
-          "type": "heading",
-          "settings": {
-            "text": "Des résultats concrets. Des animaux apaisés",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_xHwqx4",
-        "heading_KEK4Rj"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_Nywd4T": {
-      "type": "multi-column",
-      "blocks": {
-        "item_nFMkgX": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (11).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_PmycMV": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (9).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_JtUE3E": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_nFMkgX",
-        "item_PmycMV",
-        "item_JtUE3E"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_M3jUYw": {
       "type": "rich-text",
       "blocks": {
@@ -546,9 +451,9 @@
         "image_kGUi4Y": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/CleanShot_2025-10-26_at_20.29.26_2x_f76ab644-3e7a-4655-8f41-00a66a7bc1ce.png",
-            "alignment": "center",
-            "max_width": 500
+            "image": "shopify://shop_images/Dites_adieu_aux_poils_partout_dans_la_maison_19.png",
+            "alignment": "start",
+            "max_width": 150
           }
         },
         "liquid_k7QaKG": {
@@ -611,6 +516,101 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "rich_text_KxEj6w": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_xHwqx4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KEK4Rj": {
+          "type": "heading",
+          "settings": {
+            "text": "Des résultats concrets. Des animaux apaisés",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xHwqx4",
+        "heading_KEK4Rj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_Nywd4T": {
+      "type": "multi-column",
+      "blocks": {
+        "item_nFMkgX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (11).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_PmycMV": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (9).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JtUE3E": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_nFMkgX",
+        "item_PmycMV",
+        "item_JtUE3E"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "custom_liquid_LkPVt6": {
@@ -720,11 +720,11 @@
     "image_with_text_overlay_RGpYnq",
     "rich_text_nHxV4y",
     "custom_liquid_ADDCRk",
-    "rich_text_KxEj6w",
-    "multi_column_Nywd4T",
     "rich_text_M3jUYw",
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
+    "rich_text_KxEj6w",
+    "multi_column_Nywd4T",
     "custom_liquid_LkPVt6",
     "custom_liquid_kc6itV",
     "175897978814972c46",
