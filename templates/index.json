@@ -522,6 +522,24 @@
     "rich_text_KxEj6w": {
       "type": "rich-text",
       "blocks": {
+        "heading_8LnEH8": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi Choisir Zenbrosse ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_YM4M9H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
         "subheading_xHwqx4": {
           "type": "subheading",
           "settings": {
@@ -531,7 +549,7 @@
         "heading_KEK4Rj": {
           "type": "heading",
           "settings": {
-            "text": "Des résultats concrets. Des animaux apaisés",
+            "text": "Des résultats concrets",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -539,6 +557,8 @@
         }
       },
       "block_order": [
+        "heading_8LnEH8",
+        "image_YM4M9H",
         "subheading_xHwqx4",
         "heading_KEK4Rj"
       ],
