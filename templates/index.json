@@ -524,6 +524,7 @@
       "blocks": {
         "heading_8LnEH8": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Pourquoi Choisir Zenbrosse ?",
             "heading_tag": "h3",
@@ -533,6 +534,7 @@
         },
         "image_YM4M9H": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Zenbrosse_VS_1.png",
             "width_mode": "custom",
