@@ -60,7 +60,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/1.png",
-            "logo_width": 300,
+            "logo_width": 70,
             "link": ""
           }
         },
@@ -68,7 +68,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/2.png",
-            "logo_width": 300,
+            "logo_width": 70,
             "link": ""
           }
         },
@@ -76,7 +76,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/3.png",
-            "logo_width": 300,
+            "logo_width": 70,
             "link": ""
           }
         },
@@ -84,7 +84,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/4.png",
-            "logo_width": 300,
+            "logo_width": 70,
             "link": ""
           }
         }
