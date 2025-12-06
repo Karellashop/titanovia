@@ -1,0 +1,690 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_4CMTEF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Tt8CwE": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Votre brosse douceur qui libère votre maison des poils et votre compagnon du stress. 🐾",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_UFi8Va": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": ""
+          }
+        },
+        "liquid_UqGfCe": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!-- ===== LUVIXIA | Social Proof (Mobile optimisé - une ligne) ===== -->\n<style>\n.lx-social-proof {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 6px;\n  background: rgba(0, 0, 0, 0.35);\n  border: 1px solid rgba(255, 255, 255, 0.18);\n  border-radius: 999px;\n  color: #fff;\n  font-weight: 700;\n  font-size: 11.5px;\n  padding: 5px 10px;\n  text-shadow: 0 1px 3px rgba(0,0,0,.5);\n  width: fit-content;\n  margin: 10px auto 0 auto;\n  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);\n}\n\n.lx-social-proof .stars {\n  color: #FFD700;\n  letter-spacing: 1px;\n  font-size: 12px;\n}\n\n\/* Mobile adaptation *\/\n@media (max-width: 600px) {\n  .lx-social-proof {\n    font-size: 10.5px;\n    gap: 4px;\n    padding: 4px 9px;\n  }\n  .lx-social-proof .stars {\n    font-size: 11px;\n  }\n}\n<\/style>\n\n<div class=\"lx-social-proof\">\n  <span class=\"stars\">★★★★★<\/span>\n  <span>4,8\/5 • 12 400+ avis<\/span>\n<\/div>\n<!-- ===== \/LUVIXIA ===== -->"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tt8CwE",
+        "richtext_UFi8Va",
+        "liquid_UqGfCe"
+      ],
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Marron_Beige_Logo_Cafe_Chien_5_4b65ebbd-9c23-4f01-8215-43759f3018da.png",
+        "mobile_image": "shopify:\/\/shop_images\/Design_sans_titre_45.png",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 14
+      }
+    },
+    "logo_list_dJqqN8": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_KNdamF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/15.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_dcCkAg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/14.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_xbk9UK": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/4.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_yMPT3h": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/3.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_KNdamF",
+        "logo_dcCkAg",
+        "logo_xbk9UK",
+        "logo_yMPT3h"
+      ],
+      "disabled": true,
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 4,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#1a1a1a"
+      }
+    },
+    "rich_text_3wXjna": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7cHaXb": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi des milliers de maîtres de chats ne peuvent plus s’en passer ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7cHaXb"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_PBWnVg": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Copie_de_Template_section_benefice_3200_x_1200_px_1300_x_1500_px_3000_x_1200_px_1.png",
+        "mobile_image": "shopify:\/\/shop_images\/Copie_de_Template_section_benefice_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_U49gjD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Heacpy": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Des résultats concrets. Des animaux apaisés",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Heacpy"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_yM6kVg": {
+      "type": "multi-column",
+      "blocks": {
+        "item_jnnEMa": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Design sans titre (12).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_fMcehf": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Design sans titre (13).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Ej8Pxk": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Design sans titre (14).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_jnnEMa",
+        "item_fMcehf",
+        "item_Ej8Pxk"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_7ABLYt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tch3kh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Ils en parlent le mieux",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tch3kh"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_bpPNTx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3NMAfx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_36.png",
+            "column_size": "3",
+            "title": "Mathieu L  – Client vérifié ✓",
+            "heading_tag": "h4",
+            "content": "<p>Avant, mon chat détestait qu’on le brosse.<br\/>Avec la vapeur ZenBrosse, tout a changé.<br\/>La chaleur douce ouvre le poil, élimine les impuretés et hydrate sa peau.<br\/>Il ferme les yeux, ronronne, et je retrouve enfin une maison sans poils.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FHgwaJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_37.png",
+            "column_size": "3",
+            "title": "Léa R – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>Je pensais que la vapeur, c’était un gadget.<br\/>Mais en réalité, elle fait toute la différence.<br\/>Elle adoucit le pelage, réduit les poils morts et rend le brossage super fluide.<br\/>Mon chat adore, et moi je profite enfin d’un moment calme et sans stress.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yfzDbL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_38.png",
+            "column_size": "3",
+            "title": "Sarah D – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>Avant, c’était la bataille à chaque brossage.<br\/>Aujourd’hui, Nala attend ce moment avec impatience. La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3NMAfx",
+        "item_FHgwaJ",
+        "item_yfzDbL"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_tRNFBf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"luvixia-rating-badge\" role=\"link\" tabindex=\"0\" aria-label=\"Voir les avis LOOX\"\n     onclick=\"window.dispatchEvent(new Event('luvixia-scroll-to-loox'))\">\n  <span class=\"stars\" aria-hidden=\"true\">\n    <!-- 5 étoiles SVG -->\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n  <\/span>\n  <span class=\"text\">\n    <strong>4.8\/5<\/strong> Excellent · <strong>1200+<\/strong> Avis\n  <\/span>\n<\/div>\n\n<style>\n.luvixia-rating-badge{\n  display:inline-flex; align-items:center; gap:.6rem; cursor:pointer;\n  padding:.5rem .75rem; border-radius:.5rem; background:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,.06);\n  font-size:14px; line-height:1; user-select:none;\n}\n.luvixia-rating-badge .stars{ display:inline-flex; gap:.25rem; }\n.luvixia-rating-badge .star{ width:18px; height:18px; fill:#00B67A; \/* vert type Trustpilot *\/ }\n.luvixia-rating-badge .text{ color:#111; }\n.luvixia-rating-badge:hover{ transform:translateY(-1px); transition:transform .15s ease; }\n<\/style>\n\n<script>\n(function(){\n  function goToLoox(){\n    \/\/ Ids\/ancres Loox les plus courantes\n    var targets = [\n      '#looxReviews',          \/\/ Loox Product Reviews widget\n      '#loox-reviews',\n      '[data-loox-aggregate]', \/\/ parfois présent\n      '.loox-rating'           \/\/ fallback\n    ];\n    var el = null;\n    for (var i=0;i<targets.length;i++){\n      el = document.querySelector(targets[i]);\n      if (el) break;\n    }\n    if (el){\n      el.scrollIntoView({behavior:'smooth', block:'start'});\n    } else {\n      \/\/ Fallback : aller sur la même page avec l’ancre (utile si le bloc charge plus tard)\n      var href = (location.pathname || '\/') + '#looxReviews';\n      location.assign(href);\n    }\n  }\n  window.addEventListener('luvixia-scroll-to-loox', goToLoox);\n})();\n<\/script>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_wcU76P": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== ZENBROSSE | Avantages émotionnels — angle sous-poil (version chats) ===== -->\n<style>\n  :root{\n    --ink:#1A1A1A; --bg1:#FFF5DE; --bg2:#FFF9E9; --ring:#F1E0B0;\n  }\n  .zb-stack{\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color:var(--ink);\n    background:linear-gradient(180deg,var(--bg1),var(--bg2));\n    border:1px solid var(--ring);\n    border-radius:14px;\n    width:min(100% - 20px,700px);\n    margin:16px auto; padding:10px 14px;\n    box-shadow:0 3px 12px rgba(255,200,0,.08);\n  }\n  .zb-line{display:flex;align-items:center;gap:10px;padding:7px 0;\n    font-size:14px;font-weight:600;line-height:1.3;opacity:0;transform:translateY(8px);\n    transition:.5s ease;}\n  .zb-line.show{opacity:1;transform:none;}\n  .zb-ico{width:20px;height:20px;flex:0 0 20px;color:#6A5715;display:grid;place-items:center;}\n  .zb-ico svg{width:100%;height:100%;}\n  .anim-heart{animation:beat 1.6s ease-in-out infinite;}\n  @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.2)}}\n  .anim-leaf{animation:float 2.5s ease-in-out infinite;}\n  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}\n  .anim-spark{animation:spin 4s linear infinite;}\n  @keyframes spin{to{transform:rotate(360deg)}}\n<\/style>\n\n<div class=\"zb-stack\" aria-label=\"Avantages ZenBrosse\">\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z\"\/><\/svg>\n    <\/span>\n    Fini les poils partout, la vraie cause est enfin traitée.\n  <\/div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-leaf\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 20c8 0 14-6 14-14V4a1 1 0 0 0-1-1h-2C8 3 3 8 3 15a5 5 0 0 0 5 5z\"\/><\/svg>\n    <\/span>\n    Votre chat se détend, vous respirez enfin.\n  <\/div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-spark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2v4M12 18v4M4 12h4M16 12h4M4.5 4.5l2 2M17.5 17.5l2 2M4.5 19.5l2-2M17.5 6.5l2-2\"\/><\/svg>\n    <\/span>\n    Une maison propre, sans effort ni stress.\n  <\/div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12l5 5L20 7\"\/><\/svg>\n    <\/span>\n    Le brossage redevient un moment de calme et de complicité.\n  <\/div>\n<\/div>\n\n<script>\n  (function(){\n    const lines=document.querySelectorAll('.zb-line');\n    const io=new IntersectionObserver((entries)=>{\n      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target);} });\n    },{threshold:.2});\n    lines.forEach(l=>io.observe(l));\n  })();\n<\/script>\n<!-- ===== \/ZENBROSSE ===== -->"
+          }
+        },
+        "liquid_PkbCW8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign zb_bg     = zb_bg     | default: '#FFF8E7' -%}\n{%- assign zb_border = zb_border | default: '#FFE7B3' -%}\n{%- assign zb_ink    = zb_ink    | default: '#1A1A1A' -%}\n{%- assign zb_muted  = zb_muted  | default: '#8A6F3F' -%}\n{%- assign zb_gold   = zb_gold   | default: '#F5B301' -%}\n{%- assign zb_glow   = zb_glow   | default: '#FFED8A' -%}\n\n<section class=\"zb-offer-banner\" aria-label=\"Bandeau promotion ZenBrosse\" data-variant=\"moment\">\n  <div class=\"zbob__inner\">\n    <p class=\"zbob__subtitle\">Offre avant Black Friday<\/p>\n\n    <h3 class=\"zbob__title\">\n      <span class=\"zbob__pill\"> \n        <span class=\"zbob__pill-glow\"><\/span>\n        <span class=\"zbob__pill-text zbob__pill--moment\">Promotion exclusive<\/span>\n        <span class=\"zbob__pill-text zbob__pill--finannee\">Offre spéciale<\/span>\n      <\/span>\n      <span class=\"zbob__percent\">-50%<\/span>\n    <\/h3>\n\n    <p class=\"zbob__footnote\">Jusqu’à épuisement des stocks<\/p>\n  <\/div>\n<\/section>\n\n<style>\n  .zb-offer-banner{\n    --bg: {{ zb_bg }};\n    --border: {{ zb_border }};\n    --ink: {{ zb_ink }};\n    --muted: {{ zb_muted }};\n    --gold: {{ zb_gold }};\n    --glow: {{ zb_glow }};\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color:var(--ink);\n  }\n  .zbob__inner{\n    width:min(92%,680px);\n    margin:18px auto;\n    text-align:center;\n    padding:16px 14px;\n    background:linear-gradient(180deg,#ffffff 0%, var(--bg) 100%);\n    border:1px solid var(--border);\n    border-radius:16px;\n    box-shadow:0 8px 24px rgba(0,0,0,.06);\n    display:grid; gap:8px;\n  }\n  .zbob__subtitle{\n    margin:0;\n    font-weight:800;\n    font-size:clamp(15px,3.6vw,17px);\n    color:var(--muted);\n    text-transform:uppercase;\n    letter-spacing:.02em;\n  }\n  .zbob__title{\n    margin:0;\n    line-height:1.05;\n    letter-spacing:.01em;\n    font-size:clamp(22px,5.5vw,34px);\n    font-weight:900;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n    gap:10px;\n    flex-wrap:wrap;\n  }\n  .zbob__percent{\n    color:var(--gold);\n    text-shadow:0 0 6px var(--glow);\n  }\n  .zbob__pill{\n    position:relative;\n    display:inline-flex;\n    align-items:center;\n    justify-content:center;\n    padding:6px 10px;\n    border-radius:999px;\n    background:#fff;\n    border:1px solid var(--border);\n    box-shadow:0 3px 10px rgba(0,0,0,.04) inset;\n    min-width:180px;\n  }\n  .zbob__pill-glow{\n    position:absolute;\n    inset:-1px;\n    border-radius:999px;\n    background:radial-gradient(60% 60% at 50% 50%, var(--glow) 0%, transparent 65%);\n    opacity:.55;\n    pointer-events:none;\n  }\n  .zbob__pill-text{\n    position:relative;\n    font-weight:800;\n    font-size:14px;\n    color:var(--ink);\n  }\n  .zb-offer-banner[data-variant=\"moment\"] .zbob__pill--finannee{ display:none; }\n  .zb-offer-banner[data-variant=\"finannee\"] .zbob__pill--moment{ display:none; }\n  .zbob__footnote{\n    margin:2px 0 0;\n    font-weight:700;\n    color:var(--muted);\n    font-size:12px;\n    letter-spacing:.02em;\n  }\n  @media (max-width:768px){\n    .zbob__title{ font-size:26px; gap:8px; }\n    .zbob__subtitle{ font-size:15px; }\n    .zbob__footnote{ font-size:11.5px; }\n    .zbob__pill{ min-width:auto; padding:6px 10px; }\n  }\n<\/style>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "kaching_bundles_app_block_LaXdj7": {
+          "type": "shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "liquid_FgHT34": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"free-shipping-banner\" aria-live=\"polite\">\n  <div class=\"top-row\">\n    <span class=\"text\">Livraison gratuite<\/span>\n  <\/div>\n  <div class=\"stock-alert\">\n    <span class=\"dot\" aria-hidden=\"true\"><\/span>\n    <span class=\"stock-text\">Plus que <strong id=\"stock-number\">3<\/strong> en stock !<\/span>\n  <\/div>\n<\/div>\n\n<style>\n.free-shipping-banner {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 4px;\n  font-weight: 600;\n  color: #c40000; \/* rouge profond pour cohérence visuelle *\/\n  padding: 6px 12px;\n  width: fit-content;\n}\n\n\/* Ligne du haut *\/\n.top-row {\n  display: flex;\n  align-items: center;\n  font-size: 16px;\n}\n\n.text {\n  color: #c40000;\n  animation: textFade 3.5s ease-in-out infinite;\n}\n\n\/* Alerte stock *\/\n.stock-alert {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 13px;\n  margin-top: 1px;\n}\n\n\/* Point rouge animé — pulsation douce et élégante *\/\n.stock-alert .dot {\n  width: 9px;\n  height: 9px;\n  background-color: #d90000;\n  border-radius: 50%;\n  animation: dotPulse 1.6s ease-in-out infinite;\n}\n\n\/* Texte rouge avec légère respiration visuelle *\/\n.stock-text {\n  color: #d90000;\n  animation: textPulse 3s ease-in-out infinite;\n}\n\n\/* Animations subtiles *\/\n@keyframes textFade {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.88; }\n}\n\n@keyframes dotPulse {\n  0%, 100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 0.8;\n  }\n}\n\n@keyframes textPulse {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.92; }\n}\n\n\/* Réduction des animations si l’utilisateur préfère *\/\n@media (prefers-reduced-motion: reduce) {\n  .text, .stock-text, .stock-alert .dot {\n    animation: none !important;\n  }\n}\n\n\/* Responsive *\/\n@media (max-width: 600px) {\n  .free-shipping-banner { padding: 4px 8px; }\n  .top-row { font-size: 14px; }\n  .stock-alert { font-size: 12px; }\n}\n<\/style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  document.getElementById(\"stock-number\").textContent = \"3\";\n});\n<\/script>"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f4d691",
+            "atc_button_text_color": "#000000",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_eTD9Up": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- comment -%}\nZENBROSSE — Mini timer pro centré (tons beige \/ caramel)\nAffiche : \"⏱️ Dernières offres — se terminent à [heure]\"\n{%- endcomment -%}\n\n{%- assign zb_brand  = zb_brand  | default: '#c98e4d' -%}\n{%- assign zb_ink    = zb_ink    | default: '#2c1f13' -%}\n\n<div class=\"zb-urgency\" aria-live=\"polite\">\n  <p class=\"zb-urgency__title\">\n    ⏱️ <span id=\"zb-slot-line\">Dernières offres — se terminent à …<\/span>\n  <\/p>\n\n  <div class=\"zb-urgency__timer\" role=\"timer\" aria-label=\"Compte à rebours vers le prochain créneau\">\n    <span class=\"zb-d\" data-u=\"h\">00<\/span><span class=\"zb-sep\">:<\/span>\n    <span class=\"zb-d\" data-u=\"m\">00<\/span><span class=\"zb-sep\">:<\/span>\n    <span class=\"zb-d\" data-u=\"s\">00<\/span>\n  <\/div>\n<\/div>\n\n<style>\n  .zb-urgency{\n    display:grid; gap:8px; justify-items:center; text-align:center;\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color: {{ zb_ink }};\n    width:100%;\n  }\n\n  .zb-urgency__title{\n    margin:0;\n    font-weight:800;\n    font-size:14px;\n    letter-spacing:.02em;\n    color: {{ zb_brand }};\n  }\n\n  .zb-urgency__timer{\n    display:inline-flex; align-items:center; gap:6px;\n    padding:6px 10px;\n    border-radius:12px;\n    background:#fff9f3;               \/* beige très clair *\/\n    border:1px solid #f1e0d1;          \/* beige doux *\/\n  }\n\n  .zb-d{\n    min-width:26px; text-align:center;\n    font-weight:900; font-size:16px; line-height:1;\n    letter-spacing:.02em; color:#5a402c;           \/* brun doux *\/\n  }\n\n  .zb-sep{\n    font-weight:900; font-size:16px; color:#c98e4d; opacity:.85;\n  }\n\n  @keyframes zbTick { 0%{transform:translateY(0)} 40%{transform:translateY(-1px)} 100%{transform:translateY(0)} }\n  .zb-d.tick{ animation: zbTick .22s ease; }\n\n  @media (max-width:768px){\n    .zb-urgency__title{ font-size:13.5px }\n    .zb-d,.zb-sep{ font-size:15px }\n    .zb-urgency__timer{ padding:5px 8px }\n  }\n<\/style>\n\n<script>\n(function(){\n  const SLOTS = [0,6,8,10,12,13,14,18,20,22];\n  const LABELS = {0:'minuit',6:'6h',8:'8h',10:'10h',12:'midi',13:'13h',14:'14h',18:'18h',20:'20h',22:'22h'};\n\n  const $h = document.querySelector('.zb-d[data-u=\"h\"]');\n  const $m = document.querySelector('.zb-d[data-u=\"m\"]');\n  const $s = document.querySelector('.zb-d[data-u=\"s\"]');\n  const $line = document.getElementById('zb-slot-line');\n\n  let target=null, prev={h:null,m:null,s:null};\n\n  function nextSlot(now){\n    for(let d=0; d<=1; d++){\n      for(const hr of SLOTS){\n        const t = new Date(now);\n        t.setDate(now.getDate()+d);\n        t.setHours(hr,0,0,0);\n        if(t>now){ return {date:t, hour:hr}; }\n      }\n    }\n    const t = new Date(now); t.setDate(now.getDate()+1); t.setHours(0,0,0,0);\n    return {date:t, hour:0};\n  }\n\n  function fmt(n){ return n.toString().padStart(2,'0'); }\n\n  function renderLine(hr){\n    $line.textContent = `Dernières offres — se terminent à ${LABELS[hr]}`;\n  }\n\n  function tick(){\n    const now = new Date();\n    if(!target || now >= target.date){\n      target = nextSlot(now);\n      renderLine(target.hour);\n    }\n    const diff = target.date - now;\n    if(diff <= 0) return;\n\n    const h = Math.floor(diff\/36e5);\n    const m = Math.floor((diff%36e5)\/6e4);\n    const s = Math.floor((diff%6e4)\/1e3);\n    const cur = {h:fmt(h), m:fmt(m), s:fmt(s)};\n\n    if(cur.h !== prev.h){ $h.textContent = cur.h; $h.classList.add('tick'); }\n    if(cur.m !== prev.m){ $m.textContent = cur.m; $m.classList.add('tick'); }\n    if(cur.s !== prev.s){ $s.textContent = cur.s; $s.classList.add('tick'); }\n    prev = cur;\n\n    setTimeout(()=>{ $h.classList.remove('tick'); $m.classList.remove('tick'); $s.classList.remove('tick'); }, 230);\n  }\n\n  tick();\n  setInterval(tick, 1000);\n})();\n<\/script>"
+          }
+        },
+        "image_n3NM3K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CleanShot_2025-08-29_at_17.44.05_2x_6b072cd2-a1e4-466d-9935-9a697716c7ed.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_FaUVQk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CleanShot_2025-10-26_at_20.29.26_2x_f76ab644-3e7a-4655-8f41-00a66a7bc1ce.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "liquid_JgHdwc": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!-- ===== ZENBROSSE | Bloc émotion premium — version chats ===== -->\n<style>\n  #zenb-hero { \n    font-family: 'Poppins', system-ui, sans-serif; color:#111;\n    border:1px solid #eee; border-radius:14px; background:#fff;\n    max-width:720px; margin:28px auto; padding:28px 22px;\n    line-height:1.6; text-align:center; box-shadow:0 6px 24px rgba(0,0,0,.05);\n  }\n  #zenb-hero * { box-sizing: border-box; }\n  #zenb-hero h3 { margin:0 0 8px 0; font-size:18px; font-weight:700; letter-spacing:.3px; }\n  #zenb-hero p  { margin:0 0 14px 0; font-size:14.5px; color:#555; }\n  #zenb-hero em { color:#666; }\n  #zenb-hero .divider { width:40px; height:2px; background:#FFD166; margin:0 auto 18px; border-radius:2px; }\n\n  #zenb-hero .vid-wrap{\n    position:relative; width:min(400px,90%); margin:18px auto 10px auto;\n    border-radius:16px; overflow:hidden; background:#000;\n    box-shadow:0 10px 22px rgba(0,0,0,.12); transition:transform .3s ease;\n  }\n  #zenb-hero .vid-wrap:hover{ transform: scale(1.02); }\n\n  #zenb-hero video{\n    display:block; width:100%; height:auto; aspect-ratio:9\/16;\n    object-fit:cover; margin:0; padding:0; border:0; vertical-align:middle;\n  }\n\n  #zenb-hero .proof{\n    margin:12px auto 0; color:#111; line-height:1.6; max-width:520px;\n    font-size:15px;\n  }\n  #zenb-hero .proof small{ display:block; font-size:13px; opacity:.6; margin-top:6px; }\n<\/style>\n\n<div id=\"zenb-hero\">\n  <h3>Quand le brossage devient un vrai moment de bonheur. 🐾<\/h3>\n\n  <p><em>La vapeur tiède apaise et transforme chaque séance en instant de calme.<\/em><\/p>\n  <p>Grâce à la <strong>vapeur douce apaisante<\/strong>, chaque séance devient un <strong>moment de bien-être<\/strong> \n    pour votre chat — et un poil <strong>brillant, sain et détendu<\/strong>.<\/p>\n\n  <div class=\"divider\"><\/div>\n\n  <div class=\"vid-wrap\">\n    <video autoplay muted loop playsinline preload=\"auto\"\n      poster=\"{{ 'zenbrosse-poster.jpg' | asset_url }}\">\n      <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b4ff717102de4ffd9cb7d96235d6cc0c.mp4\" type=\"video\/mp4\">\n      Votre navigateur ne supporte pas la vidéo HTML5.\n    <\/video>\n  <\/div>\n\n  <p class=\"proof\">\n    🌿 <strong>9 maîtres de chats sur 10<\/strong> disent que ZenBrosse a rendu le brossage\n    <strong>plus simple, plus doux et enfin apaisant<\/strong>.\n    <small>(*Sondage interne auprès des utilisateurs ZenBrosse)<\/small>\n  <\/p>\n<\/div>\n<!-- ===== \/ZENBROSSE ===== -->"
+          }
+        },
+        "liquid_xazfY9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"zb-faq\">\n\n  <!-- 1) Le vrai problème -->\n  <details class=\"zb-acc\">\n    <summary>Pourquoi ZenBrosse change tout&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p><b>Parce que le problème ne vient pas de votre chat…<\/b> mais de son sous-poil.<\/p>\n        <p>ZenBrosse libère en douceur les poils cachés responsables des pertes, sans tirer ni irriter.<\/p>\n        <p class=\"zb-tip\">Résultat&nbsp;: moins de poils à la maison, un chat détendu, et vous plus serein.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 2) Rinçage -->\n  <details class=\"zb-acc\">\n    <summary>Faut-il rincer après le brossage&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p><b>Non, aucun rinçage nécessaire.<\/b><\/p>\n        <p>Le soin est propre, rapide et sans résidu. Un simple coup de serviette suffit.<\/p>\n        <p class=\"zb-note\">Parfait pour les brossages express entre deux siestes.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 3) Sécurité -->\n  <details class=\"zb-acc\">\n    <summary>Est-ce adapté à tous les chats&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Oui, ZenBrosse est douce et sûre pour toutes les races, même celles à peau sensible.<\/p>\n        <p>Les embouts souples procurent un massage apaisant que les chats adorent.<\/p>\n        <p class=\"zb-tip\">Fini le stress du brossage — place au calme et à la complicité.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 4) Résultats -->\n  <details class=\"zb-acc\">\n    <summary>Quand voit-on les résultats&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Dès la première séance, vous verrez la différence&nbsp;: moins de poils sur les meubles et un chat plus détendu.<\/p>\n        <p>En quelques jours, le pelage devient plus doux, brillant et léger.<\/p>\n        <p class=\"zb-note\">95 % des utilisateurs affirment que leur chat adore être brossé avec ZenBrosse 🐾<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 5) Utilisation -->\n  <details class=\"zb-acc\">\n    <summary>Comment bien l’utiliser&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <ol>\n          <li>Brossez lentement dans le sens du poil, sans forcer.<\/li>\n          <li>Laissez la brosse glisser&nbsp;: elle retire le sous-poil tout en massant.<\/li>\n          <li>Essuyez doucement le pelage si besoin.<\/li>\n        <\/ol>\n        <p class=\"zb-tip\">2 à 3 séances par semaine suffisent pour une maison propre et un chat zen.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 6) Sérum -->\n  <details class=\"zb-acc\">\n    <summary>Le sérum est-il obligatoire&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Non, ZenBrosse fonctionne parfaitement seule.<\/p>\n        <p>Le sérum apaisant ajoute une touche de douceur et un effet relaxant supplémentaire pour les peaux sensibles.<\/p>\n        <p class=\"zb-note\">Un flacon dure environ 3 à 4 semaines selon la fréquence d’utilisation.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 7) Entretien -->\n  <details class=\"zb-acc\">\n    <summary>Comment garder ma brosse propre&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Retirez les poils après chaque séance, rincez à l’eau claire et laissez sécher.<\/p>\n        <p>ZenBrosse reste propre et prête à l’emploi, sans odeur ni résidu.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 8) Livraison -->\n  <details class=\"zb-acc\">\n    <summary>Livraison & garantie<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <ul>\n          <li><b>Livraison gratuite<\/b> sur toutes les commandes.<\/li>\n          <li><b>Suivi en temps réel<\/b> par e-mail ou SMS.<\/li>\n          <li><b>30 jours satisfait ou remboursé<\/b> — testez sans risque.<\/li>\n        <\/ul>\n        <div class=\"zb-badges\">\n          <span>Paiement sécurisé<\/span>\n          <span>Support client 7j\/7<\/span>\n          <span>Garantie sérénité<\/span>\n          <span>Marque française<\/span>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/details>\n\n<\/div>\n\n<style>\n.zb-faq{\n  max-width:760px;\n  margin:40px auto;\n  padding:10px 16px;\n  font-family:\"Poppins\",\"Helvetica Neue\",Arial,sans-serif;\n  color:#1d1d1f;\n}\n.zb-acc{\n  border:1px solid #f8e9b6;\n  border-radius:12px;\n  margin-bottom:12px;\n  overflow:hidden;\n  background:#fff9e1;\n  transition:box-shadow .25s,border-color .25s;\n}\n.zb-acc:hover{\n  box-shadow:0 6px 18px rgba(255,200,0,.08);\n}\n.zb-acc[open]{\n  border-color:#ffe08c;\n  box-shadow:0 8px 22px rgba(255,200,0,.12);\n}\n.zb-acc summary{\n  cursor:pointer;\n  padding:16px 56px 16px 18px;\n  position:relative;\n  font-weight:700;\n  font-size:16px;\n  color:#111;\n  list-style:none;\n  user-select:none;\n  background:#fff5d6;\n}\n.zb-acc summary::-webkit-details-marker{display:none;}\n.zb-acc summary::after{\n  content:\"+\";\n  position:absolute;\n  right:16px;\n  top:50%;\n  transform:translateY(-50%);\n  width:28px;\n  height:28px;\n  display:grid;\n  place-items:center;\n  border-radius:50%;\n  border:1px solid #f8e9b6;\n  color:#856c00;\n  background:#fffaf0;\n  font-weight:800;\n  transition:transform .25s,background .25s,color .25s,border-color .25s;\n}\n.zb-acc[open] summary::after{\n  content:\"–\";\n  background:#FFD54A;\n  color:#fff;\n  border-color:#FFD54A;\n  transform:translateY(-50%) rotate(0.0001deg);\n}\n.zb-acc__panel-inner{\n  overflow:hidden;\n  padding:14px 18px 18px 18px;\n  font-size:15px;\n  line-height:1.55;\n  color:#333;\n  background:#fff;\n}\n.zb-tip,.zb-note{\n  margin-top:8px;\n  font-size:14px;\n  color:#7a6b3c;\n  font-style:italic;\n}\n.zb-badges{\n  display:flex;\n  flex-wrap:wrap;\n  gap:8px;\n  margin-top:10px;\n}\n.zb-badges span{\n  background:#fff5d6;\n  color:#6a5715;\n  font-size:13px;\n  font-weight:600;\n  padding:6px 12px;\n  border-radius:999px;\n  border:1px solid #f1e0b0;\n}\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_tRNFBf",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "liquid_wcU76P",
+        "liquid_PkbCW8",
+        "variant_picker",
+        "quantity_selector",
+        "kaching_bundles_app_block_LaXdj7",
+        "liquid_FgHT34",
+        "buy_buttons",
+        "liquid_eTD9Up",
+        "image_n3NM3K",
+        "image_FaUVQk",
+        "liquid_JgHdwc",
+        "liquid_xazfY9"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_liquid_ffxKaw": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Bloc professionnel — à propos de ZenBrosse (version chats, vétérinaire femme) ===== -->\n<section class=\"zb-expert\" style=\"--gray:#f8f8f8;\">\n  <div class=\"zb-expert__container\">\n    <!-- Image à gauche -->\n    <figure class=\"zb-expert__image\">\n      <img\n        src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Design_sans_titre_39.png?v=1762769467\"\n        alt=\"Dr. Élodie Martin, vétérinaire spécialiste du comportement félin\"\n        loading=\"lazy\"\n        width=\"800\"\n        height=\"1000\">\n    <\/figure>\n\n    <!-- Texte à droite -->\n    <div class=\"zb-expert__text\">\n      <h3 class=\"zb-expert__name\">\n        Dr. Élodie Martin à propos de ZenBrosse\n      <\/h3>\n      <p class=\"zb-expert__quote\">\n        « Avec le temps, de nombreux <strong>chats<\/strong> deviennent sensibles ou anxieux pendant le brossage.\n        ZenBrosse offre une approche <strong>douce, tiède et apaisante<\/strong> qui aide à réduire le stress tout en\n        éliminant efficacement le <strong>sous-poil<\/strong>. Cette méthode transforme la séance de toilettage en un\n        véritable moment de <strong>calme, de confiance et de bien-être partagé<\/strong> entre le maître et son chat. »\n      <\/p>\n    <\/div>\n  <\/div>\n<\/section>\n\n<style>\n  .zb-expert {\n    background: var(--gray);\n    padding: 60px 20px;\n  }\n\n  .zb-expert__container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 28px;\n    max-width: 1080px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__container {\n      flex-direction: row;\n      align-items: center;\n      justify-content: center;\n      gap: 60px;\n    }\n  }\n\n  .zb-expert__image {\n    flex: 1;\n    max-width: 480px;\n    margin: 0;\n  }\n\n  .zb-expert__image img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    object-fit: cover;\n    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);\n  }\n\n  .zb-expert__text {\n    flex: 1;\n    max-width: 540px;\n    text-align: left;\n    color: #222;\n  }\n\n  .zb-expert__name {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    color: #111;\n  }\n\n  .zb-expert__quote {\n    font-size: 16.5px;\n    line-height: 1.6;\n    color: #444;\n    font-style: italic;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__name { font-size: 26px; }\n    .zb-expert__quote { font-size: 17px; }\n  }\n<\/style>\n<!-- ===== \/ZENBROSSE ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_BJ9nqy": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSS | Ingrédients Naturels du Sérum Intégré ===== -->\n<section id=\"zenbross-ingredients-horizontal\" class=\"lxv-ingredients-horizontal\">\n  <div class=\"lxv-ing__container\">\n    <h2 class=\"lxv-ing__title\">Les 4 extraits naturels qui apaisent et embellissent le pelage<\/h2>\n    <p class=\"lxv-ing__subtitle\">\n      Le sérum intégré à la brosse <strong>ZenBross<\/strong> associe des extraits végétaux doux et efficaces pour apaiser la peau, hydrater et sublimer le pelage de votre compagnon.\n    <\/p>\n\n    <div class=\"lxv-ing__row\">\n      <!-- 1 | Extrait de noix de coco -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/shutterstock_1450759553_1_54b822d8-d4f2-4b23-984e-f2386afcc8f8.webp?v=1761593625\" alt=\"Extrait de noix de coco\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de noix de coco<\/h3>\n          <p>Hydrate et protège la peau sensible, tout en renforçant la barrière naturelle du poil.<\/p>\n        <\/div>\n      <\/div>\n\n      <!-- 2 | Sophora flavescens -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Sophora_flavescens_03.jpg?v=1762790074\" alt=\"Sophora flavescens\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Sophora flavescens<\/h3>\n          <p>Apaise les irritations et les démangeaisons pour un confort durable de la peau.<\/p>\n        <\/div>\n      <\/div>\n\n      <!-- 3 | Extrait de kaki -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/CEFD0BCD-8D9B-4A28-98C0-800A10C1EAD1_1_102_o.jpg?v=1762790084\" alt=\"Extrait de kaki\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de kaki<\/h3>\n          <p>Purifie naturellement et neutralise les mauvaises odeurs tout en rafraîchissant le pelage.<\/p>\n        <\/div>\n      <\/div>\n\n      <!-- 4 | Huiles essentielles végétales -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/22397828-9FE2-40E4-AB21-CF6AFCC8D30B_1_102_o.jpg?v=1762790148\" alt=\"Huiles essentielles végétales\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Huiles essentielles végétales<\/h3>\n          <p>Nourrissent le poil en profondeur et le rendent doux, brillant et facile à brosser.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <style>\n    \/* ===== Structure globale ===== *\/\n    #zenbross-ingredients-horizontal {\n      background: #fff;\n      padding: 60px 0;\n      font-family: 'Poppins', system-ui, Arial, Helvetica, sans-serif;\n      color: #1d1b20;\n    }\n\n    .lxv-ing__container {\n      max-width: 1200px;\n      margin: 0 auto;\n      padding: 0 24px;\n      text-align: center;\n    }\n\n    .lxv-ing__title {\n      font-size: 32px;\n      font-weight: 700;\n      margin-bottom: 10px;\n      line-height: 1.2;\n    }\n\n    .lxv-ing__subtitle {\n      color: #555;\n      font-size: 16px;\n      margin-bottom: 42px;\n      max-width: 700px;\n      margin-left: auto;\n      margin-right: auto;\n      line-height: 1.6;\n    }\n\n    \/* ===== Grille d’ingrédients ===== *\/\n    .lxv-ing__row {\n      display: grid;\n      grid-template-columns: repeat(4, 1fr);\n      gap: 24px;\n    }\n\n    @media (max-width: 950px) {\n      .lxv-ing__row {\n        grid-template-columns: repeat(2, 1fr);\n      }\n    }\n\n    @media (max-width: 600px) {\n      .lxv-ing__row {\n        grid-template-columns: 1fr;\n      }\n    }\n\n    \/* ===== Carte ingrédient ===== *\/\n    .lxv-ing__item {\n      background: #f8fcff;\n      border: 1px solid #e3f1ff;\n      border-radius: 14px;\n      padding: 20px 16px;\n      box-shadow: 0 6px 16px rgba(0, 0, 0, .04);\n      transition: transform .3s ease, box-shadow .3s ease;\n    }\n\n    .lxv-ing__item:hover {\n      transform: translateY(-4px);\n      box-shadow: 0 10px 24px rgba(0, 0, 0, .08);\n    }\n\n    \/* Image *\/\n    .lxv-ing__img {\n      width: 100%;\n      aspect-ratio: 1\/1;\n      border-radius: 12px;\n      overflow: hidden;\n      margin-bottom: 14px;\n    }\n\n    .lxv-ing__img img {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n      transition: transform .4s ease;\n    }\n\n    .lxv-ing__item:hover .lxv-ing__img img {\n      transform: scale(1.05);\n    }\n\n    \/* Texte *\/\n    .lxv-ing__text h3 {\n      font-size: 17px;\n      font-weight: 700;\n      margin: 0 0 6px;\n      color: #215172;\n    }\n\n    .lxv-ing__text p {\n      font-size: 14px;\n      color: #444;\n      margin: 0;\n      line-height: 1.55;\n    }\n  <\/style>\n<\/section>\n<!-- ===== \/ZENBROSS | Ingrédients Naturels ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_GMWz8Y": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant \/ Après — Deux lignes + émotion (version chats) ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Titre sur 2 lignes -->\n    <h2 class=\"zb-title\">\n      Avant : des poils partout... <br>\n      Après : une maison propre et un chat apaisé 🐾\n    <\/h2>\n\n    <p class=\"zb-subtitle\">\n      Ce n’est pas votre chat, c’est son <b>sous-poil<\/b>.  \n      ZenBrosse l’enlève en douceur : la maison respire, votre chat aussi.\n    <\/p>\n\n    <!-- Zone comparaison -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n        <div class=\"zb-label zb-label--left\">Avant<\/div>\n        <div class=\"zb-label zb-label--right\">Après<\/div>\n\n        <div class=\"zb-img-wrap\">\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Sans_titre_1080_x_1080_px.png?v=1761752654\"\n               alt=\"Avant ZenBrosse : poils sur le canapé, brossage stressant\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Sans_titre_1080_x_1080_px_1.png?v=1761752656\"\n               alt=\"Après ZenBrosse : sous-poil retiré, chat détendu, maison propre\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"><\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <style>\n    #zb-compare-{{ section.id }}{\n      --container-max: 860px;\n      --pad-y: 38px;\n      --compare-max-desktop: 560px;\n      --compare-max-mobile: 360px;\n      --title-size: clamp(22px, 3.2vw, 28px);\n      --subtitle-size: clamp(13px, 2.4vw, 15px);\n      --label-size: 11px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n    }\n\n    #zb-compare-{{ section.id }} {\n      background:#fff;\n      padding:var(--pad-y) 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      color:#1a1a1a;\n      text-align:center;\n    }\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0 auto;\n      padding:0 16px;\n    }\n\n    .zb-title {\n      font-size:var(--title-size);\n      font-weight:800;\n      line-height:1.25;\n      margin:0 0 10px;\n      letter-spacing:.2px;\n    }\n    .zb-subtitle {\n      color:#555;\n      font-size:var(--subtitle-size);\n      line-height:1.65;\n      max-width:620px;\n      margin:0 auto 20px;\n    }\n\n    .zb-comparison-zone { display:flex; justify-content:center; }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0; left:50%;\n      transform:translateX(-50%);\n      width:2px; height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3; cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute; top:50%; left:50%;\n      transform:translate(-50%,-50%);\n      display:grid; place-items:center;\n      width:var(--handle-btn); height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px; font-weight:700; color:#222;\n    }\n\n    .zb-label {\n      position:absolute; top:10px; z-index:4;\n      padding:5px 9px; border-radius:999px;\n      font-weight:700; font-size:var(--label-size);\n      background:rgba(0,0,0,.55); color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  <\/style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) \/ rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  <\/script>\n<\/div>\n<!-- ===== \/ZENBROSSE | Avant \/ Après — Deux lignes + émotion (version chats) ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "1761764394f1208a69": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_AxczQY": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_AxczQY"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_bQia93": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ✅ ZENBROSSE — CARROUSEL AVIS (sans images, fond #FFF5DE, 60 avis) -->\n<style>\n\/* 🔒 Empêche tout défilement horizontal de la page *\/\nhtml,body{overflow-x:hidden}\n\n#zenbrosse-trust{\n  --green:#00B67A;--ink:#111;--border:rgba(0,0,0,.07);\n  background:#FFF5DE; \/* ✅ fond demandé *\/\n  font-family:\"Helvetica Neue\",Arial,sans-serif;\n  overscroll-behavior-x:none;\n}\n#zenbrosse-trust .wrap{max-width:1200px;margin:0 auto;padding:64px 0 110px;}\n#zenbrosse-trust .title{text-align:center;font-weight:900;font-size:clamp(26px,3.2vw,38px);line-height:1.2;margin:0 0 10px;}\n#zenbrosse-trust .title .hl{color:#6A5715;font-style:italic;}\n#zenbrosse-trust .sub{text-align:center;color:#333;margin:0 0 24px;max-width:820px;margin-left:auto;margin-right:auto;}\n\n\/* barre note *\/\n#zenbrosse-trust .ratingbar{\n  display:inline-flex;gap:10px;align-items:center;\n  padding:10px 14px;border-radius:999px;background:#fff;\n  box-shadow:0 6px 18px rgba(0,0,0,.08);\n  margin:0 auto 30px;font-size:14px;\n}\n#zenbrosse-trust .ratingbar .tpstars{display:flex;gap:6px;}\n#zenbrosse-trust .ratingbar .tpstars i{width:18px;height:18px;border-radius:3px;background:var(--green);position:relative;}\n#zenbrosse-trust .ratingbar .tpstars i::after{content:\"★\";color:#fff;font-size:12px;position:absolute;inset:0;display:grid;place-items:center;}\n\n\/* carrousel *\/\n#zenbrosse-trust .carousel{position:relative;}\n#zenbrosse-trust .track{\n  display:flex;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;\n  scroll-behavior:smooth;-webkit-overflow-scrolling:touch;\n  padding:6px var(--sidepad,16px) 36px;\n  overscroll-behavior-x:contain;scroll-snap-stop:always;\n  touch-action:pan-y; \/* empêche la page de glisser latéralement *\/\n}\n#zenbrosse-trust .track::-webkit-scrollbar{height:8px;}\n#zenbrosse-trust .track::-webkit-scrollbar-thumb{background:#e8d79e;border-radius:999px;}\n\n#zenbrosse-trust .card{\n  position:relative;flex:0 0 360px;scroll-snap-align:center;\n  background:#fff;border-radius:22px;overflow:hidden;\n  box-shadow:0 6px 20px rgba(0,0,0,.08);border:1px solid var(--border);\n  transition:transform .3s;\n}\n#zenbrosse-trust .card:hover{transform:translateY(-4px);}\n\n#zenbrosse-trust .pad{padding:22px 20px;}\n#zenbrosse-trust .squares{display:flex;gap:6px;margin-bottom:12px;}\n#zenbrosse-trust .squares i{width:18px;height:18px;background:var(--green);border-radius:3px;position:relative;}\n#zenbrosse-trust .squares i::after{content:\"★\";color:#fff;font-size:12px;position:absolute;inset:0;display:grid;place-items:center;}\n#zenbrosse-trust .h5{font-size:18px;font-weight:700;margin:0 0 8px;color:#1a1a1a;}\n#zenbrosse-trust .p{font-size:15.5px;line-height:1.65;color:#2c2c2c;margin:0;}\n#zenbrosse-trust .foot{display:flex;align-items:center;gap:12px;padding:14px 20px 18px;}\n#zenbrosse-trust .avatar{width:38px;height:38px;border-radius:50%;background:#FFEAA6;color:#6A5715;font-weight:700;display:grid;place-items:center;}\n#zenbrosse-trust .meta{font-size:13px;color:#333;}\n#zenbrosse-trust .ver{color:#03a66a;font-size:12px;margin-left:4px;}\n#zenbrosse-trust .date{display:block;color:#777;font-size:12px;margin-top:2px;}\n\n\/* nav desktop *\/\n#zenbrosse-trust .nav{position:absolute;left:0;right:0;bottom:-16px;display:flex;justify-content:center;align-items:center;gap:18px;}\n#zenbrosse-trust .ar{width:46px;height:46px;border:none;border-radius:50%;background:#fff;box-shadow:0 4px 12px rgba(0,0,0,.12);font-size:24px;cursor:pointer;color:#6A5715;display:grid;place-items:center;transition:background .2s;}\n#zenbrosse-trust .ar:hover{background:#fff5d6;}\n#zenbrosse-trust .dots{display:flex;gap:8px;}\n#zenbrosse-trust .dot{width:10px;height:10px;border-radius:50%;background:#e1c97a;opacity:.6;transition:.25s;}\n#zenbrosse-trust .dot.on{opacity:1;background:#6A5715;transform:scale(1.2);}\n\n\/* flèches mobiles overlay *\/\n#zenbrosse-trust .m-ar{\n  position:absolute;top:50%;translate:0 -50%;\n  width:44px;height:44px;border-radius:50%;\n  display:none;place-items:center;border:1px solid rgba(255,255,255,.35);\n  background:rgba(0,0,0,.25);backdrop-filter:saturate(140%) blur(2px);\n  color:#fff;font-size:22px;line-height:1;z-index:3;\n  box-shadow:0 6px 18px rgba(0,0,0,.22);\n}\n#zenbrosse-trust .m-ar:active{transform:scale(.98)}\n#zenbrosse-trust .m-prev{left:10px;}\n#zenbrosse-trust .m-next{right:10px;}\n\n\/* mobile *\/\n@media(max-width:640px){\n  #zenbrosse-trust .card{flex-basis:82vw;border-radius:20px;}\n  #zenbrosse-trust .h5{font-size:16px;}\n  #zenbrosse-trust .p{font-size:14.5px;line-height:1.58;}\n  #zenbrosse-trust .pad{padding:16px 14px;}\n  #zenbrosse-trust .foot{padding:12px 14px 16px;}\n  #zenbrosse-trust .avatar{width:32px;height:32px;font-size:13px;}\n  #zenbrosse-trust .meta{font-size:12.5px;}\n  #zenbrosse-trust .nav{bottom:-34px;gap:12px;}\n  #zenbrosse-trust .ar{width:42px;height:42px;font-size:22px;}\n  #zenbrosse-trust .m-ar{display:grid;top:auto;bottom:18px;translate:0 0;}\n}\n<\/style>\n\n<div id=\"zenbrosse-trust\">\n  <div class=\"wrap\">\n    <h2 class=\"title\">Rejoignez <span class=\"hl\">5 000+<\/span> foyers conquis par <span class=\"hl\">ZenBrosse pour chats<\/span><\/h2>\n    <p class=\"sub\">Moins de poils, plus de calme. La vapeur tiède et les embouts souples libèrent le <b>sous-poil<\/b> en douceur, apaisent votre chat et gardent la maison <b>propre<\/b>.<\/p>\n\n    <div class=\"ratingbar\" aria-label=\"Note moyenne ZenBrosse\">\n      <div class=\"tpstars\" aria-hidden=\"true\"><i><\/i><i><\/i><i><\/i><i><\/i><i><\/i><\/div>\n      <span><b>Excellent 4,8\/5<\/b> — basé sur 5 200+ avis vérifiés<\/span>\n    <\/div>\n\n    <div class=\"carousel\" id=\"zb-crsl\">\n      <!-- ▶️ Flèches overlay mobile -->\n      <button class=\"m-ar m-prev\" aria-label=\"Précédent\">‹<\/button>\n      <button class=\"m-ar m-next\" aria-label=\"Suivant\">›<\/button>\n\n      <div class=\"track\" id=\"zb-track\">\n\n        <!-- ===== 60 AVIS SANS IMAGE (titre || texte || nom || date) ===== -->\n        {% assign long_reviews = \"\nMaison sans poils en 2 semaines||Moins de poils sur le canapé et sur mes vêtements. Mon chat reste zen pendant tout le brossage.||Camille S.||12 avril 2025~~~\nMon chat RONRONNE pendant||La vapeur tiède le détend tout de suite. Je peux enfin brosser sans cris ni fuite.||Julie M.||3 juin 2025~~~\nSous-poil retiré sans tirer||Les poils morts partent facilement, pas d’énervement. Le pelage est plus léger.||Sarah L.||21 juillet 2025~~~\nMoins de boules de poils||Depuis ZenBrosse, presque plus de vomitos. Le brossage capte le sous-poil avant qu’il soit avalé.||Emma R.||2 août 2025~~~\nBrossage express, résultat max||3 minutes par jour et c’est réglé. Mon salon respire, et lui aussi.||Nadia B.||28 juillet 2025~~~\nIdéal chats sensibles||Peau réactive validée : zéro rougeur, zéro irritation. Il se laisse faire.||Delphine F.||7 août 2025~~~\nAdoptée dès la 1ʳᵉ séance||J’avais essayé 4 brosses. Celle-ci a marché direct grâce à la chaleur douce.||Maria D.||1 août 2025~~~\nMoins d’allergènes à la maison||Mon compagnon éternue moins. La différence est claire après une semaine.||Hannah S.||9 avril 2025~~~\nGain de temps énorme||Avant : bataille + aspirateur. Maintenant : 2 passages, fini.||Jennifer T.||7 septembre 2025~~~\nChat craintif rassuré||Il sursaute facilement. Avec ZenBrosse, il ferme les yeux et reste sur mes genoux.||Lisa T.||9 juin 2025~~~\nRoutine simple et durable||Au début tous les jours, puis 3x\/sem. Les effets restent.||Jessica M.||27 juillet 2025~~~\nPelage plus brillant||Le poil est doux au toucher, moins terne. Effet spa à la maison.||Grace B.||11 juin 2025~~~\nMoins de poils sur le lit||Housse enfin propre le matin. Je passe l’aspirateur moins souvent.||Nicole A.||29 mars 2025~~~\nRésultats visibles J+7||Déjà moins de poils sur le plaid. Le chat demande le brossage !||Ariane V.||5 mai 2025~~~\nParfait pour longs poils||Maine Coon ici : sous-poil épais géré sans nœuds ni cris.||Lina O.||3 avril 2025~~~\nCalme + complicité||C’est devenu notre petit rituel du soir. Je le vois se détendre.||Camille E.||3 février 2025~~~\nMoins d’odeurs||Le brossage régulier + vapeur = pelage plus sain, odeurs réduites.||Leïla K.||4 juin 2025~~~\nAvant\/Après bluffant||J’ai pris des photos : le volume de sous-poil retiré, c’est fou.||Inès B.||2 septembre 2025~~~\nVoyage-friendly||Compacte, je l’emmène chez mes parents. Mon chat reste à l’aise.||Eva C.||22 avril 2025~~~\nInvestissement rentabilisé||Moins de rouleaux adhésifs, moins de ménage : c’est vite amorti.||Mélanie G.||14 avril 2025~~~\nFin des nœuds récurrents||Sous les aisselles et derrière les oreilles : ça glisse sans tirer.||Yasmine N.||26 août 2025~~~\nPeau apaisée||Plus aucune petite plaque après brossage. Il ne se gratte plus.||Noémie A.||11 juillet 2025~~~\nChat âgé, OK||15 ans et peau fine : brossage accepté, pas de stress.||Sonia G.||15 septembre 2025~~~\nTexture nickel||Ne laisse aucun résidu. Le poil retombe naturellement.||Clarisse P.||12 juin 2025~~~\nVêtements sauvés||Je ne pars plus au travail couverte de poils.||Ophélie V.||10 juin 2025~~~\nMoins d’inflammation||Mon chat se mordillait. Depuis, la peau est plus calme.||Nora L.||18 juin 2025~~~\nEffet constant||Même en espaçant, la chute reste faible.||Naïma S.||17 juin 2025~~~\nChaton habitué tôt||4 mois, il l’a adoptée tout de suite. Super doux.||Pauline R.||8 mai 2025~~~\nPoils noirs, canapés clairs||Avant : catastrophe. Maintenant : quasi rien à aspirer.||Laura T.||17 mai 2025~~~\nBrossage silencieux||Le bruit est minime, parfait pour les sensibles.||Élodie F.||23 mai 2025~~~\nPoils courts aussi||Européen poils courts : sous-poil retiré visible sur la brosse.||Thomas B.||30 mai 2025~~~\nAdieu gants inefficaces||J’ai rangé mes vieux gants. ZenBrosse prend nettement plus de sous-poil.||Marine D.||4 juin 2025~~~\nMoins de stress vétérinaire||Le pelage est propre, moins de démangeaisons entre visites.||Roxane P.||6 juin 2025~~~\nRituel post-sieste||Je le brosse quand il somnole : zéro résistance.||Patrick L.||7 juin 2025~~~\nDeux chats à la maison||Je fais 2-3 min chacun. Salon propre toute la semaine.||Chloé S.||9 juin 2025~~~\nIdéal pendant la mue||Printemps redouté → finalement gérable sans tapis de poils.||Isabelle C.||11 juin 2025~~~\nCompatibilité peaux sensibles||Aucune rougeur malgré dermite légère.||Valérie M.||12 juin 2025~~~\nRésultat rapide||Dès la 1ʳᵉ séance, la brosse était pleine. Impact direct.||Adrien K.||13 juin 2025~~~\nSimplicité d’usage||Pas besoin d’appuyer. Ça glisse et ça capte.||Morgane Y.||14 juin 2025~~~\nChat nerveux → zen||Il feulait avec l’ancienne brosse. Là, il s’allonge.||Nathalie J.||15 juin 2025~~~\nMoins de nettoyage||Tapis et coussins restent propres plus longtemps.||Sébastien D.||16 juin 2025~~~\nPoil plus brillant||Aspect soyeux, même en lumière naturelle.||Katia V.||17 juin 2025~~~\nPoils sur sièges auto↓||Les trajets n’impliquent plus un grand ménage.||Oceane R.||18 juin 2025~~~\nConfort pour le chat||Les embouts souples massent vraiment, il pétrit l’air !||Benoît P.||19 juin 2025~~~\nIdée cadeau validée||Offerte à ma sœur, elle m’a remerciée 10 fois.||Maud H.||20 juin 2025~~~\nSatisfait ou remboursé rassurant||Je l’ai prise sans crainte. Gardée après 10 jours.||Amine Z.||21 juin 2025~~~\nPas d’électricité statique||Le poil ne revole pas partout ensuite.||Hugo C.||22 juin 2025~~~\nGuide clair||Les étapes sont simples, impossible de se tromper.||Anaïs E.||23 juin 2025~~~\nChat obèse OK||Moins agile pour se laver : ça l’aide à rester propre.||Clémence D.||24 juin 2025~~~\nPlus de câlins||Il vient de lui-même quand je sors la brosse.||Yann S.||25 juin 2025~~~\nPoils très denses maîtrisés||Norvégien ici : impressionnant ce que ça retire.||Aurore P.||26 juin 2025~~~\nAucune douleur||Je surveille sa queue\/oreilles : aucune réaction négative.||Léonard R.||27 juin 2025~~~\nZéro nœud depuis 1 mois||Plus besoin de ciseaux. Quel soulagement.||Nina K.||28 juin 2025~~~\nÉconomies ménagères||Moins de lingettes, moins de rouleaux collants.||Rita G.||29 juin 2025~~~\nConfiance totale||Les avis m’ont convaincue, le résultat m’a gardée.||Tara M.||30 juin 2025~~~\nBrossage mains libres||Je regarde une série, lui ronronne. Routine parfaite.||Julie D.||1 juillet 2025~~~\nContact vétérinaire approuve||Ma véto a trouvé l’idée top pour limiter le stress.||Ophélie C.||2 juillet 2025~~~\nPoils sur tapis quasi nuls||Aspirateur 1 fois\/sem suffit maintenant.||Mickaël B.||3 juillet 2025\n\" %}\n\n        {% assign items = long_reviews | strip | split: \"~~~\" %}\n        {% for r in items %}\n          {% assign parts = r | strip | split: \"||\" %}\n          {% assign h = parts[0] | strip %}\n          {% assign t = parts[1] | strip %}\n          {% assign n = parts[2] | strip %}\n          {% assign d = parts[3] | strip %}\n          {% if h != \"\" and t != \"\" %}\n          <article class=\"card\">\n            <div class=\"pad\">\n              <div class=\"squares\" aria-hidden=\"true\"><i><\/i><i><\/i><i><\/i><i><\/i><i><\/i><\/div>\n              <h3 class=\"h5\">{{ h }}<\/h3>\n              <p class=\"p\">{{ t }}<\/p>\n            <\/div>\n            <div class=\"foot\">\n              <div class=\"avatar\">{{ n | slice: 0,1 }}<\/div>\n              <div class=\"meta\"><b>{{ n }}<\/b><span class=\"ver\"> • Client·e vérifié·e<\/span><span class=\"date\">{{ d }}<\/span><\/div>\n            <\/div>\n          <\/article>\n          {% endif %}\n        {% endfor %}\n\n      <\/div>\n\n      <div class=\"nav\">\n        <button class=\"ar prev\" aria-label=\"Précédent\">‹<\/button>\n        <div class=\"dots\" id=\"zb-dots\" aria-hidden=\"true\"><\/div>\n        <button class=\"ar next\" aria-label=\"Suivant\">›<\/button>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>\n\n<script>\n(function(){\n  const wrap = document.getElementById('zb-crsl');\n  const track = document.getElementById('zb-track');\n  const dots  = document.getElementById('zb-dots');\n  if(!wrap || !track) return;\n\n  const first = () => track.querySelector('.card');\n  const gap   = () => parseFloat(getComputedStyle(track).gap || 0);\n  const cardW = () => { const c = first(); return c ? c.getBoundingClientRect().width + gap() : 360; };\n  const pad   = () => parseFloat(getComputedStyle(track).paddingLeft || 0);\n\n  function setPad(){\n    const c = first(); if(!c) return;\n    const view = wrap.getBoundingClientRect().width;\n    const p = Math.max(10,(view - c.getBoundingClientRect().width)\/2);\n    track.style.setProperty('--sidepad', p + 'px');\n  }\n  function pages(){\n    const tot = track.querySelectorAll('.card').length;\n    const view = wrap.getBoundingClientRect().width;\n    const per = Math.max(1, Math.floor(view \/ cardW()));\n    return Math.max(1, Math.ceil(tot\/per));\n  }\n  function buildDots(){\n    dots.innerHTML = '';\n    for(let i=0;i<pages();i++){ const d=document.createElement('div'); d.className='dot'; dots.appendChild(d); }\n    updateDot();\n  }\n\n  function cur(){ return Math.round((track.scrollLeft - pad()) \/ cardW()); }\n  function updateDot(){\n    const pg = Math.min(pages()-1, Math.max(0, cur()));\n    [...dots.children].forEach((d,i)=>d.classList.toggle('on', i===pg));\n  }\n  function go(dir){\n    const target = (track.scrollLeft - pad()) + dir*cardW();\n    const min = pad();\n    const max = track.scrollWidth - track.clientWidth - pad();\n    const clamped = Math.max(min, Math.min(max, pad() + target));\n    track.scrollTo({ left: clamped, behavior:'smooth' });\n  }\n\n  const prev = wrap.querySelector('.prev'), next = wrap.querySelector('.next');\n  prev && prev.addEventListener('click', ()=>go(-1));\n  next && next.addEventListener('click', ()=>go(1));\n\n  \/\/ flèches mobiles overlay\n  const mPrev = wrap.querySelector('.m-prev');\n  const mNext = wrap.querySelector('.m-next');\n  mPrev && mPrev.addEventListener('click', ()=>go(-1));\n  mNext && mNext.addEventListener('click', ()=>go(1));\n\n  \/\/ iOS: priorité au carrousel\n  let startX=0, startY=0;\n  track.addEventListener('touchstart', e=>{ const t=e.touches[0]; startX=t.clientX; startY=t.clientY; }, {passive:true});\n  track.addEventListener('touchmove', e=>{\n    const t=e.touches[0];\n    const dx=Math.abs(t.clientX-startX), dy=Math.abs(t.clientY-startY);\n    if(dx>dy){ e.stopPropagation(); }\n  }, {passive:true});\n\n  dots.addEventListener('click', e=>{\n    if(!e.target.classList.contains('dot')) return;\n    const idx = [...dots.children].indexOf(e.target);\n    const pos = pad() + idx*cardW();\n    track.scrollTo({ left: pos, behavior:'smooth' });\n  });\n\n  function init(){\n    setPad();\n    buildDots();\n    track.scrollLeft = pad(); \/\/ démarre sur la 1ʳᵉ carte\n    updateDot();\n  }\n  init();\n  window.addEventListener('resize', init, {passive:true});\n  track.addEventListener('scroll', ()=> requestAnimationFrame(updateDot), {passive:true});\n})();\n<\/script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact_yNR4PV": {
+      "type": "contact",
+      "disabled": true,
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. <\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#ffecbf",
+        "button_text_color": "#1a1a1a"
+      }
+    },
+    "176176583851e7135e": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_jdAUjH": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_jdAUjH"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_4CMTEF",
+    "logo_list_dJqqN8",
+    "rich_text_3wXjna",
+    "image_with_text_overlay_PBWnVg",
+    "rich_text_U49gjD",
+    "multi_column_yM6kVg",
+    "rich_text_7ABLYt",
+    "multi_column_bpPNTx",
+    "main",
+    "custom_liquid_ffxKaw",
+    "custom_liquid_BJ9nqy",
+    "custom_liquid_GMWz8Y",
+    "related-products",
+    "1761764394f1208a69",
+    "custom_liquid_bQia93",
+    "contact_yNR4PV",
+    "176176583851e7135e"
+  ]
+}

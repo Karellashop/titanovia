@@ -1,0 +1,788 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_fM3LQQ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_jkYEqC": {
+          "type": "heading",
+          "settings": {
+            "text": "Dites adieu aux bains stressants et bonjour à un compagnon apaisé en un instant. 🐾",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_JdnaUX": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p><em><strong>Faites de chaque toilettage un moment de tendresse.<\/strong><\/em><\/p>"
+          }
+        },
+        "liquid_TFDhEi": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\">Acheter maintenant<\/a>\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 8px 20px; \/* PLUS PETIT *\/\n    border-radius: 999px;\n\n    background: #FFD100 !important;  \/* JAUNE FLASHY *\/\n    color: #000000 !important;        \/* TEXTE NOIR *\/\n    font-size: 14px;                  \/* PLUS PETIT *\/\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n    box-shadow: 0 6px 14px rgba(0,0,0,0.25) !important;\n\n    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small::before,\n  .zen-btn-yellow-small::after {\n    content: none !important;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-2px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.30) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.97);\n  }\n<\/style>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jkYEqC",
+        "richtext_JdnaUX",
+        "liquid_TFDhEi"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Marron_Beige_Logo_Cafe_Chien_81d420d6-5676-4055-b57a-c64e5bbdf452.png",
+        "mobile_image": "shopify:\/\/shop_images\/Design_sans_titre_1_03bfa85d-875c-4e82-8f8f-30538f97e212.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "logo_list_FDNLNw": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_tGBTMm": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/1.png",
+            "logo_width": 70,
+            "link": ""
+          }
+        },
+        "logo_QkRt3a": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/2.png",
+            "logo_width": 70,
+            "link": ""
+          }
+        },
+        "logo_LWDNUV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/3.png",
+            "logo_width": 70,
+            "link": ""
+          }
+        },
+        "logo_qKdCKj": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/4.png",
+            "logo_width": 70,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_tGBTMm",
+        "logo_QkRt3a",
+        "logo_LWDNUV",
+        "logo_qKdCKj"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "Vu sur :",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 4,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": "#1a1a1a"
+      }
+    },
+    "rich_text_tQmTXg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_anJzWc": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi des milliers de maîtres ne peuvent plus s’en passer ?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_anJzWc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_RGpYnq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Copie_de_Template_section_benefice_3200_x_1200_px_1300_x_1500_px_3000_x_1200_px_13280902-2a47-423c-a85d-c382c578516b.png",
+        "mobile_image": "shopify:\/\/shop_images\/Copie_de_Template_section_benefice_f29eccc1-34b7-4d23-a01a-326d0f972481.png",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_nHxV4y": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_ADDCRk": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section id=\"zenbrosse-video\" style=\"background:#ffffff;padding:60px 0;text-align:center;\">\n  <div style=\"max-width:820px;margin:0 auto;padding:0 16px;\">\n    <h2 style=\"font-size:28px;font-weight:800;margin-bottom:12px;color:#2b2b2b;\">\n      Quand le brossage devient un vrai moment de bonheur. 🐾\n    <\/h2>\n\n    <div style=\"position:relative;display:inline-block;width:100%;max-width:700px;\">\n      <video id=\"zenVideo\"\n        src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a7cf7325ae864ecaa3f279405c175be0.mp4\"\n        muted\n        autoplay\n        loop\n        playsinline\n        preload=\"auto\"\n        style=\"width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#000;\">\n      <\/video>\n\n      <!-- Badge \"son dispo\" -->\n      <div id=\"soundBadge\"\n        style=\"position:absolute;left:16px;bottom:16px;background:rgba(0,0,0,0.65);\n               color:#fff;padding:8px 10px;border-radius:999px;font-size:12px;\n               display:flex;gap:6px;align-items:center;backdrop-filter:blur(2px);\n               animation:pulse 1.6s ease-in-out infinite;\">\n        <span>🔊<\/span><span>Son disponible<\/span>\n      <\/div>\n\n      <!-- Bouton activer\/couper le son -->\n      <button id=\"soundToggle\" aria-label=\"Activer le son\"\n        style=\"position:absolute;bottom:16px;right:16px;background:rgba(255,255,255,0.95);\n               border:none;border-radius:999px;height:46px;display:flex;align-items:center;gap:10px;\n               padding:0 14px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,0.15);font-size:16px;font-weight:600;\">\n        <span id=\"soundIcon\" style=\"font-size:18px;\">🔈<\/span>\n        <span id=\"soundLabel\">Activer le son<\/span>\n      <\/button>\n    <\/div>\n\n    <!-- Texte -->\n    <div class=\"zb-copy\" style=\"max-width:700px;margin:20px auto 0;text-align:center;line-height:1.6;font-size:16px;color:#2b2b2b;\">\n      <p style=\"margin:0;\">\n        Il se détend, ferme les yeux, profite de la chaleur douce.<br>\n        Grâce à la <strong>vapeur tiède apaisante<\/strong>, chaque séance devient <strong>un instant de calme et de lien<\/strong>.<br>\n        <strong>Recommandée par les professionnels<\/strong> pour <strong>un poil doux et un compagnon apaisé<\/strong>.\n      <\/p>\n    <\/div>\n  <\/div>\n\n  <style>\n    @keyframes pulse {0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.9}100%{transform:scale(1);opacity:1}}\n    @media (max-width:640px){\n      #zenbrosse-video{padding:45px 0;}\n      #zenbrosse-video h2{font-size:20px;line-height:1.35;margin-bottom:10px;padding:0 6px;}\n      #zenbrosse-video .zb-copy{font-size:14px;line-height:1.5;padding:0 10px;}\n      #soundToggle{height:42px;padding:0 12px;font-size:14px;bottom:12px;right:12px;}\n      #soundBadge{left:12px;bottom:12px;font-size:11px;padding:6px 8px;}\n    }\n    #soundToggle:hover{background:#f7f7f7;transition:background .2s ease;}\n  <\/style>\n\n  <script>\n    (function(){\n      const video = document.getElementById('zenVideo');\n      const btn   = document.getElementById('soundToggle');\n      const label = document.getElementById('soundLabel');\n      const icon  = document.getElementById('soundIcon');\n      const badge = document.getElementById('soundBadge');\n\n      \/\/ 🔒 Autoplay forcé même sur mobile\n      const tryPlay = () => {\n        const playPromise = video.play();\n        if (playPromise !== undefined) {\n          playPromise.catch(() => {\n            \/\/ Si bloqué par le navigateur, on essaie de relancer silencieusement\n            video.muted = true;\n            video.play();\n          });\n        }\n      };\n\n      video.setAttribute('playsinline', '');\n      video.setAttribute('muted', '');\n      video.setAttribute('autoplay', '');\n      video.muted = true;\n      tryPlay();\n\n      const setUI = () => {\n        if (video.muted) {\n          icon.textContent = '🔈';\n          label.textContent = 'Activer le son';\n          badge.style.display = 'flex';\n        } else {\n          icon.textContent = '🔊';\n          label.textContent = 'Couper le son';\n          badge.style.display = 'none';\n        }\n      };\n\n      btn.addEventListener('click', async (e) => {\n        e.stopPropagation();\n        video.muted = !video.muted;\n        setUI();\n        tryPlay();\n      });\n\n      document.addEventListener('touchstart', tryPlay, { once: true });\n      video.addEventListener('loadeddata', tryPlay);\n      video.addEventListener('loadedmetadata', setUI);\n      setUI();\n    })();\n  <\/script>\n<\/section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_M3jUYw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7JkTQ9": {
+          "type": "heading",
+          "settings": {
+            "text": "Nos clients en parlent le mieux",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7JkTQ9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_KMggKq": {
+      "type": "multi-column",
+      "blocks": {
+        "item_LihWnj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_30.png",
+            "column_size": "3",
+            "title": "Mathieu L  – Client vérifié ✓",
+            "heading_tag": "h6",
+            "content": "<p>★★★★★<\/p><p>Mon chien stressait au bain. Avec ZenBrosse, il reste calme… et il perd déjà beaucoup moins de poils. Magique.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_C4FPcm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_31.png",
+            "column_size": "3",
+            "title": "Léa R – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>★★★★★<\/p><p>La brume apaise instantanément. Mon chien sent bon et je retire bien plus de poils en un seul passage.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gQNY8G": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_32.png",
+            "column_size": "3",
+            "title": "Sarah D – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>★★★★★<\/p><p>Nettoie vraiment sans eau. Une brume, un passage, et il sent super bon. Tellement simple. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MHAnzg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_40.png",
+            "column_size": "3",
+            "title": "Anaïs C. – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>★★★★★<\/p><p>On est passés du combat au câlin : il se détend, se laisse faire… et perd beaucoup moins de poils.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dCK6Eq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_41.png",
+            "column_size": "3",
+            "title": "Martine R. – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>★★★★★<\/p><p>Franchement, j’y croyais pas trop. Mais en 2 minutes, j’avais déjà retiré une tonne de poils. C’est devenu notre petit rituel du soir.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DmDKjx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Design_sans_titre_42.png",
+            "column_size": "3",
+            "title": "Élodie V.  – Cliente vérifiée ✓",
+            "heading_tag": "h6",
+            "content": "<p>★★★★★<\/p><p>Je le sens apaisé, comme si le toilettage lui faisait du bien. Et chaque séance enlève une tonne de poils morts.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_LihWnj",
+        "item_C4FPcm",
+        "item_gQNY8G",
+        "item_MHAnzg",
+        "item_dCK6Eq",
+        "item_DmDKjx"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "featured_product_Hhj93J": {
+      "type": "featured-product",
+      "blocks": {
+        "text_d6ayJ6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h4>ZenBrosse - La brosse vapeur 2-en-1 qui transforme le toilettage, vrai moment de bien-être<\/h4>"
+          }
+        },
+        "liquid_epmAan": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"luvixia-rating-badge\" role=\"link\" tabindex=\"0\" aria-label=\"Voir les avis LOOX\"\n     onclick=\"window.dispatchEvent(new Event('luvixia-scroll-to-loox'))\">\n  <span class=\"stars\" aria-hidden=\"true\">\n    <!-- 5 étoiles SVG -->\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"\/><\/svg>\n  <\/span>\n  <span class=\"text\">\n    <strong>4.8\/5<\/strong> Excellent · <strong>1200+<\/strong> Avis \n  <\/span>\n<\/div>\n\n<style>\n.luvixia-rating-badge{\n  display:inline-flex; align-items:center; gap:.6rem; cursor:pointer;\n  padding:.5rem .75rem; border-radius:.5rem; background:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,.06);\n  font-size:14px; line-height:1; user-select:none;\n}\n.luvixia-rating-badge .stars{ display:inline-flex; gap:.25rem; }\n.luvixia-rating-badge .star{ width:18px; height:18px; fill:#00B67A; \/* vert type Trustpilot *\/ }\n.luvixia-rating-badge .text{ color:#111; }\n.luvixia-rating-badge:hover{ transform:translateY(-1px); transition:transform .15s ease; }\n<\/style>\n\n<script>\n(function(){\n  function goToLoox(){\n    \/\/ Ids\/ancres Loox les plus courantes\n    var targets = [\n      '#looxReviews',          \/\/ Loox Product Reviews widget\n      '#loox-reviews',\n      '[data-loox-aggregate]', \/\/ parfois présent\n      '.loox-rating'           \/\/ fallback\n    ];\n    var el = null;\n    for (var i=0;i<targets.length;i++){\n      el = document.querySelector(targets[i]);\n      if (el) break;\n    }\n    if (el){\n      el.scrollIntoView({behavior:'smooth', block:'start'});\n    } else {\n      \/\/ Fallback : aller sur la même page avec l’ancre (utile si le bloc charge plus tard)\n      var href = (location.pathname || '\/') + '#looxReviews';\n      location.assign(href);\n    }\n  }\n  window.addEventListener('luvixia-scroll-to-loox', goToLoox);\n})();\n<\/script>"
+          }
+        },
+        "title_azFcDa": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
+        "liquid_HrLQdw": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n  \/* Slider d’avis — version compacte (Zenbrosse) *\/\n  .lx-slider{overflow:hidden;position:relative;width:100%}\n  .lx-track{display:flex;transition:transform .5s ease}\n  .lx-slide{min-width:100%;box-sizing:border-box;padding:0 4px}\n  .lx-testimonial{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid #eee;border-radius:12px;padding:12px 14px;box-shadow:0 2px 10px rgba(0,0,0,.04)}\n  .lx-testimonial__avatar{width:36px;height:36px;border-radius:9999px;flex:0 0 36px;overflow:hidden;border:1px solid #f1f1f1}\n  .lx-testimonial__avatar img{width:100%;height:100%;object-fit:cover}\n  .lx-testimonial__body{line-height:1.35}\n  .lx-testimonial__name{font-weight:700;font-size:13px;margin:0 0 2px}\n  .lx-testimonial__stars{display:flex;gap:2px;margin:2px 0 6px}\n  .lx-testimonial__stars svg{width:12px;height:12px}\n  .lx-testimonial__text{margin:0;color:#333;font-size:13px}\n  @media (min-width:740px){.lx-testimonial{padding:14px 16px}.lx-testimonial__text{font-size:14px}}\n  .lx-nav{display:flex;justify-content:center;gap:6px;margin-top:10px}\n  .lx-dot{width:6px;height:6px;border-radius:50%;background:#ccc;cursor:pointer;transition:.3s}\n  .lx-dot.active{background:#FFD166}\n  @media (prefers-reduced-motion: reduce){.lx-track{transition:none}}\n<\/style>\n\n<div class=\"lx-slider\" id=\"lxSlider\">\n  <div class=\"lx-track\">\n\n    {% assign star = '<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 24 24\" fill=\"#FFD166\" aria-hidden=\"true\"><path d=\"M12 2.5l2.9 6.1 6.7.6-5 4.4 1.5 6.6L12 17.7 5.9 20.2 7.4 13.6 2.4 9.2l6.7-.6L12 2.5z\"\/><\/svg>' %}\n\n    <!-- Avis 1 -->\n    <div class=\"lx-slide\">\n      <div class=\"lx-testimonial\">\n        <div class=\"lx-testimonial__avatar\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/IMG_0949.jpg?v=1761506034\" alt=\"Golden Retriever après Zenbrosse\">\n        <\/div>\n        <div class=\"lx-testimonial__body\">\n          <p class=\"lx-testimonial__name\">Mélanie T. <span style=\"opacity:.65;\">•<\/span> <span style=\"opacity:.8;\">Vérifié<\/span><\/p>\n          <div class=\"lx-testimonial__stars\">{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}<\/div>\n          <p class=\"lx-testimonial__text\">Avant ZenBrosse, il y avait des poils partout. Après une seule séance, j’ai compris : le vrai problème, c’était le sous-poil. Ma maison respire à nouveau.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n    <!-- Avis 2 -->\n    <div class=\"lx-slide\">\n      <div class=\"lx-testimonial\">\n        <div class=\"lx-testimonial__avatar\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/IMG_0961.jpg?v=1761506033\" alt=\"Border Collie Zenbrosse détente\">\n        <\/div>\n        <div class=\"lx-testimonial__body\">\n          <p class=\"lx-testimonial__name\">Alex R. <span style=\"opacity:.65;\">•<\/span> <span style=\"opacity:.8;\">Vérifié<\/span><\/p>\n          <div class=\"lx-testimonial__stars\">{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}<\/div>\n          <p class=\"lx-testimonial__text\">Mon chien détestait être brossé. Avec ZenBrosse, il se pose, ferme les yeux et profite. On retire une quantité de sous-poil impressionnante sans forcer.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n    <!-- Avis 3 -->\n    <div class=\"lx-slide\">\n      <div class=\"lx-testimonial\">\n        <div class=\"lx-testimonial__avatar\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/IMG_0959.jpg?v=1761506037\" alt=\"Husky avant\/après Zenbrosse\">\n        <\/div>\n        <div class=\"lx-testimonial__body\">\n          <p class=\"lx-testimonial__name\">Sophie L. <span style=\"opacity:.65;\">•<\/span> <span style=\"opacity:.8;\">Vérifié<\/span><\/p>\n          <div class=\"lx-testimonial__stars\">{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}<\/div>\n          <p class=\"lx-testimonial__text\">J’étais à bout avec les poils de mon husky. Maintenant, en 10 minutes, tout est propre. Son pelage est plus doux, et ma maison reste nickel.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n    <!-- Avis 4 -->\n    <div class=\"lx-slide\">\n      <div class=\"lx-testimonial\">\n        <div class=\"lx-testimonial__body\">\n          <p class=\"lx-testimonial__name\">Camille D. <span style=\"opacity:.65;\">•<\/span> <span style=\"opacity:.8;\">Vérifié<\/span><\/p>\n          <div class=\"lx-testimonial__stars\">{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}<\/div>\n          <p class=\"lx-testimonial__text\">C’est simple : moins de poils, moins de stress. Je passe l’aspirateur deux fois moins, et mon chien est plus calme après chaque séance.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n    <!-- Avis 5 -->\n    <div class=\"lx-slide\">\n      <div class=\"lx-testimonial\">\n        <div class=\"lx-testimonial__body\">\n          <p class=\"lx-testimonial__name\">Nina P. <span style=\"opacity:.65;\">•<\/span> <span style=\"opacity:.8;\">Vérifié<\/span><\/p>\n          <div class=\"lx-testimonial__stars\">{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}<\/div>\n          <p class=\"lx-testimonial__text\">Avant, c’était une corvée. Maintenant, c’est notre petit rituel. Il adore, je gagne du temps, et le sol reste enfin propre.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n    <!-- Avis 6 -->\n    <div class=\"lx-slide\">\n      <div class=\"lx-testimonial\">\n        <div class=\"lx-testimonial__body\">\n          <p class=\"lx-testimonial__name\">Paul G. <span style=\"opacity:.65;\">•<\/span> <span style=\"opacity:.8;\">Vérifié<\/span><\/p>\n          <div class=\"lx-testimonial__stars\">{{ star }}{{ star }}{{ star }}{{ star }}{{ star }}<\/div>\n          <p class=\"lx-testimonial__text\">Je ne pensais pas que ça changerait autant. Moins de poils, un chien apaisé, et une vraie sensation de propreté à la maison.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n\n  <\/div>\n\n  <div class=\"lx-nav\" aria-label=\"Pagination des avis\">\n    <button class=\"lx-dot active\" data-slide=\"0\" aria-label=\"Avis 1\"><\/button>\n    <button class=\"lx-dot\" data-slide=\"1\" aria-label=\"Avis 2\"><\/button>\n    <button class=\"lx-dot\" data-slide=\"2\" aria-label=\"Avis 3\"><\/button>\n    <button class=\"lx-dot\" data-slide=\"3\" aria-label=\"Avis 4\"><\/button>\n    <button class=\"lx-dot\" data-slide=\"4\" aria-label=\"Avis 5\"><\/button>\n    <button class=\"lx-dot\" data-slide=\"5\" aria-label=\"Avis 6\"><\/button>\n  <\/div>\n<\/div>\n\n<script>\n(() => {\n  const root = document.getElementById('lxSlider');\n  if(!root) return;\n  const track = root.querySelector('.lx-track');\n  const dots  = root.querySelectorAll('.lx-dot');\n  let currentIndex = 0;\n  const totalSlides = dots.length;\n\n  function goToSlide(index) {\n    track.style.transform = `translateX(-${index * 100}%)`;\n    dots.forEach(d => d.classList.remove('active'));\n    dots[index].classList.add('active');\n    currentIndex = index;\n  }\n\n  dots.forEach(dot => {\n    dot.addEventListener('click', () => goToSlide(Number(dot.dataset.slide)));\n  });\n\n  let autoSlide = setInterval(() => {\n    let next = (currentIndex + 1) % totalSlides;\n    goToSlide(next);\n  }, 5000);\n\n  ['mouseenter','focusin','touchstart'].forEach(evt => {\n    root.addEventListener(evt, () => clearInterval(autoSlide), { once: true });\n  });\n\n  goToSlide(0);\n})();\n<\/script>"
+          }
+        },
+        "liquid_4KDkz6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== ZENBROSSE | Avantages — version EMOTIONNELLE COURTE ===== -->\n<style>\n  :root{\n    --ink:#1A1A1A;\n    --bg:rgba(255,255,255,0.7);\n    --border:rgba(0,0,0,0.08);\n  }\n  .zb-stack{\n    font-family:'Poppins',system-ui,Arial,sans-serif;\n    color:var(--ink);\n    background:var(--bg);\n    backdrop-filter:blur(12px);\n    -webkit-backdrop-filter:blur(12px);\n    border:1px solid var(--border);\n    border-radius:16px;\n    width:min(100% - 20px,700px);\n    margin:16px auto;\n    padding:12px 18px;\n    box-shadow:0 4px 18px rgba(0,0,0,0.06);\n  }\n\n  .zb-line{\n    display:flex;\n    align-items:center;\n    gap:12px;\n    padding:10px 0;\n    font-size:15px;\n    font-weight:600;\n    line-height:1.35;\n    opacity:0;\n    transform:translateY(8px);\n    transition:.5s ease;\n  }\n  .zb-line.show{ opacity:1; transform:none; }\n\n  .zb-ico{\n    width:22px;\n    height:22px;\n    flex:0 0 22px;\n    color:#3a3a3a;\n    display:grid;\n    place-items:center;\n  }\n  .zb-ico svg{ width:100%; height:100%; }\n\n  .anim-heart{ animation:beat 1.6s ease-in-out infinite; }\n  @keyframes beat{\n    0%,100%{transform:scale(1)}\n    50%{transform:scale(1.2)}\n  }\n\n  .anim-spark{ animation:spin 4s linear infinite; }\n  @keyframes spin{ to{ transform:rotate(360deg) } }\n<\/style>\n\n<div class=\"zb-stack\" aria-label=\"Avantages ZenBrosse\">\n\n  <!-- 1️⃣ Calme pendant le toilettage -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-spark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M12 2v4M12 18v4M4 12h4M16 12h4M4.5 4.5l2 2M17.5 17.5l2 2M4.5 19.5l2-2M17.5 6.5l2-2\"\/>\n      <\/svg>\n    <\/span>\n    Votre chien reste calme pendant le toilettage\n  <\/div>\n\n  <!-- 2️⃣ Fin du stress du bain -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z\"\/>\n      <\/svg>\n    <\/span>\n    Vous oubliez le stress du bain\n  <\/div>\n\n  <!-- 3️⃣ Câlins plus agréables -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <circle cx=\"7.5\" cy=\"8.5\" r=\"1.8\"\/>\n        <circle cx=\"16.5\" cy=\"8.5\" r=\"1.8\"\/>\n        <path d=\"M8 15c1.2 1 2.6 1.5 4 1.5s2.8-.5 4-1.5\"\/>\n      <\/svg>\n    <\/span>\n    Chaque câlin devient encore plus agréable\n  <\/div>\n\n  <!-- 4️⃣ Moment de complicité -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M3 20h12\"\/>\n        <path d=\"M14 14l-4 6\"\/>\n        <path d=\"M16 4l-6 10\"\/>\n        <path d=\"M18 6l-2 -2\"\/>\n      <\/svg>\n    <\/span>\n    Vous partagez un vrai moment de complicité\n  <\/div>\n\n<\/div>\n\n<script>\n  (function(){\n    const lines = document.querySelectorAll('.zb-line');\n    const io = new IntersectionObserver((entries)=>{\n      entries.forEach(e=>{\n        if(e.isIntersecting){\n          e.target.classList.add('show');\n          io.unobserve(e.target);\n        }\n      });\n    },{threshold:.2});\n    lines.forEach(l=>io.observe(l));\n  })();\n<\/script>\n<!-- ===== \/ZENBROSSE ===== -->"
+          }
+        },
+        "liquid_YjFzrg": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{%- assign zb_bg     = zb_bg     | default: '#FFF8E7' -%}\n{%- assign zb_border = zb_border | default: '#FFE7B3' -%}\n{%- assign zb_ink    = zb_ink    | default: '#1A1A1A' -%}\n{%- assign zb_muted  = zb_muted  | default: '#8A6F3F' -%}\n{%- assign zb_gold   = zb_gold   | default: '#F5B301' -%}\n{%- assign zb_glow   = zb_glow   | default: '#FFED8A' -%}\n\n<section class=\"zb-offer-banner\" aria-label=\"Bandeau promotion ZenBrosse\" data-variant=\"moment\">\n  <div class=\"zbob__inner\">\n    <p class=\"zbob__subtitle\">Offre avant Black Friday<\/p>\n\n    <h3 class=\"zbob__title\">\n      <span class=\"zbob__pill\"> \n        <span class=\"zbob__pill-glow\"><\/span>\n        <span class=\"zbob__pill-text zbob__pill--moment\">Promotion exclusive<\/span>\n        <span class=\"zbob__pill-text zbob__pill--finannee\">Offre spéciale<\/span>\n      <\/span>\n      <span class=\"zbob__percent\">-50%<\/span>\n    <\/h3>\n\n    <p class=\"zbob__footnote\">Jusqu’à épuisement des stocks<\/p>\n  <\/div>\n<\/section>\n\n<style>\n  .zb-offer-banner{\n    --bg: {{ zb_bg }};\n    --border: {{ zb_border }};\n    --ink: {{ zb_ink }};\n    --muted: {{ zb_muted }};\n    --gold: {{ zb_gold }};\n    --glow: {{ zb_glow }};\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color:var(--ink);\n  }\n  .zbob__inner{\n    width:min(92%,680px);\n    margin:18px auto;\n    text-align:center;\n    padding:16px 14px;\n    background:linear-gradient(180deg,#ffffff 0%, var(--bg) 100%);\n    border:1px solid var(--border);\n    border-radius:16px;\n    box-shadow:0 8px 24px rgba(0,0,0,.06);\n    display:grid; gap:8px;\n  }\n  .zbob__subtitle{\n    margin:0;\n    font-weight:800;\n    font-size:clamp(15px,3.6vw,17px);\n    color:var(--muted);\n    text-transform:uppercase;\n    letter-spacing:.02em;\n  }\n  .zbob__title{\n    margin:0;\n    line-height:1.05;\n    letter-spacing:.01em;\n    font-size:clamp(22px,5.5vw,34px);\n    font-weight:900;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n    gap:10px;\n    flex-wrap:wrap;\n  }\n  .zbob__percent{\n    color:var(--gold);\n    text-shadow:0 0 6px var(--glow);\n  }\n  .zbob__pill{\n    position:relative;\n    display:inline-flex;\n    align-items:center;\n    justify-content:center;\n    padding:6px 10px;\n    border-radius:999px;\n    background:#fff;\n    border:1px solid var(--border);\n    box-shadow:0 3px 10px rgba(0,0,0,.04) inset;\n    min-width:180px;\n  }\n  .zbob__pill-glow{\n    position:absolute;\n    inset:-1px;\n    border-radius:999px;\n    background:radial-gradient(60% 60% at 50% 50%, var(--glow) 0%, transparent 65%);\n    opacity:.55;\n    pointer-events:none;\n  }\n  .zbob__pill-text{\n    position:relative;\n    font-weight:800;\n    font-size:14px;\n    color:var(--ink);\n  }\n  .zb-offer-banner[data-variant=\"moment\"] .zbob__pill--finannee{ display:none; }\n  .zb-offer-banner[data-variant=\"finannee\"] .zbob__pill--moment{ display:none; }\n  .zbob__footnote{\n    margin:2px 0 0;\n    font-weight:700;\n    color:var(--muted);\n    font-size:12px;\n    letter-spacing:.02em;\n  }\n  @media (max-width:768px){\n    .zbob__title{ font-size:26px; gap:8px; }\n    .zbob__subtitle{ font-size:15px; }\n    .zbob__footnote{ font-size:11.5px; }\n    .zbob__pill{ min-width:auto; padding:6px 10px; }\n  }\n<\/style>"
+          }
+        },
+        "price_6UGGkn": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "vendor_mqxUBt": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "badges_PDFcCz": {
+          "type": "badges",
+          "settings": {}
+        },
+        "rating_wVzYEz": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_t6edwd": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_tV7zmz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"bundle\"><\/div>"
+          }
+        },
+        "kaching_bundles_app_block_xNizqC": {
+          "type": "shopify:\/\/apps\/kaching-bundles\/blocks\/app-block\/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
+        "liquid_wwV7Tc": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"free-shipping-banner\" aria-live=\"polite\">\n  <div class=\"stock-alert\">\n    <span class=\"dot\" aria-hidden=\"true\"><\/span>\n    <span class=\"stock-text\">\n      Plus que <strong id=\"stock-number\">3<\/strong> Brosses en stock\n    <\/span>\n  <\/div>\n<\/div>\n\n<style>\n.free-shipping-banner {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 4px;\n  font-weight: 600;\n  color: #c40000;\n  padding: 6px 12px;\n  width: fit-content;\n}\n\n\/* Alerte stock *\/\n.stock-alert {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 13px;\n}\n\n\/* ROND ROUGE animé (ancien) *\/\n.stock-alert .dot {\n  width: 9px;\n  height: 9px;\n  background-color: #d90000;\n  border-radius: 50%;\n  animation: dotPulse 1.6s ease-in-out infinite;\n}\n\n\/* Texte *\/\n.stock-text {\n  color: #d90000;\n  animation: textPulse 3s ease-in-out infinite;\n}\n\n\/* Animations *\/\n@keyframes dotPulse {\n  0%, 100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 0.8;\n  }\n}\n\n@keyframes textPulse {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.92; }\n}\n\n\/* Réduction animations *\/\n@media (prefers-reduced-motion: reduce) {\n  .stock-text, .stock-alert .dot {\n    animation: none !important;\n  }\n}\n\n\/* Responsive *\/\n@media (max-width: 600px) {\n  .free-shipping-banner { padding: 4px 8px; }\n  .stock-alert { font-size: 12px; }\n}\n<\/style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  document.getElementById(\"stock-number\").textContent = \"3\";\n});\n<\/script>"
+          }
+        },
+        "description_N8rwCU": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_T8yJLr": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_pE8XNq": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_PaPeTJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#ffe700",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_NMn3YM": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "{%- comment -%}\nZENBROSSE — Mini timer pro centré (tons beige \/ caramel)\nAffiche : \"⏱️ Dernières offres — se terminent à [heure]\"\n{%- endcomment -%}\n\n{%- assign zb_brand  = zb_brand  | default: '#c98e4d' -%}\n{%- assign zb_ink    = zb_ink    | default: '#2c1f13' -%}\n\n<div class=\"zb-urgency\" aria-live=\"polite\">\n  <p class=\"zb-urgency__title\">\n    ⏱️ <span id=\"zb-slot-line\">Dernières offres — se terminent à …<\/span>\n  <\/p>\n\n  <div class=\"zb-urgency__timer\" role=\"timer\" aria-label=\"Compte à rebours vers le prochain créneau\">\n    <span class=\"zb-d\" data-u=\"h\">00<\/span><span class=\"zb-sep\">:<\/span>\n    <span class=\"zb-d\" data-u=\"m\">00<\/span><span class=\"zb-sep\">:<\/span>\n    <span class=\"zb-d\" data-u=\"s\">00<\/span>\n  <\/div>\n<\/div>\n\n<style>\n  .zb-urgency{\n    display:grid; gap:8px; justify-items:center; text-align:center;\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color: {{ zb_ink }};\n    width:100%;\n  }\n\n  .zb-urgency__title{\n    margin:0;\n    font-weight:800;\n    font-size:14px;\n    letter-spacing:.02em;\n    color: {{ zb_brand }};\n  }\n\n  .zb-urgency__timer{\n    display:inline-flex; align-items:center; gap:6px;\n    padding:6px 10px;\n    border-radius:12px;\n    background:#fff9f3;               \/* beige très clair *\/\n    border:1px solid #f1e0d1;          \/* beige doux *\/\n  }\n\n  .zb-d{\n    min-width:26px; text-align:center;\n    font-weight:900; font-size:16px; line-height:1;\n    letter-spacing:.02em; color:#5a402c;           \/* brun doux *\/\n  }\n\n  .zb-sep{\n    font-weight:900; font-size:16px; color:#c98e4d; opacity:.85;\n  }\n\n  @keyframes zbTick { 0%{transform:translateY(0)} 40%{transform:translateY(-1px)} 100%{transform:translateY(0)} }\n  .zb-d.tick{ animation: zbTick .22s ease; }\n\n  @media (max-width:768px){\n    .zb-urgency__title{ font-size:13.5px }\n    .zb-d,.zb-sep{ font-size:15px }\n    .zb-urgency__timer{ padding:5px 8px }\n  }\n<\/style>\n\n<script>\n(function(){\n  \/\/ Tous les créneaux + ajout de 10h et 11h\n  const SLOTS = [0,6,8,10,11,12,13,14,18,20,22];\n  const LABELS = {\n    0:  'minuit',\n    6:  '6h',\n    8:  '8h',\n    10: '10h',\n    11: '11h',\n    12: 'midi',\n    13: '13h',\n    14: '14h',\n    18: '18h',\n    20: '20h',\n    22: '22h'\n  };\n\n  const $h = document.querySelector('.zb-d[data-u=\"h\"]');\n  const $m = document.querySelector('.zb-d[data-u=\"m\"]');\n  const $s = document.querySelector('.zb-d[data-u=\"s\"]');\n  const $line = document.getElementById('zb-slot-line');\n\n  let target = null;\n  let prev = {h:null,m:null,s:null};\n\n  function nextSlot(now){\n    for(let d=0; d<=1; d++){\n      for(const hr of SLOTS){\n        const t = new Date(now);\n        t.setDate(now.getDate()+d);\n        t.setHours(hr,0,0,0);\n        if(t > now){\n          return {date:t, hour:hr};\n        }\n      }\n    }\n    const t = new Date(now);\n    t.setDate(now.getDate()+1);\n    t.setHours(0,0,0,0);\n    return {date:t, hour:0};\n  }\n\n  function fmt(n){ return n.toString().padStart(2,'0'); }\n\n  function renderLine(hr){\n    $line.textContent = `Dernières offres — se terminent à ${LABELS[hr]}`;\n  }\n\n  function tick(){\n    const now = new Date();\n\n    if(!target || now >= target.date){\n      target = nextSlot(now);\n      renderLine(target.hour);\n    }\n\n    const diff = target.date - now;\n    if(diff <= 0) return;\n\n    const h = Math.floor(diff \/ 36e5);\n    const m = Math.floor((diff % 36e5) \/ 6e4);\n    const s = Math.floor((diff % 6e4) \/ 1e3);\n    const cur = {h:fmt(h), m:fmt(m), s:fmt(s)};\n\n    if(cur.h !== prev.h){ $h.textContent = cur.h; $h.classList.add('tick'); }\n    if(cur.m !== prev.m){ $m.textContent = cur.m; $m.classList.add('tick'); }\n    if(cur.s !== prev.s){ $s.textContent = cur.s; $s.classList.add('tick'); }\n\n    prev = cur;\n\n    setTimeout(()=>{\n      $h.classList.remove('tick');\n      $m.classList.remove('tick');\n      $s.classList.remove('tick');\n    }, 230);\n  }\n\n  tick();\n  setInterval(tick, 1000);\n})();\n<\/script>"
+          }
+        },
+        "image_Grigew": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CleanShot_2025-08-29_at_17.44.05_2x_3543a68e-736d-4921-8131-9497981d8bcd.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
+        "image_kGUi4Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dites_adieu_aux_poils_partout_dans_la_maison_19.png",
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
+        "liquid_k7QaKG": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!-- ===== + DE 12 000 MAÎTRES | Carrousel vidéos ZenBrosse ===== -->\n<div class=\"lxv-uugc\">\n  <h3 class=\"lxv-title\">Plus de 12 000 maîtres soulagent leur chien et disent adieu aux poils partout<\/h3>\n\n  <div class=\"lxv-carousel\" aria-label=\"Carrousel vidéos clients\">\n\n    <!-- Carte 1 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae9f924708234da9a05659dc43334a8a.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 2 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3819c08a1f864732b74af2c6b1aa0678.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 3 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/44bb879453394282a64e14bf1d14b2dc.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 4 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ab5272457b14738ad60814ace1cc8fa.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 5 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/656fdfae79084a33968cdca7d50f505a.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 6 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1aa906e9d58c4697b4484984b3aa8b3b.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n  <\/div>\n\n  <!-- petits indicateurs (6 dots) -->\n  <div class=\"lxv-dots\" aria-hidden=\"true\">\n    <span class=\"dot is-active\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n  <\/div>\n<\/div>\n\n<style>\n.lxv-uugc{\n  --ink:#2B2140;\n  --rose:#ff4ebc;\n  --ring:#f0e6ff;\n  color:var(--ink);\n  max-width:1100px;\n  margin:24px auto;\n  padding:0 12px;\n}\n.lxv-title{\n  font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;\n  font-weight:700;\n  font-size:20px;\n  text-align:center;\n  margin:4px 0 16px;\n  line-height:1.35;\n}\n\n\/* Carrousel *\/\n.lxv-carousel{\n  display:flex;\n  gap:14px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  -webkit-overflow-scrolling:touch;\n  padding-bottom:6px;\n}\n.lxv-carousel::-webkit-scrollbar{height:6px}\n.lxv-carousel::-webkit-scrollbar-thumb{\n  background:rgba(0,0,0,.12);\n  border-radius:8px;\n}\n\n\/* Cartes – vidéos *\/\n.lxv-card{\n  flex:0 0 70%;\n  scroll-snap-align:center;\n  background:#fff;\n  border:1px solid var(--ring);\n  border-radius:16px;\n  box-shadow:0 4px 14px rgba(0,0,0,.06);\n  overflow:hidden;\n}\n.lxv-vid-wrap{\n  position:relative;\n  width:100%;\n  aspect-ratio:1\/1.35;\n  max-height:300px;\n  background:#faf7ff;\n}\n.lxv-video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  display:block;\n  background:#eee;\n}\n\n\/* Bouton son bas gauche *\/\n.lxv-sound-btn{\n  position:absolute;\n  left:10px;\n  bottom:10px;\n  padding:4px 8px;\n  font-size:14px;\n  line-height:1;\n  border:none;\n  border-radius:999px;\n  background:rgba(0,0,0,0.65);\n  color:#fff;\n  cursor:pointer;\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  transition:background .2s, transform .15s;\n}\n.lxv-sound-btn:hover{\n  background:rgba(0,0,0,0.8);\n  transform:translateY(-1px);\n}\n\n\/* Dots *\/\n.lxv-dots{\n  display:flex;\n  gap:6px;\n  justify-content:center;\n  margin-top:8px;\n}\n.lxv-dots .dot{\n  width:6px;\n  height:6px;\n  border-radius:50%;\n  background:#e8d8ff;\n  transition:.2s;\n}\n.lxv-dots .dot.is-active{\n  background:var(--rose);\n}\n\n\/* Desktop : vidéos beaucoup plus grandes *\/\n@media (min-width:900px){\n  .lxv-card{\n    \/* 3 cartes par ligne = plus grandes *\/\n    flex:0 0 calc((100% - 28px)\/3);\n  }\n  .lxv-vid-wrap{\n    max-height:520px;\n  }\n  .lxv-dots{\n    display:none;\n  }\n}\n<\/style>\n\n<script>\n(function(){\n  const container = document.querySelector('.lxv-uugc');\n  if(!container) return;\n\n  const track  = container.querySelector('.lxv-carousel');\n  const cards  = container.querySelectorAll('.lxv-card');\n  const dots   = container.querySelectorAll('.lxv-dots .dot');\n  const videos = container.querySelectorAll('.lxv-video');\n\n  if(!track || !cards.length) return;\n\n  \/\/ Lazy load + autoplay en boucle\n  const io = new IntersectionObserver((entries)=>{\n    entries.forEach(entry=>{\n      const card = entry.target;\n      const vid  = card.querySelector('.lxv-video');\n      if(!vid) return;\n\n      if(entry.isIntersecting){\n        if(!vid.src && vid.dataset.src){\n          vid.src = vid.dataset.src;\n        }\n        vid.play().catch(()=>{});\n      }\n    });\n  },{threshold:.2});\n\n  cards.forEach(c=>io.observe(c));\n\n  \/\/ Dots sur mobile\n  const updateDots = ()=>{\n    if(window.matchMedia('(min-width:900px)').matches) return;\n    const rect = track.getBoundingClientRect();\n    let active = 0, best = Infinity;\n\n    cards.forEach((c,i)=>{\n      const r = c.getBoundingClientRect();\n      const dist = Math.abs((r.left+r.right)\/2 - (rect.left+rect.right)\/2);\n      if(dist < best){\n        best = dist;\n        active = i;\n      }\n    });\n\n    dots.forEach((d,i)=> d.classList.toggle('is-active', i===active));\n  };\n\n  track.addEventListener('scroll', updateDots, {passive:true});\n  window.addEventListener('resize', updateDots);\n  updateDots();\n\n  \/\/ Coupe le son sur toutes les vidéos sauf une\n  function muteOthers(except){\n    videos.forEach(v=>{\n      if(v !== except){\n        v.muted = true;\n        const btn = v.parentElement.querySelector('.lxv-sound-btn');\n        if(btn) btn.textContent = '🔇';\n      }\n    });\n  }\n\n  \/\/ Gestion du bouton son\n  cards.forEach(card=>{\n    const vid = card.querySelector('.lxv-video');\n    const btn = card.querySelector('.lxv-sound-btn');\n    if(!vid || !btn) return;\n\n    btn.addEventListener('click', (e)=>{\n      e.stopPropagation();\n\n      if(!vid.src && vid.dataset.src){\n        vid.src = vid.dataset.src;\n      }\n      vid.play().catch(()=>{});\n\n      if(vid.muted){\n        muteOthers(vid);\n        vid.muted = false;\n        btn.textContent = '🔊';\n      } else {\n        vid.muted = true;\n        btn.textContent = '🔇';\n      }\n    });\n  });\n})();\n<\/script>\n<!-- ===== \/+ DE 12 000 MAÎTRES ===== -->"
+          }
+        },
+        "liquid_V3NQ3D": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div class=\"zb-faq\">\n\n  <!-- 1) Le vrai problème -->\n  <details class=\"zb-acc\">\n    <summary>Pourquoi ZenBrosse change tout&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p><b>Parce que le problème ne vient pas de votre chien… mais du bain.<\/b><\/p>\n        <p>La plupart des chiens stressent à cause de l’eau, du bruit et de la baignoire. ZenBrosse nettoie grâce à une brume naturelle, sans eau, directement sur son pelage.<\/p>\n        <p>Elle assouplit aussi le sous-poil, ce qui permet d’éliminer beaucoup plus de poils morts qu’avec un bain classique ou une brosse normale.<\/p>\n        <p class=\"zb-tip\">Résultat : moins de poils partout à la maison, et un toilettage calme et doux que votre chien supporte beaucoup mieux.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 2) Rinçage -->\n  <details class=\"zb-acc\">\n    <summary>Faut-il rincer après le toilettage&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p><b>Non, aucun rinçage nécessaire.<\/b><\/p>\n        <p>La brume naturelle retire saletés et odeurs sans laisser de résidu. Vous brossez, vous laissez sécher et c’est tout.<\/p>\n        <p class=\"zb-note\">Parfait quand vous n’avez ni le temps ni l’envie de lui donner un vrai bain.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 3) Sécurité -->\n  <details class=\"zb-acc\">\n    <summary>Est-ce adapté à tous les chiens&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Oui, ZenBrosse convient à toutes les races, petits et grands, même les chiens anxieux ou qui détestent l’eau.<\/p>\n        <p>La brume est douce, non irritante, et le geste de brossage ressemble plus à une caresse qu’à un bain forcé.<\/p>\n        <p>En libérant le sous-poil coincé, beaucoup de maîtres remarquent aussi moins de démangeaisons et une perte de poils nettement réduite.<\/p>\n        <p class=\"zb-tip\">Beaucoup de maîtres nous disent que leur chien vient de lui-même quand ils sortent la ZenBrosse.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 4) Résultats -->\n  <details class=\"zb-acc\">\n    <summary>Quand voit-on les résultats&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Dès la première utilisation, votre chien est plus propre et sent plus frais.<\/p>\n        <p>En quelques séances, vous remarquez un poil plus doux, mieux hydraté et un chien beaucoup plus serein pendant le toilettage.<\/p>\n        <p>La perte de poils diminue progressivement, car le sous-poil est retiré en douceur au lieu de rester bloqué contre la peau.<\/p>\n        <p class=\"zb-note\">La plupart des maîtres disent qu’ils n’imaginent plus revenir aux bains compliqués d’avant.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 5) Utilisation -->\n  <details class=\"zb-acc\">\n    <summary>Comment bien l’utiliser&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <ol>\n          <li>Allumez ZenBrosse et laissez la brume naturelle se diffuser.<\/li>\n          <li>Brossez lentement dans le sens du poil, comme une caresse.<\/li>\n          <li>Laissez sécher quelques instants, ou essuyez légèrement si besoin.<\/li>\n        <\/ol>\n        <p class=\"zb-tip\">En 1 à 2 minutes, votre chien est propre, rafraîchi, et vous avez déjà retiré une grande partie des poils morts sans stress.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 6) Brume \/ recharge -->\n  <details class=\"zb-acc\">\n    <summary>La brume est-elle rechargeable&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Oui, la brume naturelle se recharge très facilement.<\/p>\n        <p>Une recharge dure généralement plusieurs semaines selon la fréquence d’utilisation.<\/p>\n        <p class=\"zb-note\">C’est elle qui permet de nettoyer sans eau, d’hydrater le poil et de laisser cette odeur fraîche.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 7) Entretien -->\n  <details class=\"zb-acc\">\n    <summary>Comment garder ma ZenBrosse propre&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Après chaque séance, retirez simplement les poils coincés dans le peigne.<\/p>\n        <p>Si besoin, essuyez la tête de brosse avec un chiffon propre et sec. ZenBrosse reste ainsi prête à l’emploi, sans odeur.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 8) Livraison -->\n  <details class=\"zb-acc\">\n    <summary>Livraison & garantie<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <ul>\n          <li><b>Livraison rapide et suivie<\/b> partout en France.<\/li>\n          <li><b>Suivi en temps réel<\/b> par e-mail ou SMS.<\/li>\n          <li><b>30 jours satisfait ou remboursé<\/b> — testez ZenBrosse chez vous sans aucun risque.<\/li>\n        <\/ul>\n        <div class=\"zb-badges\">\n          <span>Paiement sécurisé<\/span>\n          <span>Support client 7j\/7<\/span>\n          <span>Garantie sérénité<\/span>\n          <span>Marque française<\/span>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/details>\n\n<\/div>\n\n<style>\n.zb-faq{\n  max-width:760px;\n  margin:40px auto;\n  padding:10px 16px;\n  font-family:\"Poppins\",\"Helvetica Neue\",Arial,sans-serif;\n  color:#1d1d1f;\n}\n.zb-acc{\n  border:1px solid #f8e9b6;\n  border-radius:12px;\n  margin-bottom:12px;\n  overflow:hidden;\n  background:#fff9e1;\n  transition:box-shadow .25s,border-color .25s;\n}\n.zb-acc:hover{\n  box-shadow:0 6px 18px rgba(255,200,0,.08);\n}\n.zb-acc[open]{\n  border-color:#ffe08c;\n  box-shadow:0 8px 22px rgba(255,200,0,.12);\n}\n.zb-acc summary{\n  cursor:pointer;\n  padding:16px 56px 16px 18px;\n  position:relative;\n  font-weight:700;\n  font-size:16px;\n  color:#111;\n  list-style:none;\n  user-select:none;\n  background:#fff5d6;\n}\n.zb-acc summary::-webkit-details-marker{display:none;}\n.zb-acc summary::after{\n  content:\"+\";\n  position:absolute;\n  right:16px;\n  top:50%;\n  transform:translateY(-50%);\n  width:28px;\n  height:28px;\n  display:grid;\n  place-items:center;\n  border-radius:50%;\n  border:1px solid #f8e9b6;\n  color:#856c00;\n  background:#fffaf0;\n  font-weight:800;\n  transition:transform .25s,background .25s,color .25s,border-color .25s;\n}\n.zb-acc[open] summary::after{\n  content:\"–\";\n  background:#FFD54A;\n  color:#fff;\n  border-color:#FFD54A;\n  transform:translateY(-50%) rotate(0.0001deg);\n}\n.zb-acc__panel-inner{\n  overflow:hidden;\n  padding:14px 18px 18px 18px;\n  font-size:15px;\n  line-height:1.55;\n  color:#333;\n  background:#fff;\n}\n.zb-tip,.zb-note{\n  margin-top:8px;\n  font-size:14px;\n  color:#7a6b3c;\n  font-style:italic;\n}\n.zb-badges{\n  display:flex;\n  flex-wrap:wrap;\n  gap:8px;\n  margin-top:10px;\n}\n.zb-badges span{\n  background:#fff5d6;\n  color:#6a5715;\n  font-size:13px;\n  font-weight:600;\n  padding:6px 12px;\n  border-radius:999px;\n  border:1px solid:#f1e0b0;\n}\n<\/style>"
+          }
+        },
+        "pickup_availability_V3W6TR": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "text_d6ayJ6",
+        "liquid_epmAan",
+        "title_azFcDa",
+        "liquid_HrLQdw",
+        "liquid_4KDkz6",
+        "liquid_YjFzrg",
+        "price_6UGGkn",
+        "vendor_mqxUBt",
+        "badges_PDFcCz",
+        "rating_wVzYEz",
+        "separator_t6edwd",
+        "liquid_tV7zmz",
+        "kaching_bundles_app_block_xNizqC",
+        "liquid_wwV7Tc",
+        "description_N8rwCU",
+        "variant_picker_T8yJLr",
+        "quantity_selector_pE8XNq",
+        "buy_buttons_PaPeTJ",
+        "liquid_NMn3YM",
+        "image_Grigew",
+        "image_kGUi4Y",
+        "liquid_k7QaKG",
+        "liquid_V3NQ3D",
+        "pickup_availability_V3W6TR"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "zenbross-brosse-de-douche-solution-apaisante",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "custom_liquid_fmGxhc": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== + DE 12 000 MAÎTRES | Carrousel vidéos ZenBrosse ===== -->\n<div class=\"lxv-uugc\">\n  <h3 class=\"lxv-title\">Plus de 12 000 maîtres apaisent le toilettage et oublient le stress du bain<\/h3>\n\n  <div class=\"lxv-carousel\" aria-label=\"Carrousel vidéos clients\">\n\n    <!-- Carte 1 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ae9f924708234da9a05659dc43334a8a.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 2 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3819c08a1f864732b74af2c6b1aa0678.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 3 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/44bb879453394282a64e14bf1d14b2dc.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 4 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ab5272457b14738ad60814ace1cc8fa.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 5 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/656fdfae79084a33968cdca7d50f505a.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n    <!-- Carte 6 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1aa906e9d58c4697b4484984b3aa8b3b.mp4\"><\/video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇<\/button>\n      <\/div>\n    <\/article>\n\n  <\/div>\n\n  <!-- petits indicateurs (6 dots) -->\n  <div class=\"lxv-dots\" aria-hidden=\"true\">\n    <span class=\"dot is-active\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n    <span class=\"dot\"><\/span>\n  <\/div>\n<\/div>\n\n<style>\n.lxv-uugc{\n  --ink:#2B2140;\n  --rose:#ff4ebc;\n  --ring:#f0e6ff;\n  color:var(--ink);\n  max-width:1100px;\n  margin:24px auto;\n  padding:0 12px;\n}\n.lxv-title{\n  font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;\n  font-weight:700;\n  font-size:20px;\n  text-align:center;\n  margin:4px 0 16px;\n  line-height:1.35;\n}\n\n\/* Carrousel *\/\n.lxv-carousel{\n  display:flex;\n  gap:14px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  -webkit-overflow-scrolling:touch;\n  padding-bottom:6px;\n}\n.lxv-carousel::-webkit-scrollbar{height:6px}\n.lxv-carousel::-webkit-scrollbar-thumb{\n  background:rgba(0,0,0,.12);\n  border-radius:8px;\n}\n\n\/* Cartes vidéo *\/\n.lxv-card{\n  flex:0 0 70%;\n  scroll-snap-align:center;\n  background:#fff;\n  border:1px solid var(--ring);\n  border-radius:16px;\n  box-shadow:0 4px 14px rgba(0,0,0,.06);\n  overflow:hidden;\n}\n.lxv-vid-wrap{\n  position:relative;\n  width:100%;\n  aspect-ratio:1\/1.35;\n  max-height:300px;\n  background:#faf7ff;\n}\n.lxv-video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  display:block;\n  background:#eee;\n}\n\n\/* Bouton son *\/\n.lxv-sound-btn{\n  position:absolute;\n  left:10px;\n  bottom:10px;\n  padding:4px 8px;\n  font-size:14px;\n  border:none;\n  border-radius:999px;\n  background:rgba(0,0,0,0.65);\n  color:#fff;\n  cursor:pointer;\n  transition:background .2s, transform .15s;\n}\n.lxv-sound-btn:hover{\n  background:rgba(0,0,0,0.8);\n  transform:translateY(-1px);\n}\n\n\/* Dots *\/\n.lxv-dots{\n  display:flex;\n  gap:6px;\n  justify-content:center;\n  margin-top:8px;\n}\n.lxv-dots .dot{\n  width:6px;\n  height:6px;\n  border-radius:50%;\n  background:#000;\n  transition:.2s;\n}\n.lxv-dots .dot.is-active{\n  background:#000;\n}\n\n\/* Desktop *\/\n@media (min-width:900px){\n  .lxv-card{\n    flex:0 0 calc((100% - 28px)\/3);\n  }\n  .lxv-vid-wrap{\n    max-height:520px;\n  }\n  .lxv-dots{\n    display:none;\n  }\n}\n<\/style>\n\n<script>\n(function(){\n  const container = document.querySelector('.lxv-uugc');\n  if(!container) return;\n\n  const track  = container.querySelector('.lxv-carousel');\n  const cards  = container.querySelectorAll('.lxv-card');\n  const dots   = container.querySelectorAll('.lxv-dots .dot');\n  const videos = container.querySelectorAll('.lxv-video');\n\n  if(!track || !cards.length) return;\n\n  \/\/ Lazy load + autoplay\n  const io = new IntersectionObserver((entries)=>{\n    entries.forEach(entry=>{\n      const card = entry.target;\n      const vid  = card.querySelector('.lxv-video');\n      if(!vid) return;\n\n      if(entry.isIntersecting){\n        if(!vid.src && vid.dataset.src){\n          vid.src = vid.dataset.src;\n        }\n        vid.play().catch(()=>{});\n      }\n    });\n  },{threshold:.2});\n\n  cards.forEach(c=>io.observe(c));\n\n  \/\/ Dots mobile\n  const updateDots = ()=>{\n    if(window.matchMedia('(min-width:900px)').matches) return;\n    const rect = track.getBoundingClientRect();\n    let active = 0, best = Infinity;\n\n    cards.forEach((c,i)=>{\n      const r = c.getBoundingClientRect();\n      const dist = Math.abs((r.left+r.right)\/2 - (rect.left+rect.right)\/2);\n      if(dist < best){\n        best = dist;\n        active = i;\n      }\n    });\n\n    dots.forEach((d,i)=> d.classList.toggle('is-active', i===active));\n  };\n\n  track.addEventListener('scroll', updateDots, {passive:true});\n  window.addEventListener('resize', updateDots);\n  updateDots();\n\n  \/\/ Son\n  function muteOthers(except){\n    videos.forEach(v=>{\n      if(v !== except){\n        v.muted = true;\n        const btn = v.parentElement.querySelector('.lxv-sound-btn');\n        if(btn) btn.textContent = '🔇';\n      }\n    });\n  }\n\n  cards.forEach(card=>{\n    const vid = card.querySelector('.lxv-video');\n    const btn = card.querySelector('.lxv-sound-btn');\n    if(!vid || !btn) return;\n\n    btn.addEventListener('click',(e)=>{\n      e.stopPropagation();\n\n      if(!vid.src && vid.dataset.src){\n        vid.src = vid.dataset.src;\n      }\n      vid.play().catch(()=>{});\n\n      if(vid.muted){\n        muteOthers(vid);\n        vid.muted = false;\n        btn.textContent = '🔊';\n      } else {\n        vid.muted = true;\n        btn.textContent = '🔇';\n      }\n    });\n  });\n})();\n<\/script>\n\n<!-- ===== \/+ DE 12 000 MAÎTRES ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_dqCLGJ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"zb-faq\">\n\n  <!-- 1) Le vrai problème -->\n  <details class=\"zb-acc\">\n    <summary>Pourquoi ZenBrosse change tout&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p><b>Parce que le vrai stress vient du bain, pas de votre chien.<\/b><\/p>\n        <p>Beaucoup de chiens paniquent dès qu’ils voient l’eau, la baignoire ou le sèche-cheveux. Avec ZenBrosse, le toilettage se fait avec une brume douce et une brosse moelleuse, directement sur son pelage.<\/p>\n        <p>Les saletés et les odeurs sont libérées en douceur, le poil s’assouplit et les poils lâches sont retirés avant de finir sur votre canapé.<\/p>\n        <p class=\"zb-tip\">Résultat&nbsp;: un toilettage plus facile, un chien apaisé et une maison qui reste plus propre.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 2) Rinçage -->\n  <details class=\"zb-acc\">\n    <summary>Faut-il rincer après le toilettage&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p><b>Non, aucun rinçage n’est nécessaire.<\/b><\/p>\n        <p>La brume retire les saletés et atténue les odeurs sans laisser de film collant. Vous brossez, vous laissez sécher, et votre compagnon reste propre et confortable.<\/p>\n        <p class=\"zb-note\">Parfait pour éviter les bains compliqués quand vous manquez de temps ou d’énergie.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 3) Sécurité \/ chiens anxieux -->\n  <details class=\"zb-acc\">\n    <summary>Est-ce adapté à tous les chiens&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Oui, ZenBrosse convient aux petits comme aux grands, y compris les chiens sensibles ou ceux qui détestent le bain.<\/p>\n        <p>La brume est douce, la tête de brosse est souple, et le geste ressemble plus à une caresse qu’à une corvée de toilettage.<\/p>\n        <p>À force d’associer la brosse à un moment agréable, beaucoup de chiens se détendent et restent tranquilles tout au long de la séance.<\/p>\n        <p class=\"zb-tip\">De nombreux maîtres nous disent que leur chien accourt dès qu’ils sortent la ZenBrosse.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 4) Résultats -->\n  <details class=\"zb-acc\">\n    <summary>Quand voit-on les résultats&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Dès la première utilisation, votre chien paraît plus frais, plus propre et déjà plus à l’aise que lors d’un bain classique.<\/p>\n        <p>Au fil des séances, le poil devient plus doux, mieux hydraté, et le toilettage se transforme en moment calme au lieu d’une bataille dans la salle de bain.<\/p>\n        <p>Les poils lâches sont retirés pendant le brossage, ce qui aide aussi votre maison à rester plus nette au quotidien.<\/p>\n        <p class=\"zb-note\">Beaucoup de maîtres nous confient qu’ils n’ont plus envie de revenir aux vieux bains longs et stressants.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 5) Utilisation -->\n  <details class=\"zb-acc\">\n    <summary>Comment bien l’utiliser&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <ol>\n          <li>Allumez ZenBrosse et laissez la brume douce se diffuser.<\/li>\n          <li>Brossez lentement dans le sens du poil, comme si vous le caressiez.<\/li>\n          <li>Laissez sécher quelques instants, ou essuyez légèrement si vous le souhaitez.<\/li>\n        <\/ol>\n        <p class=\"zb-tip\">En 1 à 2 minutes, votre chien est rafraîchi, détendu, et vous avez déjà enlevé une grande partie des poils sans cris ni stress.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 6) Brume \/ recharge -->\n  <details class=\"zb-acc\">\n    <summary>La brume est-elle rechargeable&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Oui, la brume se recharge très facilement.<\/p>\n        <p>Une recharge permet de profiter de nombreuses séances de toilettage doux, selon la fréquence d’utilisation.<\/p>\n        <p class=\"zb-note\">C’est elle qui aide à libérer les saletés, à adoucir le poil et à laisser cette sensation de propre et de fraîcheur après chaque séance.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 7) Entretien -->\n  <details class=\"zb-acc\">\n    <summary>Comment garder ma ZenBrosse propre&nbsp;?<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <p>Après chaque séance, retirez simplement les poils coincés dans le peigne.<\/p>\n        <p>Si besoin, essuyez la tête de brosse avec un chiffon propre et sec&nbsp;: elle reste prête pour le prochain moment de toilettage calme avec votre compagnon.<\/p>\n      <\/div>\n    <\/div>\n  <\/details>\n\n  <!-- 8) Livraison -->\n  <details class=\"zb-acc\">\n    <summary>Livraison & garantie<\/summary>\n    <div class=\"zb-acc__panel\">\n      <div class=\"zb-acc__panel-inner\">\n        <ul>\n          <li><b>Livraison rapide et suivie<\/b> partout en France.<\/li>\n          <li><b>Suivi en temps réel<\/b> par e-mail ou SMS.<\/li>\n          <li><b>30 jours satisfait ou remboursé<\/b> — testez le toilettage zen chez vous, sans risque.<\/li>\n        <\/ul>\n        <div class=\"zb-badges\">\n          <span>Paiement sécurisé<\/span>\n          <span>Support client 7j\/7<\/span>\n          <span>Garantie sérénité<\/span>\n          <span>Marque française<\/span>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/details>\n\n<\/div>\n\n<style>\n.zb-faq{\n  max-width:760px;\n  margin:40px auto;\n  padding:10px 16px;\n  font-family:\"Poppins\",\"Helvetica Neue\",Arial,sans-serif;\n  color:#1d1d1f;\n}\n.zb-acc{\n  border:1px solid #f8e9b6;\n  border-radius:12px;\n  margin-bottom:12px;\n  overflow:hidden;\n  background:#fff9e1;\n  transition:box-shadow .25s,border-color .25s;\n}\n.zb-acc:hover{\n  box-shadow:0 6px 18px rgba(255,200,0,.08);\n}\n.zb-acc[open]{\n  border-color:#ffe08c;\n  box-shadow:0 8px 22px rgba(255,200,0,.12);\n}\n.zb-acc summary{\n  cursor:pointer;\n  padding:16px 56px 16px 18px;\n  position:relative;\n  font-weight:700;\n  font-size:16px;\n  color:#111;\n  list-style:none;\n  user-select:none;\n  background:#fff5d6;\n}\n.zb-acc summary::-webkit-details-marker{display:none;}\n.zb-acc summary::after{\n  content:\"+\";\n  position:absolute;\n  right:16px;\n  top:50%;\n  transform:translateY(-50%);\n  width:28px;\n  height:28px;\n  display:grid;\n  place-items:center;\n  border-radius:50%;\n  border:1px solid #f8e9b6;\n  color:#856c00;\n  background:#fffaf0;\n  font-weight:800;\n  transition:transform .25s,background .25s,color .25s,border-color .25s;\n}\n.zb-acc[open] summary::after{\n  content:\"–\";\n  background:#FFD54A;\n  color:#fff;\n  border-color:#FFD54A;\n  transform:translateY(-50%) rotate(0.0001deg);\n}\n.zb-acc__panel-inner{\n  overflow:hidden;\n  padding:14px 18px 18px 18px;\n  font-size:15px;\n  line-height:1.55;\n  color:#333;\n  background:#fff;\n}\n.zb-tip,.zb-note{\n  margin-top:8px;\n  font-size:14px;\n  color:#7a6b3c;\n  font-style:italic;\n}\n.zb-badges{\n  display:flex;\n  flex-wrap:wrap;\n  gap:8px;\n  margin-top:10px;\n}\n.zb-badges span{\n  background:#fff5d6;\n  color:#6a5715;\n  font-size:13px;\n  font-weight:600;\n  padding:6px 12px;\n  border-radius:999px;\n  border:1px solid:#f1e0b0;\n}\n<\/style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_KxEj6w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8LnEH8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Pourquoi Choisir Zenbrosse ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_YM4M9H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zenbrosse_VS_1.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_xHwqx4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KEK4Rj": {
+          "type": "heading",
+          "settings": {
+            "text": "Des résultats concrets",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8LnEH8",
+        "image_YM4M9H",
+        "subheading_xHwqx4",
+        "heading_KEK4Rj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_Nywd4T": {
+      "type": "multi-column",
+      "blocks": {
+        "item_nFMkgX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Design sans titre (11).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_PmycMV": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Design sans titre (9).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JtUE3E": {
+          "type": "item",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/50f704f1f7584eb78f16c715ea9eaf65.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_nFMkgX",
+        "item_PmycMV",
+        "item_JtUE3E"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_LkPVt6": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Bloc professionnel — à propos de ZenBrosse ===== -->\n<section class=\"zb-expert\" style=\"--gray:#f8f8f8;\">\n  <div class=\"zb-expert__container\">\n    <!-- Image à gauche -->\n    <figure class=\"zb-expert__image\">\n      <img\n        src=\"https:\/\/images.pexels.com\/photos\/6234633\/pexels-photo-6234633.jpeg?auto=compress&cs=tinysrgb&w=800\"\n        alt=\"Dr. Marc Lefèvre, vétérinaire comportementaliste\"\n        loading=\"lazy\"\n        width=\"800\"\n        height=\"1000\">\n    <\/figure>\n\n    <!-- Texte à droite -->\n    <div class=\"zb-expert__text\">\n      <h3 class=\"zb-expert__name\">\n        Dr. Marc Lefèvre à propos de ZenBrosse\n      <\/h3>\n      <p class=\"zb-expert__quote\">\n        « Avec le temps, de nombreux chiens développent de la sensibilité au moment du brossage.\n        ZenBrosse apporte une approche douce et apaisante, qui réduit le stress tout en éliminant\n        efficacement le sous-poil. Cette méthode transforme la séance de toilettage en un moment\n        de calme et de bien-être partagé entre le maître et son compagnon. »\n      <\/p>\n    <\/div>\n  <\/div>\n<\/section>\n\n<style>\n  .zb-expert {\n    background: var(--gray);\n    padding: 60px 20px;\n  }\n\n  .zb-expert__container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 28px;\n    max-width: 1080px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__container {\n      flex-direction: row;\n      align-items: center;\n      justify-content: center;\n      gap: 60px;\n    }\n  }\n\n  .zb-expert__image {\n    flex: 1;\n    max-width: 480px;\n    margin: 0;\n  }\n\n  .zb-expert__image img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    object-fit: cover;\n    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);\n  }\n\n  .zb-expert__text {\n    flex: 1;\n    max-width: 540px;\n    text-align: left;\n    color: #222;\n  }\n\n  .zb-expert__name {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    color: #111;\n  }\n\n  .zb-expert__quote {\n    font-size: 16.5px;\n    line-height: 1.6;\n    color: #444;\n    font-style: italic;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__name { font-size: 26px; }\n    .zb-expert__quote { font-size: 17px; }\n  }\n<\/style>\n<!-- ===== \/ZENBROSSE ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_kc6itV": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSS | Ingrédients Naturels du Sérum Intégré ===== -->\n<section id=\"zenbross-ingredients-horizontal\" class=\"lxv-ingredients-horizontal\">\n  <div class=\"lxv-ing__container\">\n    <h2 class=\"lxv-ing__title\">Les 4 extraits naturels qui apaisent et embellissent le pelage<\/h2>\n    <p class=\"lxv-ing__subtitle\">\n      Le sérum intégré à la brosse <strong>ZenBross<\/strong> associe des extraits végétaux doux et efficaces pour apaiser la peau, hydrater et sublimer le pelage de votre compagnon.\n    <\/p>\n\n    <div class=\"lxv-ing__row\">\n      <!-- 1 | Extrait de noix de coco -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/shutterstock_1450759553_1_54b822d8-d4f2-4b23-984e-f2386afcc8f8.webp?v=1761593625\" alt=\"Extrait de noix de coco\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de noix de coco<\/h3>\n          <p>Hydrate et protège la peau sensible, tout en renforçant la barrière naturelle du poil.<\/p>\n        <\/div>\n      <\/div>\n\n      <!-- 2 | Sophora flavescens -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Sophora_flavescens_03.jpg?v=1762790074\" alt=\"Sophora flavescens\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Sophora flavescens<\/h3>\n          <p>Apaise les irritations et les démangeaisons pour un confort durable de la peau.<\/p>\n        <\/div>\n      <\/div>\n\n      <!-- 3 | Extrait de kaki -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/CEFD0BCD-8D9B-4A28-98C0-800A10C1EAD1_1_102_o.jpg?v=1762790084\" alt=\"Extrait de kaki\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de kaki<\/h3>\n          <p>Purifie naturellement et neutralise les mauvaises odeurs tout en rafraîchissant le pelage.<\/p>\n        <\/div>\n      <\/div>\n\n      <!-- 4 | Huiles essentielles végétales -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/22397828-9FE2-40E4-AB21-CF6AFCC8D30B_1_102_o.jpg?v=1762790148\" alt=\"Huiles essentielles végétales\">\n        <\/div>\n        <div class=\"lxv-ing__text\">\n          <h3>Huiles essentielles végétales<\/h3>\n          <p>Nourrissent le poil en profondeur et le rendent doux, brillant et facile à brosser.<\/p>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <style>\n    \/* ===== Structure globale ===== *\/\n    #zenbross-ingredients-horizontal {\n      background: #fff;\n      padding: 60px 0;\n      font-family: 'Poppins', system-ui, Arial, Helvetica, sans-serif;\n      color: #1d1b20;\n    }\n\n    .lxv-ing__container {\n      max-width: 1200px;\n      margin: 0 auto;\n      padding: 0 24px;\n      text-align: center;\n    }\n\n    .lxv-ing__title {\n      font-size: 32px;\n      font-weight: 700;\n      margin-bottom: 10px;\n      line-height: 1.2;\n    }\n\n    .lxv-ing__subtitle {\n      color: #555;\n      font-size: 16px;\n      margin-bottom: 42px;\n      max-width: 700px;\n      margin-left: auto;\n      margin-right: auto;\n      line-height: 1.6;\n    }\n\n    \/* ===== Grille d’ingrédients ===== *\/\n    .lxv-ing__row {\n      display: grid;\n      grid-template-columns: repeat(4, 1fr);\n      gap: 24px;\n    }\n\n    @media (max-width: 950px) {\n      .lxv-ing__row {\n        grid-template-columns: repeat(2, 1fr);\n      }\n    }\n\n    @media (max-width: 600px) {\n      .lxv-ing__row {\n        grid-template-columns: 1fr;\n      }\n    }\n\n    \/* ===== Carte ingrédient ===== *\/\n    .lxv-ing__item {\n      background: #f8fcff;\n      border: 1px solid #e3f1ff;\n      border-radius: 14px;\n      padding: 20px 16px;\n      box-shadow: 0 6px 16px rgba(0, 0, 0, .04);\n      transition: transform .3s ease, box-shadow .3s ease;\n    }\n\n    .lxv-ing__item:hover {\n      transform: translateY(-4px);\n      box-shadow: 0 10px 24px rgba(0, 0, 0, .08);\n    }\n\n    \/* Image *\/\n    .lxv-ing__img {\n      width: 100%;\n      aspect-ratio: 1\/1;\n      border-radius: 12px;\n      overflow: hidden;\n      margin-bottom: 14px;\n    }\n\n    .lxv-ing__img img {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n      transition: transform .4s ease;\n    }\n\n    .lxv-ing__item:hover .lxv-ing__img img {\n      transform: scale(1.05);\n    }\n\n    \/* Texte *\/\n    .lxv-ing__text h3 {\n      font-size: 17px;\n      font-weight: 700;\n      margin: 0 0 6px;\n      color: #215172;\n    }\n\n    .lxv-ing__text p {\n      font-size: 14px;\n      color: #444;\n      margin: 0;\n      line-height: 1.55;\n    }\n  <\/style>\n<\/section>\n<!-- ===== \/ZENBROSS | Ingrédients Naturels ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "175897978814972c46": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_4t9wtG": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant \/ Après — Version courte & émotionnelle ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n    <h2 class=\"zb-title\">\n      Avant : bains stressants.<br>\n      Après : toilettage doux et apaisé 🐾\n    <\/h2>\n\n    <p class=\"zb-subtitle\">\n      Grâce à sa brume douce, ZenBrosse nettoie le pelage sans bain compliqué.  \n      Votre chien se détend, vous partagez un moment calme et la maison reste plus fraîche.\n    <\/p>\n\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n        <div class=\"zb-label zb-label--left\">Avant<\/div>\n        <div class=\"zb-label zb-label--right\">Après<\/div>\n\n        <div class=\"zb-img-wrap\">\n          <!-- AVANT (remplacée) -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"Avant ZenBrosse – bain stressant et pelage terni\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0969\/2843\/2465\/files\/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"Après ZenBrosse – chien détendu et toilettage apaisé\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"><\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n\n  <style>\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --title-size: clamp(22px, 3.2vw, 27px);\n      --subtitle-size: clamp(13px, 2.4vw, 15px);\n      --label-size: 11px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n    }\n\n    #zb-compare-{{ section.id }} {\n      background:#fff;\n      padding:var(--pad-y) 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      color:#1a1a1a;\n      text-align:center;\n    }\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0 auto;\n      padding:0 16px;\n    }\n\n    .zb-title {\n      font-size:var(--title-size);\n      font-weight:700;\n      line-height:1.25;\n      margin:0 0 8px;\n    }\n    .zb-subtitle {\n      color:#555;\n      font-size:var(--subtitle-size);\n      line-height:1.6;\n      max-width:600px;\n      margin:0 auto 20px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n\n    .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:var(--label-size);\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  <\/style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) \/ rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  <\/script>\n<\/div>\n<!-- ===== \/ZENBROSSE | Avant \/ Après — Version courte & émotionnelle ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1761765707637ec679": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_DRBC8K": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-agg-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_DRBC8K"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact_tCDA47": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Notre service clientèle est disponible 7 jours sur 7. Temps de réponse moyen : 24h",
+        "title": "Une question ?",
+        "content": "<p>Écrivez-nous via le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais. <\/p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#ffecbf",
+        "button_text_color": "#1a1a1a"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_fM3LQQ",
+    "logo_list_FDNLNw",
+    "rich_text_tQmTXg",
+    "image_with_text_overlay_RGpYnq",
+    "rich_text_nHxV4y",
+    "custom_liquid_ADDCRk",
+    "rich_text_M3jUYw",
+    "multi_column_KMggKq",
+    "featured_product_Hhj93J",
+    "custom_liquid_fmGxhc",
+    "custom_liquid_dqCLGJ",
+    "rich_text_KxEj6w",
+    "multi_column_Nywd4T",
+    "custom_liquid_LkPVt6",
+    "custom_liquid_kc6itV",
+    "175897978814972c46",
+    "custom_liquid_4t9wtG",
+    "1761765707637ec679",
+    "contact_tCDA47"
+  ]
+}
