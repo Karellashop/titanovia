@@ -348,8 +348,15 @@
       "blocks": {
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h2"
+          }
+        },
+        "text_pf4QFW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>poils</p>"
           }
         },
         "liquid_tRNFBf": {
@@ -471,6 +478,7 @@
       },
       "block_order": [
         "title",
+        "text_pf4QFW",
         "liquid_tRNFBf",
         "badges",
         "price",
