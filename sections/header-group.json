@@ -83,7 +83,7 @@
         "logo": "shopify://shop_images/Marron_Beige_Logo_Cafe_Chien_8.png",
         "logo_max_width": 300,
         "logo_mobile_max_width": 170,
-        "menu": "menu-landing-poils",
+        "menu": "menu-principal-du-compte-client",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
