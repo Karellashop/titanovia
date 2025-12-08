@@ -118,7 +118,7 @@
         "heading_anJzWc": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi tant de chiens sensibles se sentent mieux grâce à ce rituel apaisant ?",
+            "text": "Pourquoi les chiens sensibles se sentent mieux grâce à ce rituel apaisant",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -155,6 +155,19 @@
         "overlay_opacity": 0
       }
     },
+    "custom_liquid_wHrAcj": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version courte & émotionnelle ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n    <h2 class=\"zb-title\">\n      Avant : agitation et stress.<br>\n      Après : un soin qui apaise, détend et rassure. ✨\n    </h2>\n\n    <p class=\"zb-subtitle\">\n      Avec son rituel de brume douce, ZenBrosse nettoie son pelage sans contrainte.  \n      Il se sent en sécurité, vous profitez d’un moment serein et votre intérieur reste impeccable.\n    </p>\n\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n        <div class=\"zb-label zb-label--left\">Avant</div>\n        <div class=\"zb-label zb-label--right\">Après</div>\n\n        <div class=\"zb-img-wrap\">\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"Avant ZenBrosse – stress et agitation\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"Après ZenBrosse – soin apaisant et rassurant\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --title-size: clamp(22px, 3.2vw, 27px);\n      --subtitle-size: clamp(13px, 2.4vw, 15px);\n      --label-size: 11px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n    }\n\n    #zb-compare-{{ section.id }} {\n      background:#fff;\n      padding:var(--pad-y) 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      color:#1a1a1a;\n      text-align:center;\n    }\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0 auto;\n      padding:0 16px;\n    }\n\n    .zb-title {\n      font-size:var(--title-size);\n      font-weight:700;\n      line-height:1.25;\n      margin:0 0 8px;\n    }\n    .zb-subtitle {\n      color:#555;\n      font-size:var(--subtitle-size);\n      line-height:1.6;\n      max-width:600px;\n      margin:0 auto 20px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n\n    .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:var(--label-size);\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Avant / Après — Version courte & émotionnelle ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_nHxV4y": {
       "type": "rich-text",
       "name": "Rich text",
@@ -176,6 +189,123 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<section id=\"zenbrosse-video\" style=\"background:#ffffff;padding:60px 0;text-align:center;\">\n  <div style=\"max-width:820px;margin:0 auto;padding:0 16px;\">\n    <h2 style=\"font-size:28px;font-weight:800;margin-bottom:12px;color:#2b2b2b;\">\n      Quand le brossage devient un vrai moment de bonheur. 🐾\n    </h2>\n\n    <div style=\"position:relative;display:inline-block;width:100%;max-width:700px;\">\n      <video id=\"zenVideo\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/a7cf7325ae864ecaa3f279405c175be0.mp4\"\n        muted\n        autoplay\n        loop\n        playsinline\n        preload=\"auto\"\n        style=\"width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#000;\">\n      </video>\n\n      <!-- Badge \"son dispo\" -->\n      <div id=\"soundBadge\"\n        style=\"position:absolute;left:16px;bottom:16px;background:rgba(0,0,0,0.65);\n               color:#fff;padding:8px 10px;border-radius:999px;font-size:12px;\n               display:flex;gap:6px;align-items:center;backdrop-filter:blur(2px);\n               animation:pulse 1.6s ease-in-out infinite;\">\n        <span>🔊</span><span>Son disponible</span>\n      </div>\n\n      <!-- Bouton activer/couper le son -->\n      <button id=\"soundToggle\" aria-label=\"Activer le son\"\n        style=\"position:absolute;bottom:16px;right:16px;background:rgba(255,255,255,0.95);\n               border:none;border-radius:999px;height:46px;display:flex;align-items:center;gap:10px;\n               padding:0 14px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,0.15);font-size:16px;font-weight:600;\">\n        <span id=\"soundIcon\" style=\"font-size:18px;\">🔈</span>\n        <span id=\"soundLabel\">Activer le son</span>\n      </button>\n    </div>\n\n    <!-- Texte -->\n    <div class=\"zb-copy\" style=\"max-width:700px;margin:20px auto 0;text-align:center;line-height:1.6;font-size:16px;color:#2b2b2b;\">\n      <p style=\"margin:0;\">\n        Il se détend, ferme les yeux, profite de la chaleur douce.<br>\n        Grâce à la <strong>vapeur tiède apaisante</strong>, chaque séance devient <strong>un instant de calme et de lien</strong>.<br>\n        <strong>Recommandée par les professionnels</strong> pour <strong>un poil doux et un compagnon apaisé</strong>.\n      </p>\n    </div>\n  </div>\n\n  <style>\n    @keyframes pulse {0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.9}100%{transform:scale(1);opacity:1}}\n    @media (max-width:640px){\n      #zenbrosse-video{padding:45px 0;}\n      #zenbrosse-video h2{font-size:20px;line-height:1.35;margin-bottom:10px;padding:0 6px;}\n      #zenbrosse-video .zb-copy{font-size:14px;line-height:1.5;padding:0 10px;}\n      #soundToggle{height:42px;padding:0 12px;font-size:14px;bottom:12px;right:12px;}\n      #soundBadge{left:12px;bottom:12px;font-size:11px;padding:6px 8px;}\n    }\n    #soundToggle:hover{background:#f7f7f7;transition:background .2s ease;}\n  </style>\n\n  <script>\n    (function(){\n      const video = document.getElementById('zenVideo');\n      const btn   = document.getElementById('soundToggle');\n      const label = document.getElementById('soundLabel');\n      const icon  = document.getElementById('soundIcon');\n      const badge = document.getElementById('soundBadge');\n\n      // 🔒 Autoplay forcé même sur mobile\n      const tryPlay = () => {\n        const playPromise = video.play();\n        if (playPromise !== undefined) {\n          playPromise.catch(() => {\n            // Si bloqué par le navigateur, on essaie de relancer silencieusement\n            video.muted = true;\n            video.play();\n          });\n        }\n      };\n\n      video.setAttribute('playsinline', '');\n      video.setAttribute('muted', '');\n      video.setAttribute('autoplay', '');\n      video.muted = true;\n      tryPlay();\n\n      const setUI = () => {\n        if (video.muted) {\n          icon.textContent = '🔈';\n          label.textContent = 'Activer le son';\n          badge.style.display = 'flex';\n        } else {\n          icon.textContent = '🔊';\n          label.textContent = 'Couper le son';\n          badge.style.display = 'none';\n        }\n      };\n\n      btn.addEventListener('click', async (e) => {\n        e.stopPropagation();\n        video.muted = !video.muted;\n        setUI();\n        tryPlay();\n      });\n\n      document.addEventListener('touchstart', tryPlay, { once: true });\n      video.addEventListener('loadeddata', tryPlay);\n      video.addEventListener('loadedmetadata', setUI);\n      setUI();\n    })();\n  </script>\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_KxEj6w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8LnEH8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Pourquoi Choisir Zenbrosse ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_YM4M9H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_xHwqx4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KEK4Rj": {
+          "type": "heading",
+          "settings": {
+            "text": "Des résultats concrets",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8LnEH8",
+        "image_YM4M9H",
+        "subheading_xHwqx4",
+        "heading_KEK4Rj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_Nywd4T": {
+      "type": "multi-column",
+      "blocks": {
+        "item_PmycMV": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (9).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JtUE3E": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nFMkgX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (11).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_PmycMV",
+        "item_JtUE3E",
+        "item_nFMkgX"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -547,123 +677,6 @@
         "text_color": ""
       }
     },
-    "rich_text_KxEj6w": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8LnEH8": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Pourquoi Choisir Zenbrosse ?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "image_YM4M9H": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "subheading_xHwqx4": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_KEK4Rj": {
-          "type": "heading",
-          "settings": {
-            "text": "Des résultats concrets",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_8LnEH8",
-        "image_YM4M9H",
-        "subheading_xHwqx4",
-        "heading_KEK4Rj"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_Nywd4T": {
-      "type": "multi-column",
-      "blocks": {
-        "item_nFMkgX": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (11).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_PmycMV": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (9).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_JtUE3E": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_nFMkgX",
-        "item_PmycMV",
-        "item_JtUE3E"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_LkPVt6": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -703,6 +716,7 @@
     },
     "custom_liquid_4t9wtG": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -769,15 +783,16 @@
     "logo_list_FDNLNw",
     "rich_text_tQmTXg",
     "image_with_text_overlay_RGpYnq",
+    "custom_liquid_wHrAcj",
     "rich_text_nHxV4y",
     "custom_liquid_ADDCRk",
+    "rich_text_KxEj6w",
+    "multi_column_Nywd4T",
     "rich_text_M3jUYw",
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
     "custom_liquid_fmGxhc",
     "custom_liquid_dqCLGJ",
-    "rich_text_KxEj6w",
-    "multi_column_Nywd4T",
     "custom_liquid_LkPVt6",
     "custom_liquid_kc6itV",
     "175897978814972c46",
