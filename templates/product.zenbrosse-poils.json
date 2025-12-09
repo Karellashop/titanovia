@@ -280,33 +280,7 @@
             "column_size": "3",
             "title": "Mathieu L  – Client vérifié ✓",
             "heading_tag": "h4",
-            "content": "<p>Avant, mon chat détestait qu’on le brosse.<br/>Avec la vapeur ZenBrosse, tout a changé.<br/>La chaleur douce ouvre le poil, élimine les impuretés et hydrate sa peau.<br/>Il ferme les yeux, ronronne, et je retrouve enfin une maison sans poils.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_FHgwaJ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_40.png",
-            "column_size": "3",
-            "title": "Léa R – Cliente vérifiée ✓",
-            "heading_tag": "h4",
-            "content": "<p>Je pensais que la vapeur, c’était un gadget.<br/>Mais en réalité, elle fait toute la différence.<br/>Elle adoucit le pelage, réduit les poils morts et rend le brossage super fluide.<br/>Mon chat adore, et moi je profite enfin d’un moment calme et sans stress.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yfzDbL": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_41.png",
-            "column_size": "3",
-            "title": "Sarah D – Cliente vérifiée ✓",
-            "heading_tag": "h4",
-            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Nala attend ce moment avec impatience. La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p>",
+            "content": "<p>Avec cette brosse, j’ai retiré plus de <strong>sous-poil en 5 minutes</strong> qu’en une semaine avec mes anciennes brosses. Mon chien adore, et <strong>ma maison reste enfin propre</strong>.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -319,20 +293,7 @@
             "column_size": "3",
             "title": "Sarah D – Cliente vérifiée ✓",
             "heading_tag": "h4",
-            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Nala attend ce moment avec impatience. La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_tRNdcn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_32.png",
-            "column_size": "3",
-            "title": "Sarah D – Cliente vérifiée ✓",
-            "heading_tag": "h4",
-            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Nala attend ce moment avec impatience. La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p>",
+            "content": "<p>Avant, des poils partout. Maintenant, Nala s’endort pendant le brossage, et j’enlève une quantité de sous-poil incroyable. <strong>Pelage magnifique, maison nickel.</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -345,7 +306,46 @@
             "column_size": "3",
             "title": "Sarah D – Cliente vérifiée ✓",
             "heading_tag": "h4",
-            "content": "<p>Avant, c’était la bataille à chaque brossage.<br/>Aujourd’hui, Nala attend ce moment avec impatience. La chaleur douce et la vapeur l’apaisent, son poil est magnifique, et ma maison respire enfin.</p>",
+            "content": "<p>Je pensais que toutes les brosses se valaient… jusqu’à celle-ci. Le sous-poil sort par poignées, <strong>presque plus de poils au sol</strong>, et mon chien se laisse faire sans stress.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yfzDbL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_41.png",
+            "column_size": "3",
+            "title": "Sarah D – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>On est passés du combat au câlin : il se détend, se laisse brosser… et <strong>perd trois fois moins de poils dans la maison</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FHgwaJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_40.png",
+            "column_size": "3",
+            "title": "Léa R – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>J’y croyais pas trop. En 2 minutes, j’ai retiré <strong>une poignée de sous-poil</strong>. Depuis, on fait ça chaque soir, et <strong>je n’ai plus de poils sur le canapé</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_tRNdcn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_32.png",
+            "column_size": "3",
+            "title": "Sarah D – Cliente vérifiée ✓",
+            "heading_tag": "h4",
+            "content": "<p>Il s’apaise tout de suite, et chaque séance enlève <strong>une tonne de poils morts</strong>. Son pelage est magnifique, et <strong>ma maison reste propre</strong>.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -354,11 +354,11 @@
       },
       "block_order": [
         "item_3NMAfx",
-        "item_FHgwaJ",
-        "item_yfzDbL",
         "item_AbXWyk",
-        "item_tRNdcn",
-        "item_YNcTzF"
+        "item_YNcTzF",
+        "item_yfzDbL",
+        "item_FHgwaJ",
+        "item_tRNdcn"
       ],
       "name": "Multi-column",
       "settings": {
@@ -425,7 +425,7 @@
         "liquid_wcU76P": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- ===== ZENBROSSE | Avantages — version PERTE DE POILS ===== -->\n<style>\n  :root{\n    --ink:#1A1A1A;\n    --bg:rgba(255,255,255,0.7);\n    --border:rgba(0,0,0,0.08);\n  }\n  .zb-stack{\n    font-family:'Poppins',system-ui,Arial,sans-serif;\n    color:var(--ink);\n    background:var(--bg);\n    backdrop-filter:blur(12px);\n    -webkit-backdrop-filter:blur(12px);\n    border:1px solid var(--border);\n    border-radius:16px;\n    width:min(100% - 20px,700px);\n    margin:16px auto;\n    padding:12px 18px;\n    box-shadow:0 4px 18px rgba(0,0,0,0.06);\n  }\n\n  .zb-line{\n    display:flex;\n    align-items:center;\n    gap:12px;\n    padding:10px 0;\n    font-size:15px;\n    font-weight:600;\n    line-height:1.35;\n    opacity:0;\n    transform:translateY(8px);\n    transition:.5s ease;\n  }\n  .zb-line.show{ opacity:1; transform:none; }\n\n  .zb-ico{\n    width:22px;\n    height:22px;\n    flex:0 0 22px;\n    color:#3a3a3a;\n    display:grid;\n    place-items:center;\n  }\n  .zb-ico svg{ width:100%; height:100%; }\n\n  .anim-heart{ animation:beat 1.6s ease-in-out infinite; }\n  @keyframes beat{\n    0%,100%{transform:scale(1)}\n    50%{transform:scale(1.2)}\n  }\n\n  .anim-spark{ animation:spin 4s linear infinite; }\n  @keyframes spin{ to{ transform:rotate(360deg) } }\n</style>\n\n<div class=\"zb-stack\" aria-label=\"Avantages ZenBrosse – perte de poils\">\n\n  <!-- 1️⃣ Maison propre -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-spark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M12 2v4M12 18v4M4 12h4M16 12h4M4.5 4.5l2 2M17.5 17.5l2 2M4.5 19.5l2-2M17.5 6.5l2-2\"/>\n      </svg>\n    </span>\n    Votre maison reste enfin propre, sans poils partout\n  </div>\n\n  <!-- 2️⃣ Adieu poils sur vêtements et canapé -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z\"/>\n      </svg>\n    </span>\n    Vous dites enfin adieu aux poils sur le canapé et vos vêtements\n  </div>\n\n  <!-- 3️⃣ Câlins sans pluie de poils -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <circle cx=\"7.5\" cy=\"8.5\" r=\"1.8\"/>\n        <circle cx=\"16.5\" cy=\"8.5\" r=\"1.8\"/>\n        <path d=\"M8 15c1.2 1 2.6 1.5 4 1.5s2.8-.5 4-1.5\"/>\n      </svg>\n    </span>\n    Chaque câlin est doux et agréable, sans poils plein les mains et le visage\n  </div>\n\n  <!-- 4️⃣ Moment de soulagement et de complicité -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M3 20h12\"/>\n        <path d=\"M14 14l-4 6\"/>\n        <path d=\"M16 4l-6 10\"/>\n        <path d=\"M18 6l-2 -2\"/>\n      </svg>\n    </span>\n    Vous transformez la brosse en moment de soulagement et de vraie complicité\n  </div>\n\n</div>\n\n<script>\n  (function(){\n    const lines = document.querySelectorAll('.zb-line');\n    const io = new IntersectionObserver((entries)=>{\n      entries.forEach(e=>{\n        if(e.isIntersecting){\n          e.target.classList.add('show');\n          io.unobserve(e.target);\n        }\n      });\n    },{threshold:.2});\n    lines.forEach(l=>io.observe(l));\n  })();\n</script>\n<!-- ===== /ZENBROSSE ===== -->"
+            "liquid": "<!-- ===== ZENBROSSE | Avantages — PERTE DE POILS (ÉMOTION + CLEAN MOBILE) ===== -->\n<style>\n  :root{\n    --zb-ink:#111111;\n    --zb-bg:rgba(255,255,255,0.9);\n    --zb-border:rgba(0,0,0,0.06);\n  }\n\n  .zb-stack{\n    font-family:'Poppins',system-ui,Arial,sans-serif;\n    color:var(--zb-ink);\n    background:var(--zb-bg);\n    border:1px solid var(--zb-border);\n    border-radius:16px;\n    padding:10px 14px;\n    margin:12px 0;\n  }\n\n  .zb-tag{\n    font-size:11px;\n    font-weight:600;\n    text-transform:uppercase;\n    letter-spacing:.06em;\n    color:#777;\n    margin-bottom:4px;\n  }\n\n  .zb-line{\n    display:flex;\n    align-items:flex-start;\n    gap:8px;\n    padding:6px 0;\n    font-size:14px;\n    font-weight:600;\n    line-height:1.3;\n    opacity:0;\n    transform:translateY(6px);\n    transition:.35s ease;\n  }\n  .zb-line + .zb-line{\n    border-top:1px solid rgba(0,0,0,0.03);\n  }\n  .zb-line.show{ opacity:1; transform:none; }\n\n  .zb-ico{\n    width:18px;\n    height:18px;\n    flex:0 0 18px;\n    display:grid;\n    place-items:center;\n    margin-top:1px;\n    color:#111;\n  }\n  .zb-ico svg{ width:100%; height:100%; }\n\n  .anim-heart{ animation:zb-beat 1.5s ease-in-out infinite; }\n  @keyframes zb-beat{ 50%{transform:scale(1.18)} }\n\n  .anim-spark{ animation:zb-spin 4s linear infinite; }\n  @keyframes zb-spin{ to{ transform:rotate(360deg)} }\n</style>\n\n<div class=\"zb-stack\" aria-label=\"Avantages émotionnels ZenBrosse – perte de poils\">\n\n  <div class=\"zb-tag\">Ce que vous allez ressentir</div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-spark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M12 2v4M12 18v4M4 12h4M16 12h4M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2\"/>\n      </svg>\n    </span>\n    Le soulagement d’une maison enfin propre\n  </div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M20 5a5 5 0 0 0-7 0L12 6l-1-1a5 5 0 1 0-7 7l1 1 7 7 7-7 1-1a5 5 0 0 0 0-7z\"/>\n      </svg>\n    </span>\n    La fin de la honte des poils sur vos vêtements\n  </div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <circle cx=\"7.5\" cy=\"8.5\" r=\"1.8\"/>\n        <circle cx=\"16.5\" cy=\"8.5\" r=\"1.8\"/>\n        <path d=\"M8 15c1.2 1 2.6 1.5 4 1.5s2.8-.5 4-1.5\"/>\n      </svg>\n    </span>\n    Des câlins doux, sans gêne, sans pluie de poils\n  </div>\n\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n        <path d=\"M3 20h12M14 14l-4 6M16 4l-6 10\"/>\n      </svg>\n    </span>\n    La fierté de voir votre chien apaisé et bien entretenu\n  </div>\n\n</div>\n\n<script>\n  (function(){\n    const lines = document.querySelectorAll('.zb-line');\n    if(!('IntersectionObserver' in window)){ \n      lines.forEach(l=>l.classList.add('show'));\n      return;\n    }\n    const io = new IntersectionObserver((entries)=>{\n      entries.forEach(e=>{\n        if(e.isIntersecting){\n          e.target.classList.add('show');\n          io.unobserve(e.target);\n        }\n      });\n    },{threshold:.2});\n    lines.forEach(l=>io.observe(l));\n  })();\n</script>\n<!-- ===== /ZENBROSSE ===== -->"
           }
         },
         "liquid_PkbCW8": {
@@ -467,7 +467,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#f4d691",
+            "atc_button_background": "#ffe700",
             "atc_button_text_color": "#000000",
             "payment_button_background": "",
             "payment_button_text_color": ""
