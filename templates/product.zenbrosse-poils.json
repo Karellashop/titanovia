@@ -272,14 +272,14 @@
     "multi_column_bpPNTx": {
       "type": "multi-column",
       "blocks": {
-        "item_3NMAfx": {
+        "item_tRNdcn": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_30.png",
+            "image": "shopify://shop_images/Design_sans_titre_55.png",
             "column_size": "3",
-            "title": "Mathieu L  – Client vérifié ✓",
+            "title": "Sarah D – Cliente vérifiée ✓",
             "heading_tag": "h4",
-            "content": "<p>Avec cette brosse, j’ai retiré plus de <strong>sous-poil en 5 minutes</strong> qu’en une semaine avec mes anciennes brosses. Mon chien adore, et <strong>ma maison reste enfin propre</strong>.</p>",
+            "content": "<p>Il s’apaise tout de suite, et chaque séance enlève <strong>une tonne de poils morts</strong>. Son pelage est magnifique, et <strong>ma maison reste propre</strong>.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -311,6 +311,19 @@
             "link_style": "link"
           }
         },
+        "item_3NMAfx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_30.png",
+            "column_size": "3",
+            "title": "Mathieu L  – Client vérifié ✓",
+            "heading_tag": "h4",
+            "content": "<p>Avec cette brosse, j’ai retiré plus de <strong>sous-poil en 5 minutes</strong> qu’en une semaine avec mes anciennes brosses. Mon chien adore, et <strong>ma maison reste enfin propre</strong>.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_yfzDbL": {
           "type": "item",
           "settings": {
@@ -336,28 +349,15 @@
             "link_text": "",
             "link_style": "link"
           }
-        },
-        "item_tRNdcn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_32.png",
-            "column_size": "3",
-            "title": "Sarah D – Cliente vérifiée ✓",
-            "heading_tag": "h4",
-            "content": "<p>Il s’apaise tout de suite, et chaque séance enlève <strong>une tonne de poils morts</strong>. Son pelage est magnifique, et <strong>ma maison reste propre</strong>.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
         }
       },
       "block_order": [
-        "item_3NMAfx",
+        "item_tRNdcn",
         "item_AbXWyk",
         "item_YNcTzF",
+        "item_3NMAfx",
         "item_yfzDbL",
-        "item_FHgwaJ",
-        "item_tRNdcn"
+        "item_FHgwaJ"
       ],
       "name": "Multi-column",
       "settings": {
