@@ -15,7 +15,7 @@
         "heading_Tt8CwE": {
           "type": "heading",
           "settings": {
-            "text": "Dites adieu à la perte de poils et retrouvez un foyer propre instantanément. 🐾",
+            "text": "Offrez-lui un toilettage qui le libère de tous ses poils pour la toute première fois.  🐾",
             "heading_tag": "h3"
           }
         },
@@ -50,7 +50,7 @@
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 9
+        "overlay_opacity": 0
       }
     },
     "logo_list_dJqqN8": {
