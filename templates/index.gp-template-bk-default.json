@@ -15,7 +15,7 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Dites adieu aux bains stressants et bonjour à un compagnon apaisé en un instant. 🐾",
+            "text": "Offrez-lui un toilettage sans peur pour la toute première fois. 🐾",
             "heading_tag": "h3"
           }
         },
@@ -29,7 +29,7 @@
         "liquid_TFDhEi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\">Acheter maintenant</a>\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 8px 20px; /* PLUS PETIT */\n    border-radius: 999px;\n\n    background: #FFD100 !important;  /* JAUNE FLASHY */\n    color: #000000 !important;        /* TEXTE NOIR */\n    font-size: 14px;                  /* PLUS PETIT */\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n    box-shadow: 0 6px 14px rgba(0,0,0,0.25) !important;\n\n    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small::before,\n  .zen-btn-yellow-small::after {\n    content: none !important;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-2px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.30) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.97);\n  }\n</style>"
+            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\"> Pour un toilettage sans peur  </a>\n\n<div class=\"zen-adopted-text\">\n  Déjà adopté par plus de 12 000 maîtres\n</div>\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 8px 20px; \n    border-radius: 999px;\n\n    background: #FFD100 !important;\n    color: #000000 !important;\n    font-size: 14px;\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n    box-shadow: 0 6px 14px rgba(0,0,0,0.25) !important;\n\n    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-2px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.30) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.97);\n  }\n\n  .zen-adopted-text {\n    margin-top: 8px;\n    font-size: 13px;\n    font-weight: 800;      /* 🔥 PLUS GRAS */\n    color: #000000;        /* 🔥 NOIR POUR MAX VISIBILITÉ */\n    text-align: center;    /* mobile */\n  }\n\n  @media (min-width: 1024px) {\n    .zen-adopted-text {\n      text-align: left;    /* desktop */\n    }\n  }\n</style>"
           }
         }
       },
@@ -118,8 +118,8 @@
         "heading_anJzWc": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi des milliers de maîtres ne peuvent plus s’en passer ?",
-            "heading_tag": "h2",
+            "text": "Pourquoi tant de maîtres ne peuvent plus s'en passer ?",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -155,6 +155,19 @@
         "overlay_opacity": 0
       }
     },
+    "custom_liquid_wHrAcj": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version allégée sans textes ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Slider avec textes \"Avant / Après\" -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n\n        <div class=\"zb-img-wrap\">\n          <div class=\"zb-label zb-label--left\">Avant</div>\n          <div class=\"zb-label zb-label--right\">Après</div>\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"ZenBrosse Before Image\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"ZenBrosse After Image\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <style>\n    @media (min-width: 768px){ #zb-compare-{{ section.id }}{ display:none !important; } }\n\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n\n      background:#fff;\n      padding:0 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      text-align:center;\n    }\n\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0;\n      padding:0 16px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n  .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:11px;\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Version allégée ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_nHxV4y": {
       "type": "rich-text",
       "name": "Rich text",
@@ -167,15 +180,118 @@
         "text_color": ""
       }
     },
-    "custom_liquid_ADDCRk": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
+    "rich_text_KxEj6w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8LnEH8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Pourquoi Choisir Zenbrosse ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_YM4M9H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_xHwqx4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KEK4Rj": {
+          "type": "heading",
+          "settings": {
+            "text": "Des résultats concrets",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8LnEH8",
+        "image_YM4M9H",
+        "subheading_xHwqx4",
+        "heading_KEK4Rj"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<section id=\"zenbrosse-video\" style=\"background:#ffffff;padding:60px 0;text-align:center;\">\n  <div style=\"max-width:820px;margin:0 auto;padding:0 16px;\">\n    <h2 style=\"font-size:28px;font-weight:800;margin-bottom:12px;color:#2b2b2b;\">\n      Quand le brossage devient un vrai moment de bonheur. 🐾\n    </h2>\n\n    <div style=\"position:relative;display:inline-block;width:100%;max-width:700px;\">\n      <video id=\"zenVideo\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/a7cf7325ae864ecaa3f279405c175be0.mp4\"\n        muted\n        autoplay\n        loop\n        playsinline\n        preload=\"auto\"\n        style=\"width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#000;\">\n      </video>\n\n      <!-- Badge \"son dispo\" -->\n      <div id=\"soundBadge\"\n        style=\"position:absolute;left:16px;bottom:16px;background:rgba(0,0,0,0.65);\n               color:#fff;padding:8px 10px;border-radius:999px;font-size:12px;\n               display:flex;gap:6px;align-items:center;backdrop-filter:blur(2px);\n               animation:pulse 1.6s ease-in-out infinite;\">\n        <span>🔊</span><span>Son disponible</span>\n      </div>\n\n      <!-- Bouton activer/couper le son -->\n      <button id=\"soundToggle\" aria-label=\"Activer le son\"\n        style=\"position:absolute;bottom:16px;right:16px;background:rgba(255,255,255,0.95);\n               border:none;border-radius:999px;height:46px;display:flex;align-items:center;gap:10px;\n               padding:0 14px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,0.15);font-size:16px;font-weight:600;\">\n        <span id=\"soundIcon\" style=\"font-size:18px;\">🔈</span>\n        <span id=\"soundLabel\">Activer le son</span>\n      </button>\n    </div>\n\n    <!-- Texte -->\n    <div class=\"zb-copy\" style=\"max-width:700px;margin:20px auto 0;text-align:center;line-height:1.6;font-size:16px;color:#2b2b2b;\">\n      <p style=\"margin:0;\">\n        Il se détend, ferme les yeux, profite de la chaleur douce.<br>\n        Grâce à la <strong>vapeur tiède apaisante</strong>, chaque séance devient <strong>un instant de calme et de lien</strong>.<br>\n        <strong>Recommandée par les professionnels</strong> pour <strong>un poil doux et un compagnon apaisé</strong>.\n      </p>\n    </div>\n  </div>\n\n  <style>\n    @keyframes pulse {0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.9}100%{transform:scale(1);opacity:1}}\n    @media (max-width:640px){\n      #zenbrosse-video{padding:45px 0;}\n      #zenbrosse-video h2{font-size:20px;line-height:1.35;margin-bottom:10px;padding:0 6px;}\n      #zenbrosse-video .zb-copy{font-size:14px;line-height:1.5;padding:0 10px;}\n      #soundToggle{height:42px;padding:0 12px;font-size:14px;bottom:12px;right:12px;}\n      #soundBadge{left:12px;bottom:12px;font-size:11px;padding:6px 8px;}\n    }\n    #soundToggle:hover{background:#f7f7f7;transition:background .2s ease;}\n  </style>\n\n  <script>\n    (function(){\n      const video = document.getElementById('zenVideo');\n      const btn   = document.getElementById('soundToggle');\n      const label = document.getElementById('soundLabel');\n      const icon  = document.getElementById('soundIcon');\n      const badge = document.getElementById('soundBadge');\n\n      // 🔒 Autoplay forcé même sur mobile\n      const tryPlay = () => {\n        const playPromise = video.play();\n        if (playPromise !== undefined) {\n          playPromise.catch(() => {\n            // Si bloqué par le navigateur, on essaie de relancer silencieusement\n            video.muted = true;\n            video.play();\n          });\n        }\n      };\n\n      video.setAttribute('playsinline', '');\n      video.setAttribute('muted', '');\n      video.setAttribute('autoplay', '');\n      video.muted = true;\n      tryPlay();\n\n      const setUI = () => {\n        if (video.muted) {\n          icon.textContent = '🔈';\n          label.textContent = 'Activer le son';\n          badge.style.display = 'flex';\n        } else {\n          icon.textContent = '🔊';\n          label.textContent = 'Couper le son';\n          badge.style.display = 'none';\n        }\n      };\n\n      btn.addEventListener('click', async (e) => {\n        e.stopPropagation();\n        video.muted = !video.muted;\n        setUI();\n        tryPlay();\n      });\n\n      document.addEventListener('touchstart', tryPlay, { once: true });\n      video.addEventListener('loadeddata', tryPlay);\n      video.addEventListener('loadedmetadata', setUI);\n      setUI();\n    })();\n  </script>\n</section>",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_Nywd4T": {
+      "type": "multi-column",
+      "blocks": {
+        "item_PmycMV": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (9).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JtUE3E": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nFMkgX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (11).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_PmycMV",
+        "item_JtUE3E",
+        "item_nFMkgX"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -217,7 +333,7 @@
             "column_size": "3",
             "title": "Mathieu L  – Client vérifié ✓",
             "heading_tag": "h6",
-            "content": "<p>★★★★★</p><p>Mon chien stressait au bain. Avec ZenBrosse, il reste calme… et il perd déjà beaucoup moins de poils. Magique.</p>",
+            "content": "<p>★★★★★</p><p>Avant, il tremblait à l’approche du bain. Avec cette brosse révolutionnaire, il ferme les yeux et profite. J’ai jamais vu mon chien aussi détendu.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -230,7 +346,7 @@
             "column_size": "3",
             "title": "Léa R – Cliente vérifiée ✓",
             "heading_tag": "h6",
-            "content": "<p>★★★★★</p><p>La brume apaise instantanément. Mon chien sent bon et je retire bien plus de poils en un seul passage.</p>",
+            "content": "<p>★★★★★</p><p>Le moment du bain est devenu un moment de calme. La brume l’apaise instantanément, il ne stresse plus du tout. C’est bluffant.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -243,7 +359,7 @@
             "column_size": "3",
             "title": "Sarah D – Cliente vérifiée ✓",
             "heading_tag": "h6",
-            "content": "<p>★★★★★</p><p>Nettoie vraiment sans eau. Une brume, un passage, et il sent super bon. Tellement simple. </p>",
+            "content": "<p>★★★★★</p><p>Je ne pensais pas que ce serait aussi simple. Un passage de brume et il se laisse faire, sans peur, sans cris. C’est devenu notre moment préféré.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -256,7 +372,7 @@
             "column_size": "3",
             "title": "Anaïs C. – Cliente vérifiée ✓",
             "heading_tag": "h6",
-            "content": "<p>★★★★★</p><p>On est passés du combat au câlin : il se détend, se laisse faire… et perd beaucoup moins de poils.</p>",
+            "content": "<p>★★★★★</p><p>On est passés du cauchemar au câlin. Il se détend, il ferme les yeux, comme s’il attendait ce moment. Je n’ai plus besoin de le forcer.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -269,7 +385,7 @@
             "column_size": "3",
             "title": "Martine R. – Cliente vérifiée ✓",
             "heading_tag": "h6",
-            "content": "<p>★★★★★</p><p>Franchement, j’y croyais pas trop. Mais en 2 minutes, j’avais déjà retiré une tonne de poils. C’est devenu notre petit rituel du soir.</p>",
+            "content": "<p>★★★★★</p><p>Franchement, j’y croyais pas. En 2 minutes, il était allongé, calme, comme s’il se faisait masser. Je pense qu’il adore ça.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -282,7 +398,7 @@
             "column_size": "3",
             "title": "Élodie V.  – Cliente vérifiée ✓",
             "heading_tag": "h6",
-            "content": "<p>★★★★★</p><p>Je le sens apaisé, comme si le toilettage lui faisait du bien. Et chaque séance enlève une tonne de poils morts.</p>",
+            "content": "<p>★★★★★</p><p>Dès que je sors la brosse, il vient de lui-même. Il associe ça à un moment de bonheur, pas de stress. C’est exactement ce qu’il nous fallait.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -324,7 +440,7 @@
         "liquid_epmAan": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"luvixia-rating-badge\" role=\"link\" tabindex=\"0\" aria-label=\"Voir les avis LOOX\"\n     onclick=\"window.dispatchEvent(new Event('luvixia-scroll-to-loox'))\">\n  <span class=\"stars\" aria-hidden=\"true\">\n    <!-- 5 étoiles SVG -->\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n  </span>\n  <span class=\"text\">\n    <strong>4.8/5</strong> Excellent · <strong>1200+</strong> Avis \n  </span>\n</div>\n\n<style>\n.luvixia-rating-badge{\n  display:inline-flex; align-items:center; gap:.6rem; cursor:pointer;\n  padding:.5rem .75rem; border-radius:.5rem; background:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,.06);\n  font-size:14px; line-height:1; user-select:none;\n}\n.luvixia-rating-badge .stars{ display:inline-flex; gap:.25rem; }\n.luvixia-rating-badge .star{ width:18px; height:18px; fill:#00B67A; /* vert type Trustpilot */ }\n.luvixia-rating-badge .text{ color:#111; }\n.luvixia-rating-badge:hover{ transform:translateY(-1px); transition:transform .15s ease; }\n</style>\n\n<script>\n(function(){\n  function goToLoox(){\n    // Ids/ancres Loox les plus courantes\n    var targets = [\n      '#looxReviews',          // Loox Product Reviews widget\n      '#loox-reviews',\n      '[data-loox-aggregate]', // parfois présent\n      '.loox-rating'           // fallback\n    ];\n    var el = null;\n    for (var i=0;i<targets.length;i++){\n      el = document.querySelector(targets[i]);\n      if (el) break;\n    }\n    if (el){\n      el.scrollIntoView({behavior:'smooth', block:'start'});\n    } else {\n      // Fallback : aller sur la même page avec l’ancre (utile si le bloc charge plus tard)\n      var href = (location.pathname || '/') + '#looxReviews';\n      location.assign(href);\n    }\n  }\n  window.addEventListener('luvixia-scroll-to-loox', goToLoox);\n})();\n</script>"
+            "liquid": "<div class=\"luvixia-rating-badge\" role=\"link\" tabindex=\"0\" aria-label=\"Voir les avis LOOX\"\n     onclick=\"window.dispatchEvent(new Event('luvixia-scroll-to-loox'))\">\n  <span class=\"stars\" aria-hidden=\"true\">\n    <!-- 5 étoiles SVG -->\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n    <svg viewBox=\"0 0 20 20\" class=\"star\"><path d=\"M10 1.6l2.6 5.3 5.9.9-4.3 4.2 1 5.9L10 15.9 4.8 18l1-5.9L1.6 7.8l5.9-.9L10 1.6z\"/></svg>\n  </span>\n  <span class=\"text\">\n    <strong>4.8/5</strong> Excellent · <strong>1200+</strong> Avis\n  </span>\n</div>\n\n<style>\n.luvixia-rating-badge{\n  display:inline-flex; align-items:center; gap:.6rem; cursor:pointer;\n  padding:.5rem .75rem; border-radius:.5rem; background:#fff;\n  box-shadow:0 1px 3px rgba(0,0,0,.06);\n  font-size:14px; line-height:1; user-select:none;\n}\n.luvixia-rating-badge .stars{ display:inline-flex; gap:.25rem; }\n.luvixia-rating-badge .star{ width:18px; height:18px; fill:#00B67A; /* vert type Trustpilot */ }\n.luvixia-rating-badge .text{ color:#111; }\n.luvixia-rating-badge:hover{ transform:translateY(-1px); transition:transform .15s ease; }\n</style>\n\n<script>\n(function(){\n  function goToLoox(){\n    // Ids/ancres Loox les plus courantes\n    var targets = [\n      '#looxReviews',          // Loox Product Reviews widget\n      '#loox-reviews',\n      '[data-loox-aggregate]', // parfois présent\n      '.loox-rating'           // fallback\n    ];\n    var el = null;\n    for (var i=0;i<targets.length;i++){\n      el = document.querySelector(targets[i]);\n      if (el) break;\n    }\n    if (el){\n      el.scrollIntoView({behavior:'smooth', block:'start'});\n    } else {\n      // Fallback : aller sur la même page avec l’ancre (utile si le bloc charge plus tard)\n      var href = (location.pathname || '/') + '#looxReviews';\n      location.assign(href);\n    }\n  }\n  window.addEventListener('luvixia-scroll-to-loox', goToLoox);\n})();\n</script>"
           }
         },
         "title_azFcDa": {
@@ -391,10 +507,16 @@
             "product": "{{section.settings.product}}"
           }
         },
+        "liquid_NMn3YM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- comment -%}\nZENBROSSE — Dernière chance\nOFFERTS + flèche vers le haut animée (verticale) + 2 cadeaux + timer\n{%- endcomment -%}\n\n<div class=\"zb-final3\" aria-live=\"polite\">\n  <div class=\"zb-final3__row\">\n    <span class=\"zb-final3__free\">OFFERTS</span>\n\n    <!-- Flèche droite vers le haut (animation verticale) -->\n    <svg class=\"zb-final3__arrow zb-final3__arrow--updown\" viewBox=\"0 0 40 60\" aria-hidden=\"true\">\n      <path d=\"M20 54 V10\" />\n      <path d=\"M8 22 L20 8 L32 22\" />\n    </svg>\n\n    <!-- Cadeaux -->\n    <div class=\"zb-final3__gifts\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/81MDKUU_CeL._AC_SX679.jpg?v=1764069597\"\n        alt=\"Cadeau 1 offert\"\n      >\n      <span class=\"zb-final3__plus\">+</span>\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Dites_adieu_aux_poils_partout_dans_la_maison_6.png?v=1765898592\"\n        alt=\"Cadeau 2 offert\"\n      >\n    </div>\n  </div>\n\n  <div class=\"zb-final3__title\">DERNIÈRE CHANCE</div>\n\n  <div class=\"zb-final3__timer\" role=\"timer\">\n    <span class=\"zb-f3\" data-u=\"d\">00</span><span class=\"zb-f3s\">:</span>\n    <span class=\"zb-f3\" data-u=\"h\">00</span><span class=\"zb-f3s\">:</span>\n    <span class=\"zb-f3\" data-u=\"m\">10</span><span class=\"zb-f3s\">:</span>\n    <span class=\"zb-f3\" data-u=\"s\">57</span>\n  </div>\n</div>\n\n<style>\n  .zb-final3{\n    width:100%;\n    max-width:540px;\n    margin:0 auto;\n    text-align:center;\n    font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;\n    color:#111;\n    padding-top:2px;\n  }\n\n  .zb-final3__row{\n    display:flex;\n    align-items:center;\n    justify-content:center;\n    gap:12px;\n    margin-bottom:4px;\n    flex-wrap:nowrap;\n  }\n\n  /* OFFERTS */\n  .zb-final3__free{\n    font-size:26px;\n    font-weight:900;\n    color:#17a55b;\n    letter-spacing:.04em;\n    font-style:italic;\n    white-space:nowrap;\n  }\n\n  /* Flèche */\n  .zb-final3__arrow{\n    width:28px;\n    height:auto;\n    flex-shrink:0;\n  }\n  .zb-final3__arrow path{\n    fill:none;\n    stroke:#111;\n    stroke-width:5.5;\n    stroke-linecap:round;\n    stroke-linejoin:round;\n  }\n\n  /* Animation verticale (monte / descend) */\n  .zb-final3__arrow--updown{\n    animation: zbArrowUpDown 1.1s ease-in-out infinite;\n  }\n\n  @keyframes zbArrowUpDown{\n    0%   { transform: translateY(0); }\n    50%  { transform: translateY(-6px); }\n    100% { transform: translateY(0); }\n  }\n\n  /* Cadeaux */\n  .zb-final3__gifts{\n    display:flex;\n    align-items:center;\n    gap:8px;\n  }\n\n  .zb-final3__gifts img{\n    height:46px;\n    width:auto;\n    border-radius:8px;\n    object-fit:contain;\n  }\n\n  .zb-final3__plus{\n    font-size:24px;\n    font-weight:900;\n    color:#111;\n    line-height:1;\n    transform: translateY(-2px);\n  }\n\n  .zb-final3__title{\n    font-size:21px;\n    font-weight:900;\n    letter-spacing:.04em;\n    margin:6px 0 8px;\n  }\n\n  /* Timer */\n  .zb-final3__timer{\n    display:inline-flex;\n    gap:5px;\n    font-size:23px;\n    font-weight:900;\n    color:#e00000;\n    letter-spacing:.06em;\n    font-variant-numeric:tabular-nums;\n    line-height:1;\n  }\n\n  .zb-f3{ min-width:26px; text-align:center; }\n  .zb-f3s{ opacity:.9; }\n\n  @media (max-width:520px){\n    .zb-final3__free{ font-size:24px; }\n    .zb-final3__title{ font-size:19px; }\n    .zb-final3__timer{ font-size:21px; }\n    .zb-final3__arrow{ width:26px; }\n    .zb-final3__gifts img{ height:40px; }\n    .zb-final3__plus{ font-size:22px; }\n  }\n\n  /* Accessibilité */\n  @media (prefers-reduced-motion: reduce){\n    .zb-final3__arrow--updown{ animation:none; }\n  }\n</style>\n\n<script>\n(function(){\n  const DURATION = 15 * 60; // 15 minutes\n  const els = {\n    d: document.querySelector('.zb-f3[data-u=\"d\"]'),\n    h: document.querySelector('.zb-f3[data-u=\"h\"]'),\n    m: document.querySelector('.zb-f3[data-u=\"m\"]'),\n    s: document.querySelector('.zb-f3[data-u=\"s\"]')\n  };\n\n  const KEY = 'zb_final3_end';\n  let end = +localStorage.getItem(KEY) || 0;\n  if(!end || end < Date.now()){\n    end = Date.now() + DURATION * 1000;\n    localStorage.setItem(KEY, end);\n  }\n\n  function pad(n){ return String(n).padStart(2,'0'); }\n\n  function tick(){\n    const t = Math.max(0, Math.floor((end - Date.now())/1000));\n    const d = Math.floor(t/86400),\n          h = Math.floor((t%86400)/3600),\n          m = Math.floor((t%3600)/60),\n          s = t%60;\n\n    els.d.textContent = pad(d);\n    els.h.textContent = pad(h);\n    els.m.textContent = pad(m);\n    els.s.textContent = pad(s);\n  }\n\n  tick();\n  setInterval(tick,1000);\n})();\n</script>"
+          }
+        },
         "liquid_wwV7Tc": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"free-shipping-banner\" aria-live=\"polite\">\n  <div class=\"stock-alert\">\n    <span class=\"dot\" aria-hidden=\"true\"></span>\n    <span class=\"stock-text\">\n      Plus que <strong id=\"stock-number\">3</strong> Brosses en stock\n    </span>\n  </div>\n</div>\n\n<style>\n.free-shipping-banner {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 4px;\n  font-weight: 600;\n  color: #c40000;\n  padding: 6px 12px;\n  width: fit-content;\n}\n\n/* Alerte stock */\n.stock-alert {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 13px;\n}\n\n/* ROND ROUGE animé (ancien) */\n.stock-alert .dot {\n  width: 9px;\n  height: 9px;\n  background-color: #d90000;\n  border-radius: 50%;\n  animation: dotPulse 1.6s ease-in-out infinite;\n}\n\n/* Texte */\n.stock-text {\n  color: #d90000;\n  animation: textPulse 3s ease-in-out infinite;\n}\n\n/* Animations */\n@keyframes dotPulse {\n  0%, 100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 0.8;\n  }\n}\n\n@keyframes textPulse {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.92; }\n}\n\n/* Réduction animations */\n@media (prefers-reduced-motion: reduce) {\n  .stock-text, .stock-alert .dot {\n    animation: none !important;\n  }\n}\n\n/* Responsive */\n@media (max-width: 600px) {\n  .free-shipping-banner { padding: 4px 8px; }\n  .stock-alert { font-size: 12px; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  document.getElementById(\"stock-number\").textContent = \"3\";\n});\n</script>"
+            "liquid": "<div class=\"free-shipping-banner\" aria-live=\"polite\">\n  <div class=\"stock-alert\">\n    <span class=\"dot\" aria-hidden=\"true\"></span>\n    <span class=\"stock-text\">\n      Plus que <strong id=\"stock-number\">3</strong>  en stock\n    </span>\n  </div>\n</div>\n\n<style>\n.free-shipping-banner {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 4px;\n  font-weight: 600;\n  color: #c40000;\n  padding: 6px 12px;\n  width: fit-content;\n}\n\n/* Alerte stock */\n.stock-alert {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 13px;\n}\n\n/* ROND ROUGE animé (ancien) */\n.stock-alert .dot {\n  width: 9px;\n  height: 9px;\n  background-color: #d90000;\n  border-radius: 50%;\n  animation: dotPulse 1.6s ease-in-out infinite;\n}\n\n/* Texte */\n.stock-text {\n  color: #d90000;\n  animation: textPulse 3s ease-in-out infinite;\n}\n\n/* Animations */\n@keyframes dotPulse {\n  0%, 100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 0.8;\n  }\n}\n\n@keyframes textPulse {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.92; }\n}\n\n/* Réduction animations */\n@media (prefers-reduced-motion: reduce) {\n  .stock-text, .stock-alert .dot {\n    animation: none !important;\n  }\n}\n\n/* Responsive */\n@media (max-width: 600px) {\n  .free-shipping-banner { padding: 4px 8px; }\n  .stock-alert { font-size: 12px; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  document.getElementById(\"stock-number\").textContent = \"3\";\n});\n</script>"
           }
         },
         "description_N8rwCU": {
@@ -432,13 +554,6 @@
             "atc_button_text_color": "#1a1a1a",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "liquid_NMn3YM": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "{%- comment -%}\nZENBROSSE — Mini timer pro centré (tons beige / caramel)\nAffiche : \"⏱️ Dernières offres — se terminent à [heure]\"\n{%- endcomment -%}\n\n{%- assign zb_brand  = zb_brand  | default: '#c98e4d' -%}\n{%- assign zb_ink    = zb_ink    | default: '#2c1f13' -%}\n\n<div class=\"zb-urgency\" aria-live=\"polite\">\n  <p class=\"zb-urgency__title\">\n    ⏱️ <span id=\"zb-slot-line\">Dernières offres — se terminent à …</span>\n  </p>\n\n  <div class=\"zb-urgency__timer\" role=\"timer\" aria-label=\"Compte à rebours vers le prochain créneau\">\n    <span class=\"zb-d\" data-u=\"h\">00</span><span class=\"zb-sep\">:</span>\n    <span class=\"zb-d\" data-u=\"m\">00</span><span class=\"zb-sep\">:</span>\n    <span class=\"zb-d\" data-u=\"s\">00</span>\n  </div>\n</div>\n\n<style>\n  .zb-urgency{\n    display:grid; gap:8px; justify-items:center; text-align:center;\n    font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n    color: {{ zb_ink }};\n    width:100%;\n  }\n\n  .zb-urgency__title{\n    margin:0;\n    font-weight:800;\n    font-size:14px;\n    letter-spacing:.02em;\n    color: {{ zb_brand }};\n  }\n\n  .zb-urgency__timer{\n    display:inline-flex; align-items:center; gap:6px;\n    padding:6px 10px;\n    border-radius:12px;\n    background:#fff9f3;               /* beige très clair */\n    border:1px solid #f1e0d1;          /* beige doux */\n  }\n\n  .zb-d{\n    min-width:26px; text-align:center;\n    font-weight:900; font-size:16px; line-height:1;\n    letter-spacing:.02em; color:#5a402c;           /* brun doux */\n  }\n\n  .zb-sep{\n    font-weight:900; font-size:16px; color:#c98e4d; opacity:.85;\n  }\n\n  @keyframes zbTick { 0%{transform:translateY(0)} 40%{transform:translateY(-1px)} 100%{transform:translateY(0)} }\n  .zb-d.tick{ animation: zbTick .22s ease; }\n\n  @media (max-width:768px){\n    .zb-urgency__title{ font-size:13.5px }\n    .zb-d,.zb-sep{ font-size:15px }\n    .zb-urgency__timer{ padding:5px 8px }\n  }\n</style>\n\n<script>\n(function(){\n  // Tous les créneaux + ajout de 10h et 11h\n  const SLOTS = [0,6,8,10,11,12,13,14,18,20,22];\n  const LABELS = {\n    0:  'minuit',\n    6:  '6h',\n    8:  '8h',\n    10: '10h',\n    11: '11h',\n    12: 'midi',\n    13: '13h',\n    14: '14h',\n    18: '18h',\n    20: '20h',\n    22: '22h'\n  };\n\n  const $h = document.querySelector('.zb-d[data-u=\"h\"]');\n  const $m = document.querySelector('.zb-d[data-u=\"m\"]');\n  const $s = document.querySelector('.zb-d[data-u=\"s\"]');\n  const $line = document.getElementById('zb-slot-line');\n\n  let target = null;\n  let prev = {h:null,m:null,s:null};\n\n  function nextSlot(now){\n    for(let d=0; d<=1; d++){\n      for(const hr of SLOTS){\n        const t = new Date(now);\n        t.setDate(now.getDate()+d);\n        t.setHours(hr,0,0,0);\n        if(t > now){\n          return {date:t, hour:hr};\n        }\n      }\n    }\n    const t = new Date(now);\n    t.setDate(now.getDate()+1);\n    t.setHours(0,0,0,0);\n    return {date:t, hour:0};\n  }\n\n  function fmt(n){ return n.toString().padStart(2,'0'); }\n\n  function renderLine(hr){\n    $line.textContent = `Dernières offres — se terminent à ${LABELS[hr]}`;\n  }\n\n  function tick(){\n    const now = new Date();\n\n    if(!target || now >= target.date){\n      target = nextSlot(now);\n      renderLine(target.hour);\n    }\n\n    const diff = target.date - now;\n    if(diff <= 0) return;\n\n    const h = Math.floor(diff / 36e5);\n    const m = Math.floor((diff % 36e5) / 6e4);\n    const s = Math.floor((diff % 6e4) / 1e3);\n    const cur = {h:fmt(h), m:fmt(m), s:fmt(s)};\n\n    if(cur.h !== prev.h){ $h.textContent = cur.h; $h.classList.add('tick'); }\n    if(cur.m !== prev.m){ $m.textContent = cur.m; $m.classList.add('tick'); }\n    if(cur.s !== prev.s){ $s.textContent = cur.s; $s.classList.add('tick'); }\n\n    prev = cur;\n\n    setTimeout(()=>{\n      $h.classList.remove('tick');\n      $m.classList.remove('tick');\n      $s.classList.remove('tick');\n    }, 230);\n  }\n\n  tick();\n  setInterval(tick, 1000);\n})();\n</script>"
           }
         },
         "image_Grigew": {
@@ -490,12 +605,12 @@
         "separator_t6edwd",
         "liquid_tV7zmz",
         "kaching_bundles_app_block_xNizqC",
+        "liquid_NMn3YM",
         "liquid_wwV7Tc",
         "description_N8rwCU",
         "variant_picker_T8yJLr",
         "quantity_selector_pE8XNq",
         "buy_buttons_PaPeTJ",
-        "liquid_NMn3YM",
         "image_Grigew",
         "image_kGUi4Y",
         "liquid_k7QaKG",
@@ -528,7 +643,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<!-- ===== + DE 12 000 MAÎTRES | Carrousel vidéos ZenBrosse ===== -->\n<div class=\"lxv-uugc\">\n  <h3 class=\"lxv-title\">Plus de 12 000 maîtres apaisent le toilettage et oublient le stress du bain</h3>\n\n  <div class=\"lxv-carousel\" aria-label=\"Carrousel vidéos clients\">\n\n    <!-- Carte 1 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/ae9f924708234da9a05659dc43334a8a.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 2 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/3819c08a1f864732b74af2c6b1aa0678.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 3 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/44bb879453394282a64e14bf1d14b2dc.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 4 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/9ab5272457b14738ad60814ace1cc8fa.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 5 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/656fdfae79084a33968cdca7d50f505a.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 6 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/1aa906e9d58c4697b4484984b3aa8b3b.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n  </div>\n\n  <!-- petits indicateurs (6 dots) -->\n  <div class=\"lxv-dots\" aria-hidden=\"true\">\n    <span class=\"dot is-active\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n  </div>\n</div>\n\n<style>\n.lxv-uugc{\n  --ink:#2B2140;\n  --rose:#ff4ebc;\n  --ring:#f0e6ff;\n  color:var(--ink);\n  max-width:1100px;\n  margin:24px auto;\n  padding:0 12px;\n}\n.lxv-title{\n  font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;\n  font-weight:700;\n  font-size:20px;\n  text-align:center;\n  margin:4px 0 16px;\n  line-height:1.35;\n}\n\n/* Carrousel */\n.lxv-carousel{\n  display:flex;\n  gap:14px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  -webkit-overflow-scrolling:touch;\n  padding-bottom:6px;\n}\n.lxv-carousel::-webkit-scrollbar{height:6px}\n.lxv-carousel::-webkit-scrollbar-thumb{\n  background:rgba(0,0,0,.12);\n  border-radius:8px;\n}\n\n/* Cartes vidéo */\n.lxv-card{\n  flex:0 0 70%;\n  scroll-snap-align:center;\n  background:#fff;\n  border:1px solid var(--ring);\n  border-radius:16px;\n  box-shadow:0 4px 14px rgba(0,0,0,.06);\n  overflow:hidden;\n}\n.lxv-vid-wrap{\n  position:relative;\n  width:100%;\n  aspect-ratio:1/1.35;\n  max-height:300px;\n  background:#faf7ff;\n}\n.lxv-video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  display:block;\n  background:#eee;\n}\n\n/* Bouton son */\n.lxv-sound-btn{\n  position:absolute;\n  left:10px;\n  bottom:10px;\n  padding:4px 8px;\n  font-size:14px;\n  border:none;\n  border-radius:999px;\n  background:rgba(0,0,0,0.65);\n  color:#fff;\n  cursor:pointer;\n  transition:background .2s, transform .15s;\n}\n.lxv-sound-btn:hover{\n  background:rgba(0,0,0,0.8);\n  transform:translateY(-1px);\n}\n\n/* Dots */\n.lxv-dots{\n  display:flex;\n  gap:6px;\n  justify-content:center;\n  margin-top:8px;\n}\n.lxv-dots .dot{\n  width:6px;\n  height:6px;\n  border-radius:50%;\n  background:#000;\n  transition:.2s;\n}\n.lxv-dots .dot.is-active{\n  background:#000;\n}\n\n/* Desktop */\n@media (min-width:900px){\n  .lxv-card{\n    flex:0 0 calc((100% - 28px)/3);\n  }\n  .lxv-vid-wrap{\n    max-height:520px;\n  }\n  .lxv-dots{\n    display:none;\n  }\n}\n</style>\n\n<script>\n(function(){\n  const container = document.querySelector('.lxv-uugc');\n  if(!container) return;\n\n  const track  = container.querySelector('.lxv-carousel');\n  const cards  = container.querySelectorAll('.lxv-card');\n  const dots   = container.querySelectorAll('.lxv-dots .dot');\n  const videos = container.querySelectorAll('.lxv-video');\n\n  if(!track || !cards.length) return;\n\n  // Lazy load + autoplay\n  const io = new IntersectionObserver((entries)=>{\n    entries.forEach(entry=>{\n      const card = entry.target;\n      const vid  = card.querySelector('.lxv-video');\n      if(!vid) return;\n\n      if(entry.isIntersecting){\n        if(!vid.src && vid.dataset.src){\n          vid.src = vid.dataset.src;\n        }\n        vid.play().catch(()=>{});\n      }\n    });\n  },{threshold:.2});\n\n  cards.forEach(c=>io.observe(c));\n\n  // Dots mobile\n  const updateDots = ()=>{\n    if(window.matchMedia('(min-width:900px)').matches) return;\n    const rect = track.getBoundingClientRect();\n    let active = 0, best = Infinity;\n\n    cards.forEach((c,i)=>{\n      const r = c.getBoundingClientRect();\n      const dist = Math.abs((r.left+r.right)/2 - (rect.left+rect.right)/2);\n      if(dist < best){\n        best = dist;\n        active = i;\n      }\n    });\n\n    dots.forEach((d,i)=> d.classList.toggle('is-active', i===active));\n  };\n\n  track.addEventListener('scroll', updateDots, {passive:true});\n  window.addEventListener('resize', updateDots);\n  updateDots();\n\n  // Son\n  function muteOthers(except){\n    videos.forEach(v=>{\n      if(v !== except){\n        v.muted = true;\n        const btn = v.parentElement.querySelector('.lxv-sound-btn');\n        if(btn) btn.textContent = '🔇';\n      }\n    });\n  }\n\n  cards.forEach(card=>{\n    const vid = card.querySelector('.lxv-video');\n    const btn = card.querySelector('.lxv-sound-btn');\n    if(!vid || !btn) return;\n\n    btn.addEventListener('click',(e)=>{\n      e.stopPropagation();\n\n      if(!vid.src && vid.dataset.src){\n        vid.src = vid.dataset.src;\n      }\n      vid.play().catch(()=>{});\n\n      if(vid.muted){\n        muteOthers(vid);\n        vid.muted = false;\n        btn.textContent = '🔊';\n      } else {\n        vid.muted = true;\n        btn.textContent = '🔇';\n      }\n    });\n  });\n})();\n</script>\n\n<!-- ===== /+ DE 12 000 MAÎTRES ===== -->",
+        "liquid": "<!-- ===== + DE 12 000 MAÎTRES | Carrousel vidéos ZenBrosse ===== -->\n<div class=\"lxv-uugc\">\n  <h3 class=\"lxv-title\">Plus de 12 000 maîtres ont apaisé leur chien en un geste</h3>\n\n  <div class=\"lxv-carousel\" aria-label=\"Carrousel vidéos clients\">\n\n    <!-- Carte 1 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/ae9f924708234da9a05659dc43334a8a.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 2 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/3819c08a1f864732b74af2c6b1aa0678.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 3 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/44bb879453394282a64e14bf1d14b2dc.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 4 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/9ab5272457b14738ad60814ace1cc8fa.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 5 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/656fdfae79084a33968cdca7d50f505a.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n    <!-- Carte 6 -->\n    <article class=\"lxv-card\">\n      <div class=\"lxv-vid-wrap\">\n        <video class=\"lxv-video\"\n               playsinline autoplay muted loop preload=\"metadata\"\n               data-src=\"https://cdn.shopify.com/videos/c/o/v/1aa906e9d58c4697b4484984b3aa8b3b.mp4\"></video>\n        <button type=\"button\" class=\"lxv-sound-btn\" aria-label=\"Activer ou couper le son\">🔇</button>\n      </div>\n    </article>\n\n  </div>\n\n  <!-- petits indicateurs (6 dots) -->\n  <div class=\"lxv-dots\" aria-hidden=\"true\">\n    <span class=\"dot is-active\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n    <span class=\"dot\"></span>\n  </div>\n</div>\n\n<style>\n.lxv-uugc{\n  --ink:#2B2140;\n  --rose:#ff4ebc;\n  --ring:#f0e6ff;\n  color:var(--ink);\n  max-width:1100px;\n  margin:24px auto;\n  padding:0 12px;\n}\n.lxv-title{\n  font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;\n  font-weight:700;\n  font-size:20px;\n  text-align:center;\n  margin:4px 0 16px;\n  line-height:1.35;\n}\n\n/* Carrousel */\n.lxv-carousel{\n  display:flex;\n  gap:14px;\n  overflow-x:auto;\n  scroll-snap-type:x mandatory;\n  -webkit-overflow-scrolling:touch;\n  padding-bottom:6px;\n}\n.lxv-carousel::-webkit-scrollbar{height:6px}\n.lxv-carousel::-webkit-scrollbar-thumb{\n  background:rgba(0,0,0,.12);\n  border-radius:8px;\n}\n\n/* Cartes vidéo */\n.lxv-card{\n  flex:0 0 70%;\n  scroll-snap-align:center;\n  background:#fff;\n  border:1px solid var(--ring);\n  border-radius:16px;\n  box-shadow:0 4px 14px rgba(0,0,0,.06);\n  overflow:hidden;\n}\n.lxv-vid-wrap{\n  position:relative;\n  width:100%;\n  aspect-ratio:1/1.35;\n  max-height:300px;\n  background:#faf7ff;\n}\n.lxv-video{\n  width:100%;\n  height:100%;\n  object-fit:cover;\n  display:block;\n  background:#eee;\n}\n\n/* Bouton son */\n.lxv-sound-btn{\n  position:absolute;\n  left:10px;\n  bottom:10px;\n  padding:4px 8px;\n  font-size:14px;\n  border:none;\n  border-radius:999px;\n  background:rgba(0,0,0,0.65);\n  color:#fff;\n  cursor:pointer;\n  transition:background .2s, transform .15s;\n}\n.lxv-sound-btn:hover{\n  background:rgba(0,0,0,0.8);\n  transform:translateY(-1px);\n}\n\n/* Dots */\n.lxv-dots{\n  display:flex;\n  gap:6px;\n  justify-content:center;\n  margin-top:8px;\n}\n.lxv-dots .dot{\n  width:6px;\n  height:6px;\n  border-radius:50%;\n  background:#000;\n  transition:.2s;\n}\n.lxv-dots .dot.is-active{\n  background:#000;\n}\n\n/* Desktop */\n@media (min-width:900px){\n  .lxv-card{\n    flex:0 0 calc((100% - 28px)/3);\n  }\n  .lxv-vid-wrap{\n    max-height:520px;\n  }\n  .lxv-dots{\n    display:none;\n  }\n}\n</style>\n\n<script>\n(function(){\n  const container = document.querySelector('.lxv-uugc');\n  if(!container) return;\n\n  const track  = container.querySelector('.lxv-carousel');\n  const cards  = container.querySelectorAll('.lxv-card');\n  const dots   = container.querySelectorAll('.lxv-dots .dot');\n  const videos = container.querySelectorAll('.lxv-video');\n\n  if(!track || !cards.length) return;\n\n  // Lazy load + autoplay\n  const io = new IntersectionObserver((entries)=>{\n    entries.forEach(entry=>{\n      const card = entry.target;\n      const vid  = card.querySelector('.lxv-video');\n      if(!vid) return;\n\n      if(entry.isIntersecting){\n        if(!vid.src && vid.dataset.src){\n          vid.src = vid.dataset.src;\n        }\n        vid.play().catch(()=>{});\n      }\n    });\n  },{threshold:.2});\n\n  cards.forEach(c=>io.observe(c));\n\n  // Dots mobile\n  const updateDots = ()=>{\n    if(window.matchMedia('(min-width:900px)').matches) return;\n    const rect = track.getBoundingClientRect();\n    let active = 0, best = Infinity;\n\n    cards.forEach((c,i)=>{\n      const r = c.getBoundingClientRect();\n      const dist = Math.abs((r.left+r.right)/2 - (rect.left+rect.right)/2);\n      if(dist < best){\n        best = dist;\n        active = i;\n      }\n    });\n\n    dots.forEach((d,i)=> d.classList.toggle('is-active', i===active));\n  };\n\n  track.addEventListener('scroll', updateDots, {passive:true});\n  window.addEventListener('resize', updateDots);\n  updateDots();\n\n  // Son\n  function muteOthers(except){\n    videos.forEach(v=>{\n      if(v !== except){\n        v.muted = true;\n        const btn = v.parentElement.querySelector('.lxv-sound-btn');\n        if(btn) btn.textContent = '🔇';\n      }\n    });\n  }\n\n  cards.forEach(card=>{\n    const vid = card.querySelector('.lxv-video');\n    const btn = card.querySelector('.lxv-sound-btn');\n    if(!vid || !btn) return;\n\n    btn.addEventListener('click',(e)=>{\n      e.stopPropagation();\n\n      if(!vid.src && vid.dataset.src){\n        vid.src = vid.dataset.src;\n      }\n      vid.play().catch(()=>{});\n\n      if(vid.muted){\n        muteOthers(vid);\n        vid.muted = false;\n        btn.textContent = '🔊';\n      } else {\n        vid.muted = true;\n        btn.textContent = '🔇';\n      }\n    });\n  });\n})();\n</script>\n\n<!-- ===== /+ DE 12 000 MAÎTRES ===== -->",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -547,118 +662,15 @@
         "text_color": ""
       }
     },
-    "rich_text_KxEj6w": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8LnEH8": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Pourquoi Choisir Zenbrosse ?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "image_YM4M9H": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "subheading_xHwqx4": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_KEK4Rj": {
-          "type": "heading",
-          "settings": {
-            "text": "Des résultats concrets",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_8LnEH8",
-        "image_YM4M9H",
-        "subheading_xHwqx4",
-        "heading_KEK4Rj"
-      ],
-      "name": "Rich text",
+    "custom_liquid_ADDCRk": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_Nywd4T": {
-      "type": "multi-column",
-      "blocks": {
-        "item_nFMkgX": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (11).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_PmycMV": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (9).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_JtUE3E": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_nFMkgX",
-        "item_PmycMV",
-        "item_JtUE3E"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section id=\"zenbrosse-video\" style=\"background:#ffffff;padding:60px 0;text-align:center;\">\n  <div style=\"max-width:820px;margin:0 auto;padding:0 16px;\">\n    <h2 style=\"font-size:28px;font-weight:800;margin-bottom:12px;color:#2b2b2b;\">\n      Quand le brossage devient un vrai moment de bonheur. 🐾\n    </h2>\n\n    <div style=\"position:relative;display:inline-block;width:100%;max-width:700px;\">\n      <video id=\"zenVideo\"\n        src=\"https://cdn.shopify.com/videos/c/o/v/a7cf7325ae864ecaa3f279405c175be0.mp4\"\n        muted\n        autoplay\n        loop\n        playsinline\n        preload=\"auto\"\n        style=\"width:100%;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,0.1);background:#000;\">\n      </video>\n\n      <!-- Badge \"son dispo\" -->\n      <div id=\"soundBadge\"\n        style=\"position:absolute;left:16px;bottom:16px;background:rgba(0,0,0,0.65);\n               color:#fff;padding:8px 10px;border-radius:999px;font-size:12px;\n               display:flex;gap:6px;align-items:center;backdrop-filter:blur(2px);\n               animation:pulse 1.6s ease-in-out infinite;\">\n        <span>🔊</span><span>Son disponible</span>\n      </div>\n\n      <!-- Bouton activer/couper le son -->\n      <button id=\"soundToggle\" aria-label=\"Activer le son\"\n        style=\"position:absolute;bottom:16px;right:16px;background:rgba(255,255,255,0.95);\n               border:none;border-radius:999px;height:46px;display:flex;align-items:center;gap:10px;\n               padding:0 14px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,0.15);font-size:16px;font-weight:600;\">\n        <span id=\"soundIcon\" style=\"font-size:18px;\">🔈</span>\n        <span id=\"soundLabel\">Activer le son</span>\n      </button>\n    </div>\n\n    <!-- Texte -->\n    <div class=\"zb-copy\" style=\"max-width:700px;margin:20px auto 0;text-align:center;line-height:1.6;font-size:16px;color:#2b2b2b;\">\n      <p style=\"margin:0;\">\n        Il se détend, ferme les yeux, profite de la chaleur douce.<br>\n        Grâce à la <strong>vapeur tiède apaisante</strong>, chaque séance devient <strong>un instant de calme et de lien</strong>.<br>\n        <strong>Recommandée par les professionnels</strong> pour <strong>un poil doux et un compagnon apaisé</strong>.\n      </p>\n    </div>\n  </div>\n\n  <style>\n    @keyframes pulse {0%{transform:scale(1);opacity:1}50%{transform:scale(1.05);opacity:.9}100%{transform:scale(1);opacity:1}}\n    @media (max-width:640px){\n      #zenbrosse-video{padding:45px 0;}\n      #zenbrosse-video h2{font-size:20px;line-height:1.35;margin-bottom:10px;padding:0 6px;}\n      #zenbrosse-video .zb-copy{font-size:14px;line-height:1.5;padding:0 10px;}\n      #soundToggle{height:42px;padding:0 12px;font-size:14px;bottom:12px;right:12px;}\n      #soundBadge{left:12px;bottom:12px;font-size:11px;padding:6px 8px;}\n    }\n    #soundToggle:hover{background:#f7f7f7;transition:background .2s ease;}\n  </style>\n\n  <script>\n    (function(){\n      const video = document.getElementById('zenVideo');\n      const btn   = document.getElementById('soundToggle');\n      const label = document.getElementById('soundLabel');\n      const icon  = document.getElementById('soundIcon');\n      const badge = document.getElementById('soundBadge');\n\n      // 🔒 Autoplay forcé même sur mobile\n      const tryPlay = () => {\n        const playPromise = video.play();\n        if (playPromise !== undefined) {\n          playPromise.catch(() => {\n            // Si bloqué par le navigateur, on essaie de relancer silencieusement\n            video.muted = true;\n            video.play();\n          });\n        }\n      };\n\n      video.setAttribute('playsinline', '');\n      video.setAttribute('muted', '');\n      video.setAttribute('autoplay', '');\n      video.muted = true;\n      tryPlay();\n\n      const setUI = () => {\n        if (video.muted) {\n          icon.textContent = '🔈';\n          label.textContent = 'Activer le son';\n          badge.style.display = 'flex';\n        } else {\n          icon.textContent = '🔊';\n          label.textContent = 'Couper le son';\n          badge.style.display = 'none';\n        }\n      };\n\n      btn.addEventListener('click', async (e) => {\n        e.stopPropagation();\n        video.muted = !video.muted;\n        setUI();\n        tryPlay();\n      });\n\n      document.addEventListener('touchstart', tryPlay, { once: true });\n      video.addEventListener('loadeddata', tryPlay);\n      video.addEventListener('loadedmetadata', setUI);\n      setUI();\n    })();\n  </script>\n</section>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -672,6 +684,19 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<!-- ===== ZENBROSSE | Bloc professionnel — à propos de ZenBrosse ===== -->\n<section class=\"zb-expert\" style=\"--gray:#f8f8f8;\">\n  <div class=\"zb-expert__container\">\n    <!-- Image à gauche -->\n    <figure class=\"zb-expert__image\">\n      <img\n        src=\"https://images.pexels.com/photos/6234633/pexels-photo-6234633.jpeg?auto=compress&cs=tinysrgb&w=800\"\n        alt=\"Dr. Marc Lefèvre, vétérinaire comportementaliste\"\n        loading=\"lazy\"\n        width=\"800\"\n        height=\"1000\">\n    </figure>\n\n    <!-- Texte à droite -->\n    <div class=\"zb-expert__text\">\n      <h3 class=\"zb-expert__name\">\n        Dr. Marc Lefèvre à propos de ZenBrosse\n      </h3>\n      <p class=\"zb-expert__quote\">\n        « Avec le temps, de nombreux chiens développent de la sensibilité au moment du brossage.\n        ZenBrosse apporte une approche douce et apaisante, qui réduit le stress tout en éliminant\n        efficacement le sous-poil. Cette méthode transforme la séance de toilettage en un moment\n        de calme et de bien-être partagé entre le maître et son compagnon. »\n      </p>\n    </div>\n  </div>\n</section>\n\n<style>\n  .zb-expert {\n    background: var(--gray);\n    padding: 60px 20px;\n  }\n\n  .zb-expert__container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 28px;\n    max-width: 1080px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__container {\n      flex-direction: row;\n      align-items: center;\n      justify-content: center;\n      gap: 60px;\n    }\n  }\n\n  .zb-expert__image {\n    flex: 1;\n    max-width: 480px;\n    margin: 0;\n  }\n\n  .zb-expert__image img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    object-fit: cover;\n    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);\n  }\n\n  .zb-expert__text {\n    flex: 1;\n    max-width: 540px;\n    text-align: left;\n    color: #222;\n  }\n\n  .zb-expert__name {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    color: #111;\n  }\n\n  .zb-expert__quote {\n    font-size: 16.5px;\n    line-height: 1.6;\n    color: #444;\n    font-style: italic;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__name { font-size: 26px; }\n    .zb-expert__quote { font-size: 17px; }\n  }\n</style>\n<!-- ===== /ZENBROSSE ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_VPCb8J": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- Témoignages clients émotionnels – Angle peur du bain / stress -->\n<style>\n.mgy-results {\n  --brand: #2C3E50;\n  --track: #e5e7eb;\n  max-width: 1000px;\n  margin: 0 auto;\n  padding: 40px 20px;\n  font-family: inherit;\n  text-align: center;\n}\n.mgy-results h2 {\n  font-size: 32px;\n  font-weight: 800;\n  margin-bottom: 40px;\n  color: #111111;\n}\n.mgy-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 40px;\n}\n.mgy-item {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.mgy-circle {\n  position: relative;\n  width: 120px;\n  height: 120px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.mgy-circle svg {\n  width: 120px;\n  height: 120px;\n  transform: rotate(-90deg);\n}\n.mgy-track {\n  stroke: var(--track);\n}\n.mgy-progress {\n  stroke: var(--brand);\n  stroke-linecap: round;\n}\n.mgy-num {\n  position: absolute;\n  font-size: 28px;\n  font-weight: 700;\n  color: var(--brand);\n}\n.mgy-text {\n  margin-top: 14px;\n  font-size: 16px;\n  line-height: 1.45;\n  color: #111111;\n}\n.mgy-note {\n  margin-top: 26px;\n  font-size: 14px;\n  color: #6b7280;\n}\n@media (max-width: 720px) {\n  .mgy-grid {\n    grid-template-columns: 1fr;\n    gap: 34px;\n  }\n  .mgy-results h2 {\n    font-size: 26px;\n  }\n}\n</style>\n\n<div class=\"mgy-results\" id=\"mgy-results\">\n  <h2>Ils ont redonné confiance à leur chien :</h2>\n  <div class=\"mgy-grid\">\n\n    <div class=\"mgy-item\">\n      <div class=\"mgy-circle\" data-target=\"93\">\n        <svg aria-hidden=\"true\">\n          <circle class=\"mgy-track\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n          <circle class=\"mgy-progress\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n        </svg>\n        <span class=\"mgy-num\" aria-label=\"93 pour cent\">0%</span>\n      </div>\n      <p class=\"mgy-text\"><strong>93%</strong> des maîtres disent que leur chien semble <strong>moins stressé à l’idée d’être brossé</strong>, dès la première semaine.</p>\n    </div>\n\n    <div class=\"mgy-item\">\n      <div class=\"mgy-circle\" data-target=\"89\">\n        <svg aria-hidden=\"true\">\n          <circle class=\"mgy-track\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n          <circle class=\"mgy-progress\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n        </svg>\n        <span class=\"mgy-num\" aria-label=\"89 pour cent\">0%</span>\n      </div>\n      <p class=\"mgy-text\"><strong>89%</strong> racontent que <strong>le moment du bain est devenu plus calme</strong>, presque agréable pour leur chien.</p>\n    </div>\n\n    <div class=\"mgy-item\">\n      <div class=\"mgy-circle\" data-target=\"86\">\n        <svg aria-hidden=\"true\">\n          <circle class=\"mgy-track\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n          <circle class=\"mgy-progress\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n        </svg>\n        <span class=\"mgy-num\" aria-label=\"86 pour cent\">0%</span>\n      </div>\n      <p class=\"mgy-text\"><strong>86%</strong> parlent d’un <strong>moment de complicité retrouvé</strong>, au lieu d’un combat à chaque brossage.</p>\n    </div>\n\n  </div>\n  <p class=\"mgy-note\">\n    *Sondage interne réalisé auprès de propriétaires de chiens sensibles ou anxieux ayant testé une solution douce de toilettage.\n  </p>\n</div>\n\n<script>\n(function(){\n  const boot = (root) => {\n    const section = root || document.getElementById('mgy-results');\n    if(!section) return;\n\n    let animated = false;\n    const items = section.querySelectorAll('.mgy-circle');\n\n    // Init rings\n    items.forEach(circ => {\n      const ring = circ.querySelector('.mgy-progress');\n      const r = Number(ring.getAttribute('r')) || 54;\n      const C = 2 * Math.PI * r;\n      ring.style.strokeDasharray = C;\n      ring.style.strokeDashoffset = C;\n    });\n\n    const animate = () => {\n      if(animated) return;\n      animated = true;\n\n      items.forEach(circ => {\n        const target = Number(circ.dataset.target || 0);\n        const num = circ.querySelector('.mgy-num');\n        const ring = circ.querySelector('.mgy-progress');\n        const r = Number(ring.getAttribute('r')) || 54;\n        const C = 2 * Math.PI * r;\n\n        const start = performance.now();\n        const duration = 1200;\n\n        const tick = (now) => {\n          const t = Math.min((now - start) / duration, 1);\n          const eased = 1 - Math.pow(1 - t, 3); // easeOutCubic\n          const val = Math.round(eased * target);\n          num.textContent = val + '%';\n          ring.style.strokeDashoffset = (C - (C * val / 100));\n          if(t < 1) requestAnimationFrame(tick);\n        };\n        requestAnimationFrame(tick);\n      });\n    };\n\n    const io = new IntersectionObserver((entries) => {\n      entries.forEach(e => {\n        if(e.isIntersecting){\n          animate();\n          io.disconnect();\n        }\n      });\n    }, {threshold: 0.25});\n\n    io.observe(section);\n  };\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', () => boot());\n  } else {\n    boot();\n  }\n\n  document.addEventListener('shopify:section:load', (evt) => {\n    const el = evt.target && evt.target.querySelector('#mgy-results');\n    if (el) boot(el);\n  });\n})();\n</script>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -703,6 +728,7 @@
     },
     "custom_liquid_4t9wtG": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -769,16 +795,18 @@
     "logo_list_FDNLNw",
     "rich_text_tQmTXg",
     "image_with_text_overlay_RGpYnq",
+    "custom_liquid_wHrAcj",
     "rich_text_nHxV4y",
-    "custom_liquid_ADDCRk",
+    "rich_text_KxEj6w",
+    "multi_column_Nywd4T",
     "rich_text_M3jUYw",
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
     "custom_liquid_fmGxhc",
     "custom_liquid_dqCLGJ",
-    "rich_text_KxEj6w",
-    "multi_column_Nywd4T",
+    "custom_liquid_ADDCRk",
     "custom_liquid_LkPVt6",
+    "custom_liquid_VPCb8J",
     "custom_liquid_kc6itV",
     "175897978814972c46",
     "custom_liquid_4t9wtG",
