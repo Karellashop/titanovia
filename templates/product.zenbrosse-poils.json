@@ -15,7 +15,7 @@
         "heading_Tt8CwE": {
           "type": "heading",
           "settings": {
-            "text": "Éliminez des poignées de poils coincés sous le pelage en quelques minutes",
+            "text": "Parce que vivre avec un chien ne devrait pas vouloir dire vivre avec ses poils.",
             "heading_tag": "h5"
           }
         },
@@ -29,7 +29,7 @@
         "liquid_UqGfCe": {
           "type": "liquid",
           "settings": {
-            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\">\n  Éliminer le sous-poil dès maintenant\n</a>\n\n<div class=\"zen-adopted-text\">\n  Déjà adopté par plus de 12 000 maîtres\n</div>\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 8px 20px; \n    border-radius: 999px;\n\n    background: #FFD100 !important;\n    color: #000000 !important;\n    font-size: 14px;\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n    box-shadow: 0 6px 14px rgba(0,0,0,0.25) !important;\n\n    transition: transform 0.2s ease,\n                box-shadow 0.2s ease,\n                background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-2px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.30) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.97);\n  }\n\n  .zen-adopted-text {\n    margin-top: 8px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #FFFFFF; /* blanc */\n    text-align: center;\n\n    /* 🔥 contraste pour fond clair */\n    text-shadow:\n      0 1px 2px rgba(0,0,0,0.45),\n      0 2px 6px rgba(0,0,0,0.35);\n  }\n\n  @media (min-width: 1024px) {\n    .zen-adopted-text {\n      text-align: left;\n    }\n  }\n</style>"
+            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\">\n  Éliminer le sous-poil dès maintenant\n</a>\n\n<div class=\"zen-adopted-text\">\n  Déjà adopté par plus de 12 000 maîtres\n</div>\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 8px 20px; \n    border-radius: 999px;\n\n    background: #FFD100 !important;\n    color: #000000 !important;\n    font-size: 12px;\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n    box-shadow: 0 6px 14px rgba(0,0,0,0.25) !important;\n\n    transition: transform 0.2s ease,\n                box-shadow 0.2s ease,\n                background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-2px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.30) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.97);\n  }\n\n  .zen-adopted-text {\n    margin-top: 8px;\n    font-size: 13px;\n    font-weight: 800;\n    color: #FFFFFF; /* blanc */\n    text-align: center;\n\n    /* 🔥 contraste pour fond clair */\n    text-shadow:\n      0 1px 2px rgba(0,0,0,0.45),\n      0 2px 6px rgba(0,0,0,0.35);\n  }\n\n  @media (min-width: 1024px) {\n    .zen-adopted-text {\n      text-align: left;\n    }\n  }\n</style>"
           }
         }
       },
@@ -48,7 +48,7 @@
         "mobile_image": "shopify://shop_images/Design_sans_titre_1_03bfa85d-875c-4e82-8f8f-30538f97e212.png",
         "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-start sm:text-start",
-        "text_color": "#1a1a1a",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
@@ -472,7 +472,8 @@
         "kaching_bundles_app_block_LaXdj7": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "{{product}}"
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
           }
         },
         "liquid_abqEmg": {
