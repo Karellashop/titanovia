@@ -21,15 +21,14 @@
         },
         "richtext_JdnaUX": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "content": "<p><em><strong>Pensé pour transformer le toilettage en un moment calme et agréable.</strong></em></p>"
+            "content": "<p><em><strong>Brosse massante conçue pour apaiser même les chiens les plus anxieux.</strong></em></p>"
           }
         },
         "liquid_TFDhEi": {
           "type": "liquid",
           "settings": {
-            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\">\n Apaiser mon chien dès maintenant\n</a>\n\n<div class=\"zen-adopted-text\">\n  ⭐ Déjà adopté par plus de 12 000 chiens heureux\n</div>\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 6px 16px;              /* ⬅️ plus petit */\n    border-radius: 999px;\n\n    background: #FFD100 !important;\n    color: #000000 !important;\n    font-size: 13px;                /* ⬅️ plus discret */\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n\n    box-shadow: 0 4px 10px rgba(0,0,0,0.22) !important; /* ⬅️ ombre plus légère */\n\n    transition: transform 0.2s ease,\n                box-shadow 0.2s ease,\n                background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-1px);\n    box-shadow: 0 6px 14px rgba(0,0,0,0.28) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.96);\n  }\n\n  .zen-adopted-text {\n    margin-top: 6px;\n    font-size: 12px;                /* ⬅️ légèrement réduit */\n    font-weight: 800;\n    color: #FFFFFF;\n    text-align: center;\n\n    text-shadow:\n      0 1px 2px rgba(0,0,0,0.45),\n      0 2px 6px rgba(0,0,0,0.35);\n  }\n\n  @media (min-width: 1024px) {\n    .zen-adopted-text {\n      text-align: left;\n    }\n  }\n</style>"
+            "liquid": "<a href=\"#bundle\" class=\"zen-btn-yellow-small\">\n Apaiser mon chien dès maintenant\n</a>\n\n\n<style>\n  .zen-btn-yellow-small {\n    all: unset;\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n\n    padding: 6px 16px;              /* ⬅️ plus petit */\n    border-radius: 999px;\n\n    background: #FFD100 !important;\n    color: #000000 !important;\n    font-size: 13px;                /* ⬅️ plus discret */\n    font-weight: 700;\n    cursor: pointer;\n    text-decoration: none !important;\n\n    box-shadow: 0 4px 10px rgba(0,0,0,0.22) !important; /* ⬅️ ombre plus légère */\n\n    transition: transform 0.2s ease,\n                box-shadow 0.2s ease,\n                background 0.2s ease;\n  }\n\n  .zen-btn-yellow-small:hover {\n    background: #F0C200 !important;\n    transform: translateY(-1px);\n    box-shadow: 0 6px 14px rgba(0,0,0,0.28) !important;\n  }\n\n  .zen-btn-yellow-small:active {\n    transform: scale(0.96);\n  }\n\n  .zen-adopted-text {\n    margin-top: 6px;\n    font-size: 12px;                /* ⬅️ légèrement réduit */\n    font-weight: 800;\n    color: #FFFFFF;\n    text-align: center;\n\n    text-shadow:\n      0 1px 2px rgba(0,0,0,0.45),\n      0 2px 6px rgba(0,0,0,0.35);\n  }\n\n  @media (min-width: 1024px) {\n    .zen-adopted-text {\n      text-align: left;\n    }\n  }\n</style>"
           }
         }
       },
