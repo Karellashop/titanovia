@@ -21,6 +21,7 @@
         },
         "richtext_UFi8Va": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p><em><strong>Brosse à vapeur conçue pour retirer poils et sous-poils sans tirer ni irriter.<br/><br/></strong></em></p>"
           }
