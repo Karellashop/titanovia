@@ -15,14 +15,21 @@
         "heading_jkYEqC": {
           "type": "heading",
           "settings": {
-            "text": "Dites adieu à la bataille du bain et bonjour à une relation enfin apaisée",
-            "heading_tag": "h4"
+            "text": "Offrez-lui enfin un bain sans peur, sans stress",
+            "heading_tag": "h3"
           }
         },
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em><strong>Brosse à vapeur conçue pour nettoyer et apaiser les chiens anxieux.</strong></em></p>"
+            "content": "<h6><em><strong>Nettoyez votre chien sans une seule goutte d’eau. Fini les cris, les flaques et les bains impossibles.</strong></em></h6>"
+          }
+        },
+        "richtext_keCjgx": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p><em><strong>Fini les cris, les flaques et les bains impossibles.</strong></em></p>"
           }
         },
         "liquid_TFDhEi": {
@@ -35,6 +42,7 @@
       "block_order": [
         "heading_jkYEqC",
         "richtext_JdnaUX",
+        "richtext_keCjgx",
         "liquid_TFDhEi"
       ],
       "name": "Image with text overlay",
