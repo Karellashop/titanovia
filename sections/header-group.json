@@ -70,9 +70,9 @@
         "text_size": "text-lg",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#fff5de",
+        "background": "#1a1a1a",
         "background_gradient": "",
-        "text_color": "#1a1a1a"
+        "text_color": "#ffffff"
       }
     },
     "header": {
