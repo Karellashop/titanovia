@@ -444,6 +444,12 @@
             "text": "<h4>ZenBrosse - La brosse vapeur 2-en-1 qui transforme le toilettage, vrai moment de bien-être</h4>"
           }
         },
+        "title_azFcDa": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h4"
+          }
+        },
         "liquid_epmAan": {
           "type": "liquid",
           "settings": {
@@ -454,12 +460,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<!-- Avis client – Fond blanc + émotion animale -->\n\n<style>\n.lvx-hero-review {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 14px;\n  background: #ffffff; /* Fond blanc */\n  border: 1px solid #ece7f6;\n  border-radius: 12px;\n  margin: 16px 0;\n  max-width: 520px;\n}\n\n.lvx-hero-review img {\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  object-fit: cover;\n  flex-shrink: 0;\n}\n\n.lvx-hero-review-content {\n  font-family: inherit;\n}\n\n.lvx-hero-review-content p {\n  margin: 0 0 6px 0;\n  font-size: 14px;\n  line-height: 1.4;\n  color: #1a1a1a;\n}\n\n.lvx-hero-review-author {\n  font-size: 13px;\n  font-weight: 600;\n  color: #1a1a1a;\n}\n\n.lvx-hero-review-stars {\n  color: #22c55e;\n  font-size: 13px;\n  margin-left: 6px;\n}\n</style>\n\n<div class=\"lvx-hero-review\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/IMG_0949_0c9bb0dd-669c-4e58-b212-13378762b100.jpg?v=1761764109\"\n    alt=\"Avis client ZenBrosse\"\n    loading=\"lazy\"\n  >\n  <div class=\"lvx-hero-review-content\">\n    <p>\n      « Il avait toujours peur du bain.  \n      Maintenant, il vient vers moi, la queue qui remue. C’est notre moment. »\n    </p>\n    <div class=\"lvx-hero-review-author\">\n      Laurine B.\n      <span class=\"lvx-hero-review-stars\">★★★★★</span>\n    </div>\n  </div>\n</div>"
-          }
-        },
-        "title_azFcDa": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h4"
           }
         },
         "liquid_HrLQdw": {
@@ -608,9 +608,9 @@
       },
       "block_order": [
         "text_d6ayJ6",
+        "title_azFcDa",
         "liquid_epmAan",
         "liquid_4kKnNV",
-        "title_azFcDa",
         "liquid_HrLQdw",
         "liquid_4KDkz6",
         "liquid_YjFzrg",
