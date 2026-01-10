@@ -560,6 +560,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_DLafRT": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Bloc professionnel — à propos de ZenBrosse ===== -->\n<section class=\"zb-expert\" style=\"--gray:#f8f8f8;\">\n  <div class=\"zb-expert__container\">\n    <!-- Image à gauche -->\n    <figure class=\"zb-expert__image\">\n      <img\n        src=\"https://images.pexels.com/photos/6234633/pexels-photo-6234633.jpeg?auto=compress&cs=tinysrgb&w=800\"\n        alt=\"Dr. Marc Lefèvre, vétérinaire comportementaliste\"\n        loading=\"lazy\"\n        width=\"800\"\n        height=\"1000\">\n    </figure>\n\n    <!-- Texte à droite -->\n    <div class=\"zb-expert__text\">\n      <h3 class=\"zb-expert__name\">\n        Dr. Marc Lefèvre à propos de ZenBrosse\n      </h3>\n      <p class=\"zb-expert__quote\">\n        « Avec le temps, de nombreux chiens développent de la sensibilité au moment du brossage.\n        ZenBrosse apporte une approche douce et apaisante, qui réduit le stress tout en éliminant\n        efficacement le sous-poil. Cette méthode transforme la séance de toilettage en un moment\n        de calme et de bien-être partagé entre le maître et son compagnon. »\n      </p>\n    </div>\n  </div>\n</section>\n\n<style>\n  .zb-expert {\n    background: var(--gray);\n    padding: 60px 20px;\n  }\n\n  .zb-expert__container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 28px;\n    max-width: 1080px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__container {\n      flex-direction: row;\n      align-items: center;\n      justify-content: center;\n      gap: 60px;\n    }\n  }\n\n  .zb-expert__image {\n    flex: 1;\n    max-width: 480px;\n    margin: 0;\n  }\n\n  .zb-expert__image img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    object-fit: cover;\n    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);\n  }\n\n  .zb-expert__text {\n    flex: 1;\n    max-width: 540px;\n    text-align: left;\n    color: #222;\n  }\n\n  .zb-expert__name {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    color: #111;\n  }\n\n  .zb-expert__quote {\n    font-size: 16.5px;\n    line-height: 1.6;\n    color: #444;\n    font-style: italic;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__name { font-size: 26px; }\n    .zb-expert__quote { font-size: 17px; }\n  }\n</style>\n<!-- ===== /ZENBROSSE ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_ffxKaw": {
       "type": "custom-liquid",
       "disabled": true,
@@ -732,6 +745,7 @@
     "main",
     "custom_liquid_GyHbj6",
     "custom_liquid_8chTQy",
+    "custom_liquid_DLafRT",
     "custom_liquid_ffxKaw",
     "custom_liquid_BJ9nqy",
     "custom_liquid_GMWz8Y",
