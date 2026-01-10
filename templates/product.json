@@ -560,6 +560,62 @@
         "text_color": ""
       }
     },
+    "rich_text_DpzBjx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VxVwQK": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi tant de maîtres ne peuvent plus s’en passer?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VxVwQK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_qTDba6": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Copie_de_Template_section_benefice_16.png",
+        "mobile_image": "shopify://shop_images/Copie_de_Template_section_benefice_f29eccc1-34b7-4d23-a01a-326d0f972481.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_jkTTeM": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version allégée sans textes ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Slider avec textes \"Avant / Après\" -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n\n        <div class=\"zb-img-wrap\">\n          <div class=\"zb-label zb-label--left\">Avant</div>\n          <div class=\"zb-label zb-label--right\">Après</div>\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"ZenBrosse Before Image\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"ZenBrosse After Image\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <style>\n    @media (min-width: 768px){ #zb-compare-{{ section.id }}{ display:none !important; } }\n\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n\n      background:#fff;\n      padding:0 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      text-align:center;\n    }\n\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0;\n      padding:0 16px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n  .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:11px;\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Version allégée ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_DLafRT": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -594,20 +650,6 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<!-- ===== ZENBROSS | Ingrédients Naturels du Sérum Intégré ===== -->\n<section id=\"zenbross-ingredients-horizontal\" class=\"lxv-ingredients-horizontal\">\n  <div class=\"lxv-ing__container\">\n    <h2 class=\"lxv-ing__title\">Les 4 extraits naturels qui apaisent et embellissent le pelage</h2>\n    <p class=\"lxv-ing__subtitle\">\n      Le sérum intégré à la brosse <strong>ZenBross</strong> associe des extraits végétaux doux et efficaces pour apaiser la peau, hydrater et sublimer le pelage de votre compagnon.\n    </p>\n\n    <div class=\"lxv-ing__row\">\n      <!-- 1 | Extrait de noix de coco -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/shutterstock_1450759553_1_54b822d8-d4f2-4b23-984e-f2386afcc8f8.webp?v=1761593625\" alt=\"Extrait de noix de coco\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de noix de coco</h3>\n          <p>Hydrate et protège la peau sensible, tout en renforçant la barrière naturelle du poil.</p>\n        </div>\n      </div>\n\n      <!-- 2 | Sophora flavescens -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Sophora_flavescens_03.jpg?v=1762790074\" alt=\"Sophora flavescens\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Sophora flavescens</h3>\n          <p>Apaise les irritations et les démangeaisons pour un confort durable de la peau.</p>\n        </div>\n      </div>\n\n      <!-- 3 | Extrait de kaki -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/CEFD0BCD-8D9B-4A28-98C0-800A10C1EAD1_1_102_o.jpg?v=1762790084\" alt=\"Extrait de kaki\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Extrait de kaki</h3>\n          <p>Purifie naturellement et neutralise les mauvaises odeurs tout en rafraîchissant le pelage.</p>\n        </div>\n      </div>\n\n      <!-- 4 | Huiles essentielles végétales -->\n      <div class=\"lxv-ing__item\">\n        <div class=\"lxv-ing__img\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/22397828-9FE2-40E4-AB21-CF6AFCC8D30B_1_102_o.jpg?v=1762790148\" alt=\"Huiles essentielles végétales\">\n        </div>\n        <div class=\"lxv-ing__text\">\n          <h3>Huiles essentielles végétales</h3>\n          <p>Nourrissent le poil en profondeur et le rendent doux, brillant et facile à brosser.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    /* ===== Structure globale ===== */\n    #zenbross-ingredients-horizontal {\n      background: #fff;\n      padding: 60px 0;\n      font-family: 'Poppins', system-ui, Arial, Helvetica, sans-serif;\n      color: #1d1b20;\n    }\n\n    .lxv-ing__container {\n      max-width: 1200px;\n      margin: 0 auto;\n      padding: 0 24px;\n      text-align: center;\n    }\n\n    .lxv-ing__title {\n      font-size: 32px;\n      font-weight: 700;\n      margin-bottom: 10px;\n      line-height: 1.2;\n    }\n\n    .lxv-ing__subtitle {\n      color: #555;\n      font-size: 16px;\n      margin-bottom: 42px;\n      max-width: 700px;\n      margin-left: auto;\n      margin-right: auto;\n      line-height: 1.6;\n    }\n\n    /* ===== Grille d’ingrédients ===== */\n    .lxv-ing__row {\n      display: grid;\n      grid-template-columns: repeat(4, 1fr);\n      gap: 24px;\n    }\n\n    @media (max-width: 950px) {\n      .lxv-ing__row {\n        grid-template-columns: repeat(2, 1fr);\n      }\n    }\n\n    @media (max-width: 600px) {\n      .lxv-ing__row {\n        grid-template-columns: 1fr;\n      }\n    }\n\n    /* ===== Carte ingrédient ===== */\n    .lxv-ing__item {\n      background: #f8fcff;\n      border: 1px solid #e3f1ff;\n      border-radius: 14px;\n      padding: 20px 16px;\n      box-shadow: 0 6px 16px rgba(0, 0, 0, .04);\n      transition: transform .3s ease, box-shadow .3s ease;\n    }\n\n    .lxv-ing__item:hover {\n      transform: translateY(-4px);\n      box-shadow: 0 10px 24px rgba(0, 0, 0, .08);\n    }\n\n    /* Image */\n    .lxv-ing__img {\n      width: 100%;\n      aspect-ratio: 1/1;\n      border-radius: 12px;\n      overflow: hidden;\n      margin-bottom: 14px;\n    }\n\n    .lxv-ing__img img {\n      width: 100%;\n      height: 100%;\n      object-fit: cover;\n      transition: transform .4s ease;\n    }\n\n    .lxv-ing__item:hover .lxv-ing__img img {\n      transform: scale(1.05);\n    }\n\n    /* Texte */\n    .lxv-ing__text h3 {\n      font-size: 17px;\n      font-weight: 700;\n      margin: 0 0 6px;\n      color: #215172;\n    }\n\n    .lxv-ing__text p {\n      font-size: 14px;\n      color: #444;\n      margin: 0;\n      line-height: 1.55;\n    }\n  </style>\n</section>\n<!-- ===== /ZENBROSS | Ingrédients Naturels ===== -->",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "custom_liquid_ffxKaw": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- ===== ZENBROSSE | Bloc professionnel — à propos de ZenBrosse (version chats, vétérinaire femme) ===== -->\n<section class=\"zb-expert\" style=\"--gray:#f8f8f8;\">\n  <div class=\"zb-expert__container\">\n    <!-- Image à gauche -->\n    <figure class=\"zb-expert__image\">\n      <img\n        src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_39.png?v=1762769467\"\n        alt=\"Dr. Élodie Martin, vétérinaire spécialiste du comportement félin\"\n        loading=\"lazy\"\n        width=\"800\"\n        height=\"1000\">\n    </figure>\n\n    <!-- Texte à droite -->\n    <div class=\"zb-expert__text\">\n      <h3 class=\"zb-expert__name\">\n        Dr. Élodie Martin à propos de ZenBrosse\n      </h3>\n      <p class=\"zb-expert__quote\">\n        « Avec le temps, de nombreux <strong>chats</strong> deviennent sensibles ou anxieux pendant le brossage.\n        ZenBrosse offre une approche <strong>douce, tiède et apaisante</strong> qui aide à réduire le stress tout en\n        éliminant efficacement le <strong>sous-poil</strong>. Cette méthode transforme la séance de toilettage en un\n        véritable moment de <strong>calme, de confiance et de bien-être partagé</strong> entre le maître et son chat. »\n      </p>\n    </div>\n  </div>\n</section>\n\n<style>\n  .zb-expert {\n    background: var(--gray);\n    padding: 60px 20px;\n  }\n\n  .zb-expert__container {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 28px;\n    max-width: 1080px;\n    margin: 0 auto;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__container {\n      flex-direction: row;\n      align-items: center;\n      justify-content: center;\n      gap: 60px;\n    }\n  }\n\n  .zb-expert__image {\n    flex: 1;\n    max-width: 480px;\n    margin: 0;\n  }\n\n  .zb-expert__image img {\n    display: block;\n    width: 100%;\n    height: auto;\n    border-radius: 12px;\n    object-fit: cover;\n    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);\n  }\n\n  .zb-expert__text {\n    flex: 1;\n    max-width: 540px;\n    text-align: left;\n    color: #222;\n  }\n\n  .zb-expert__name {\n    font-size: 22px;\n    font-weight: 700;\n    margin-bottom: 14px;\n    color: #111;\n  }\n\n  .zb-expert__quote {\n    font-size: 16.5px;\n    line-height: 1.6;\n    color: #444;\n    font-style: italic;\n  }\n\n  @media (min-width: 992px) {\n    .zb-expert__name { font-size: 26px; }\n    .zb-expert__quote { font-size: 17px; }\n  }\n</style>\n<!-- ===== /ZENBROSSE ===== -->",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -792,10 +834,12 @@
     "main",
     "custom_liquid_GyHbj6",
     "custom_liquid_8chTQy",
+    "rich_text_DpzBjx",
+    "image_with_text_overlay_qTDba6",
+    "custom_liquid_jkTTeM",
     "custom_liquid_DLafRT",
     "custom_liquid_w9Hy3g",
     "custom_liquid_YdyxDH",
-    "custom_liquid_ffxKaw",
     "custom_liquid_BJ9nqy",
     "custom_liquid_GMWz8Y",
     "related-products",
