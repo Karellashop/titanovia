@@ -368,6 +368,18 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_kXdLFM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Avis client – Fond blanc + émotion animale -->\n\n<style>\n.lvx-hero-review {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 14px;\n  background: #ffffff; /* Fond blanc */\n  border: 1px solid #ece7f6;\n  border-radius: 12px;\n  margin: 16px 0;\n  max-width: 520px;\n}\n\n.lvx-hero-review img {\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  object-fit: cover;\n  flex-shrink: 0;\n}\n\n.lvx-hero-review-content {\n  font-family: inherit;\n}\n\n.lvx-hero-review-content p {\n  margin: 0 0 6px 0;\n  font-size: 14px;\n  line-height: 1.4;\n  color: #1a1a1a;\n}\n\n.lvx-hero-review-author {\n  font-size: 13px;\n  font-weight: 600;\n  color: #1a1a1a;\n}\n\n.lvx-hero-review-stars {\n  color: #22c55e;\n  font-size: 13px;\n  margin-left: 6px;\n}\n</style>\n\n<div class=\"lvx-hero-review\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/IMG_0949_0c9bb0dd-669c-4e58-b212-13378762b100.jpg?v=1761764109\"\n    alt=\"Avis client ZenBrosse\"\n    loading=\"lazy\"\n  >\n  <div class=\"lvx-hero-review-content\">\n    <p>\n      « Il avait toujours peur du bain.  \n      Maintenant, il vient vers moi, la queue qui remue. C’est notre moment. »\n    </p>\n    <div class=\"lvx-hero-review-author\">\n      Laurine B.\n      <span class=\"lvx-hero-review-stars\">★★★★★</span>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "liquid_p3dKq7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- ===== ZENBROSSE | Avantages — version EMOTIONNELLE COURTE ===== -->\n<style>\n  :root{\n    --ink:#1A1A1A;\n    --bg:rgba(255,255,255,0.7);\n    --border:rgba(0,0,0,0.08);\n  }\n  .zb-stack{\n    font-family:'Poppins',system-ui,Arial,sans-serif;\n    color:var(--ink);\n    background:var(--bg);\n    backdrop-filter:blur(12px);\n    -webkit-backdrop-filter:blur(12px);\n    border:1px solid var(--border);\n    border-radius:16px;\n    width:min(100% - 20px,700px);\n    margin:16px auto;\n    padding:12px 18px;\n    box-shadow:0 4px 18px rgba(0,0,0,0.06);\n  }\n\n  .zb-line{\n    display:flex;\n    align-items:center;\n    gap:12px;\n    padding:10px 0;\n    font-size:15px;\n    font-weight:600;\n    line-height:1.35;\n    opacity:0;\n    transform:translateY(8px);\n    transition:.5s ease;\n  }\n  .zb-line.show{ opacity:1; transform:none; }\n\n  .zb-ico{\n    width:22px;\n    height:22px;\n    flex:0 0 22px;\n    color:#3a3a3a;\n    display:grid;\n    place-items:center;\n  }\n  .zb-ico svg{ width:100%; height:100%; }\n\n  .anim-heart{ animation:beat 1.6s ease-in-out infinite; }\n  @keyframes beat{\n    0%,100%{transform:scale(1)}\n    50%{transform:scale(1.2)}\n  }\n\n  .anim-spark{ animation:spin 4s linear infinite; }\n  @keyframes spin{ to{ transform:rotate(360deg) } }\n</style>\n\n<div class=\"zb-stack\" aria-label=\"Avantages ZenBrosse\">\n\n  <!-- 1️⃣ Calme pendant le toilettage -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-spark\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M12 2v4M12 18v4M4 12h4M16 12h4M4.5 4.5l2 2M17.5 17.5l2 2M4.5 19.5l2-2M17.5 6.5l2-2\"/>\n      </svg>\n    </span>\n    Votre chien reste calme pendant le toilettage\n  </div>\n\n  <!-- 2️⃣ Fin du stress du bain -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg class=\"anim-heart\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z\"/>\n      </svg>\n    </span>\n    Vous oubliez le stress du bain\n  </div>\n\n  <!-- 3️⃣ Câlins plus agréables -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <circle cx=\"7.5\" cy=\"8.5\" r=\"1.8\"/>\n        <circle cx=\"16.5\" cy=\"8.5\" r=\"1.8\"/>\n        <path d=\"M8 15c1.2 1 2.6 1.5 4 1.5s2.8-.5 4-1.5\"/>\n      </svg>\n    </span>\n    Chaque câlin devient encore plus agréable\n  </div>\n\n  <!-- 4️⃣ Moment de complicité -->\n  <div class=\"zb-line\">\n    <span class=\"zb-ico\">\n      <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n        <path d=\"M3 20h12\"/>\n        <path d=\"M14 14l-4 6\"/>\n        <path d=\"M16 4l-6 10\"/>\n        <path d=\"M18 6l-2 -2\"/>\n      </svg>\n    </span>\n    Vous partagez un vrai moment de complicité\n  </div>\n\n</div>\n\n<script>\n  (function(){\n    const lines = document.querySelectorAll('.zb-line');\n    const io = new IntersectionObserver((entries)=>{\n      entries.forEach(e=>{\n        if(e.isIntersecting){\n          e.target.classList.add('show');\n          io.unobserve(e.target);\n        }\n      });\n    },{threshold:.2});\n    lines.forEach(l=>io.observe(l));\n  })();\n</script>\n<!-- ===== /ZENBROSSE ===== -->"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -414,7 +426,14 @@
         "kaching_bundles_app_block_LaXdj7": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "{{product}}"
+            "product": "{{product}}",
+            "manual_deal_block_id": ""
+          }
+        },
+        "liquid_JH6CQW": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"free-shipping-banner\" aria-live=\"polite\">\n  <div class=\"stock-alert\">\n    <span class=\"dot\" aria-hidden=\"true\"></span>\n    <span class=\"stock-text\">\n      Plus que <strong id=\"stock-number\">3</strong>  en stock\n    </span>\n  </div>\n</div>\n\n<style>\n.free-shipping-banner {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  gap: 4px;\n  font-weight: 600;\n  color: #c40000;\n  padding: 6px 12px;\n  width: fit-content;\n}\n\n/* Alerte stock */\n.stock-alert {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 13px;\n}\n\n/* ROND ROUGE animé (ancien) */\n.stock-alert .dot {\n  width: 9px;\n  height: 9px;\n  background-color: #d90000;\n  border-radius: 50%;\n  animation: dotPulse 1.6s ease-in-out infinite;\n}\n\n/* Texte */\n.stock-text {\n  color: #d90000;\n  animation: textPulse 3s ease-in-out infinite;\n}\n\n/* Animations */\n@keyframes dotPulse {\n  0%, 100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.4);\n    opacity: 0.8;\n  }\n}\n\n@keyframes textPulse {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.92; }\n}\n\n/* Réduction animations */\n@media (prefers-reduced-motion: reduce) {\n  .stock-text, .stock-alert .dot {\n    animation: none !important;\n  }\n}\n\n/* Responsive */\n@media (max-width: 600px) {\n  .free-shipping-banner { padding: 4px 8px; }\n  .stock-alert { font-size: 12px; }\n}\n</style>\n\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  document.getElementById(\"stock-number\").textContent = \"3\";\n});\n</script>"
           }
         },
         "liquid_FgHT34": {
@@ -478,6 +497,8 @@
         "liquid_tRNFBf",
         "badges",
         "price",
+        "liquid_kXdLFM",
+        "liquid_p3dKq7",
         "rating",
         "payment_terms",
         "separator",
@@ -486,6 +507,7 @@
         "variant_picker",
         "quantity_selector",
         "kaching_bundles_app_block_LaXdj7",
+        "liquid_JH6CQW",
         "liquid_FgHT34",
         "buy_buttons",
         "liquid_eTD9Up",
