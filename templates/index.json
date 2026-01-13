@@ -22,7 +22,7 @@
         "richtext_JdnaUX": {
           "type": "richtext",
           "settings": {
-            "content": "<h6><em><strong>Du stress au câlin, en un instant.<br/><br/></strong></em></h6>"
+            "content": "<p><em><strong>Nettoyer sans forcer. Apaiser sans lutter.</strong></em></p>"
           }
         },
         "richtext_keCjgx": {
@@ -57,7 +57,7 @@
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 3
+        "overlay_opacity": 5
       }
     },
     "logo_list_FDNLNw": {
