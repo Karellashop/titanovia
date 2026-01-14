@@ -162,17 +162,46 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_wHrAcj": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "rich_text_DTPzAY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gEniJ7": {
+          "type": "heading",
+          "settings": {
+            "text": "Résultat Avant/Après",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_gEniJ7"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version allégée sans textes ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Slider avec textes \"Avant / Après\" -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n\n        <div class=\"zb-img-wrap\">\n          <div class=\"zb-label zb-label--left\">Avant</div>\n          <div class=\"zb-label zb-label--right\">Après</div>\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"ZenBrosse Before Image\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"ZenBrosse After Image\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <style>\n    @media (min-width: 768px){ #zb-compare-{{ section.id }}{ display:none !important; } }\n\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n\n      background:#fff;\n      padding:0 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      text-align:center;\n    }\n\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0;\n      padding:0 16px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n  .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:11px;\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Version allégée ===== -->",
+        "content_width": "large",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "video_bmDkVJ": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/AVANT (Publication Facebook) (1).mp4",
+        "mobile_video": "shopify://files/videos/AVANT (Publication Facebook) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "rich_text_nHxV4y": {
@@ -706,6 +735,19 @@
         "text_color": ""
       }
     },
+    "custom_liquid_wHrAcj": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version allégée sans textes ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Slider avec textes \"Avant / Après\" -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n\n        <div class=\"zb-img-wrap\">\n          <div class=\"zb-label zb-label--left\">Avant</div>\n          <div class=\"zb-label zb-label--right\">Après</div>\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"ZenBrosse Before Image\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"ZenBrosse After Image\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <style>\n    @media (min-width: 768px){ #zb-compare-{{ section.id }}{ display:none !important; } }\n\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n\n      background:#fff;\n      padding:0 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      text-align:center;\n    }\n\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0;\n      padding:0 16px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n  .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:11px;\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Version allégée ===== -->",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_VPCb8J": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -812,10 +854,9 @@
     "logo_list_FDNLNw",
     "rich_text_tQmTXg",
     "image_with_text_overlay_RGpYnq",
-    "custom_liquid_wHrAcj",
+    "rich_text_DTPzAY",
+    "video_bmDkVJ",
     "rich_text_nHxV4y",
-    "rich_text_KxEj6w",
-    "multi_column_Nywd4T",
     "rich_text_M3jUYw",
     "multi_column_KMggKq",
     "featured_product_Hhj93J",
@@ -823,7 +864,10 @@
     "custom_liquid_dqCLGJ",
     "custom_liquid_ADDCRk",
     "custom_liquid_LkPVt6",
+    "rich_text_KxEj6w",
+    "multi_column_Nywd4T",
     "custom_liquid_VPCb8J",
+    "custom_liquid_wHrAcj",
     "custom_liquid_kc6itV",
     "175897978814972c46",
     "custom_liquid_4t9wtG",
