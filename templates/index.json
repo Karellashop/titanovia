@@ -196,8 +196,8 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/AVANT (Publication Facebook) (1).mp4",
-        "mobile_video": "shopify://files/videos/AVANT (Publication Facebook) (1).mp4",
+        "video": "shopify://files/videos/AVANT (Publicité Facebook).mp4",
+        "mobile_video": "shopify://files/videos/AVANT (Publication Facebook) (2).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -211,123 +211,6 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_KxEj6w": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8LnEH8": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Pourquoi Choisir Zenbrosse ?",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "image_YM4M9H": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "subheading_xHwqx4": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_KEK4Rj": {
-          "type": "heading",
-          "settings": {
-            "text": "Des résultats concrets",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_8LnEH8",
-        "image_YM4M9H",
-        "subheading_xHwqx4",
-        "heading_KEK4Rj"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_Nywd4T": {
-      "type": "multi-column",
-      "blocks": {
-        "item_PmycMV": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (9).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_JtUE3E": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_nFMkgX": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Design sans titre (11).mp4",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_PmycMV",
-        "item_JtUE3E",
-        "item_nFMkgX"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -735,14 +618,118 @@
         "text_color": ""
       }
     },
-    "custom_liquid_wHrAcj": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "rich_text_KxEj6w": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8LnEH8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Pourquoi Choisir Zenbrosse ?",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_YM4M9H": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Zenbrosse_VS_1.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_xHwqx4": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KEK4Rj": {
+          "type": "heading",
+          "settings": {
+            "text": "Des résultats concrets",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8LnEH8",
+        "image_YM4M9H",
+        "subheading_xHwqx4",
+        "heading_KEK4Rj"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version allégée sans textes ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Slider avec textes \"Avant / Après\" -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n\n        <div class=\"zb-img-wrap\">\n          <div class=\"zb-label zb-label--left\">Avant</div>\n          <div class=\"zb-label zb-label--right\">Après</div>\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"ZenBrosse Before Image\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"ZenBrosse After Image\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <style>\n    @media (min-width: 768px){ #zb-compare-{{ section.id }}{ display:none !important; } }\n\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n\n      background:#fff;\n      padding:0 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      text-align:center;\n    }\n\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0;\n      padding:0 16px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n  .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:11px;\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Version allégée ===== -->",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_Nywd4T": {
+      "type": "multi-column",
+      "blocks": {
+        "item_PmycMV": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (9).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JtUE3E": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/50f704f1f7584eb78f16c715ea9eaf65.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nFMkgX": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Design sans titre (11).mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_PmycMV",
+        "item_JtUE3E",
+        "item_nFMkgX"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -756,6 +743,19 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<!-- Témoignages clients émotionnels – Angle peur du bain / stress -->\n<style>\n.mgy-results {\n  --brand: #2C3E50;\n  --track: #e5e7eb;\n  max-width: 1000px;\n  margin: 0 auto;\n  padding: 40px 20px;\n  font-family: inherit;\n  text-align: center;\n}\n.mgy-results h2 {\n  font-size: 32px;\n  font-weight: 800;\n  margin-bottom: 40px;\n  color: #111111;\n}\n.mgy-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 40px;\n}\n.mgy-item {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.mgy-circle {\n  position: relative;\n  width: 120px;\n  height: 120px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.mgy-circle svg {\n  width: 120px;\n  height: 120px;\n  transform: rotate(-90deg);\n}\n.mgy-track {\n  stroke: var(--track);\n}\n.mgy-progress {\n  stroke: var(--brand);\n  stroke-linecap: round;\n}\n.mgy-num {\n  position: absolute;\n  font-size: 28px;\n  font-weight: 700;\n  color: var(--brand);\n}\n.mgy-text {\n  margin-top: 14px;\n  font-size: 16px;\n  line-height: 1.45;\n  color: #111111;\n}\n.mgy-note {\n  margin-top: 26px;\n  font-size: 14px;\n  color: #6b7280;\n}\n@media (max-width: 720px) {\n  .mgy-grid {\n    grid-template-columns: 1fr;\n    gap: 34px;\n  }\n  .mgy-results h2 {\n    font-size: 26px;\n  }\n}\n</style>\n\n<div class=\"mgy-results\" id=\"mgy-results\">\n  <h2>Elles ont redonné confiance à leur chien :</h2>\n  <div class=\"mgy-grid\">\n\n    <div class=\"mgy-item\">\n      <div class=\"mgy-circle\" data-target=\"93\">\n        <svg aria-hidden=\"true\">\n          <circle class=\"mgy-track\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n          <circle class=\"mgy-progress\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n        </svg>\n        <span class=\"mgy-num\" aria-label=\"93 pour cent\">0%</span>\n      </div>\n      <p class=\"mgy-text\"><strong>93%</strong> des clientes disent que leur chien semble <strong>moins stressé à l’idée d’être brossé</strong>, dès la première semaine.</p>\n    </div>\n\n    <div class=\"mgy-item\">\n      <div class=\"mgy-circle\" data-target=\"89\">\n        <svg aria-hidden=\"true\">\n          <circle class=\"mgy-track\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n          <circle class=\"mgy-progress\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n        </svg>\n        <span class=\"mgy-num\" aria-label=\"89 pour cent\">0%</span>\n      </div>\n      <p class=\"mgy-text\"><strong>89%</strong> racontent que <strong>le moment du bain est devenu plus calme</strong>, presque agréable pour leur chien.</p>\n    </div>\n\n    <div class=\"mgy-item\">\n      <div class=\"mgy-circle\" data-target=\"86\">\n        <svg aria-hidden=\"true\">\n          <circle class=\"mgy-track\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n          <circle class=\"mgy-progress\" cx=\"60\" cy=\"60\" r=\"54\" stroke-width=\"10\" fill=\"none\"></circle>\n        </svg>\n        <span class=\"mgy-num\" aria-label=\"86 pour cent\">0%</span>\n      </div>\n      <p class=\"mgy-text\"><strong>86%</strong> parlent d’un <strong>moment de complicité retrouvé</strong>, au lieu d’un combat à chaque brossage.</p>\n    </div>\n\n  </div>\n  <p class=\"mgy-note\">\n    *Sondage interne réalisé auprès de propriétaires de chiens sensibles ou anxieux ayant testé une solution douce de toilettage.\n  </p>\n</div>\n\n<script>\n(function(){\n  const boot = (root) => {\n    const section = root || document.getElementById('mgy-results');\n    if(!section) return;\n\n    let animated = false;\n    const items = section.querySelectorAll('.mgy-circle');\n\n    // Init rings\n    items.forEach(circ => {\n      const ring = circ.querySelector('.mgy-progress');\n      const r = Number(ring.getAttribute('r')) || 54;\n      const C = 2 * Math.PI * r;\n      ring.style.strokeDasharray = C;\n      ring.style.strokeDashoffset = C;\n    });\n\n    const animate = () => {\n      if(animated) return;\n      animated = true;\n\n      items.forEach(circ => {\n        const target = Number(circ.dataset.target || 0);\n        const num = circ.querySelector('.mgy-num');\n        const ring = circ.querySelector('.mgy-progress');\n        const r = Number(ring.getAttribute('r')) || 54;\n        const C = 2 * Math.PI * r;\n\n        const start = performance.now();\n        const duration = 1200;\n\n        const tick = (now) => {\n          const t = Math.min((now - start) / duration, 1);\n          const eased = 1 - Math.pow(1 - t, 3); // easeOutCubic\n          const val = Math.round(eased * target);\n          num.textContent = val + '%';\n          ring.style.strokeDashoffset = (C - (C * val / 100));\n          if(t < 1) requestAnimationFrame(tick);\n        };\n        requestAnimationFrame(tick);\n      });\n    };\n\n    const io = new IntersectionObserver((entries) => {\n      entries.forEach(e => {\n        if(e.isIntersecting){\n          animate();\n          io.disconnect();\n        }\n      });\n    }, {threshold: 0.25});\n\n    io.observe(section);\n  };\n\n  if (document.readyState === 'loading') {\n    document.addEventListener('DOMContentLoaded', () => boot());\n  } else {\n    boot();\n  }\n\n  document.addEventListener('shopify:section:load', (evt) => {\n    const el = evt.target && evt.target.querySelector('#mgy-results');\n    if (el) boot(el);\n  });\n})();\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_wHrAcj": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- ===== ZENBROSSE | Avant / Après — Version allégée sans textes ===== -->\n<div id=\"zb-compare-{{ section.id }}\" class=\"zb-wrap\">\n  <div class=\"zb-container\">\n\n    <!-- Slider avec textes \"Avant / Après\" -->\n    <div class=\"zb-comparison-zone\">\n      <div class=\"zb-comparison\">\n\n        <div class=\"zb-img-wrap\">\n          <div class=\"zb-label zb-label--left\">Avant</div>\n          <div class=\"zb-label zb-label--right\">Après</div>\n          <!-- AVANT -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-base\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_082a2f89-4fc4-4f6e-b8b4-7f1f0d2d0df3.png?v=1764338058\"\n               alt=\"ZenBrosse Before Image\">\n\n          <!-- APRÈS -->\n          <img draggable=\"false\" loading=\"lazy\" class=\"zb-img zb-overlay\"\n               src=\"https://cdn.shopify.com/s/files/1/0969/2843/2465/files/Design_sans_titre_2_3aec6a80-f7d7-4d38-a071-8db1922c3d35.png?v=1764326166\"\n               alt=\"ZenBrosse After Image\">\n\n          <div class=\"zb-handle\" aria-hidden=\"true\"></div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n\n  <style>\n    @media (min-width: 768px){ #zb-compare-{{ section.id }}{ display:none !important; } }\n\n    #zb-compare-{{ section.id }}{\n      --container-max: 820px;\n      --pad-y: 38px;\n      --compare-max-desktop: 520px;\n      --compare-max-mobile: 360px;\n      --handle-btn: 32px;\n      --radius: 14px;\n      --shadow: 0 8px 22px rgba(0,0,0,.06);\n\n      background:#fff;\n      padding:0 0;\n      font-family:'Poppins',system-ui,Arial,Helvetica,sans-serif;\n      text-align:center;\n    }\n\n    #zb-compare-{{ section.id }} .zb-container {\n      max-width:var(--container-max);\n      margin:0;\n      padding:0 16px;\n    }\n\n    .zb-comparison-zone {\n      display:flex;\n      justify-content:center;\n    }\n    .zb-comparison {\n      position:relative;\n      width:100%;\n      max-width:var(--compare-max-desktop);\n      margin:0 auto;\n    }\n\n    @media (max-width: 767px){\n      .zb-comparison { max-width:var(--compare-max-mobile); }\n      #zb-compare-{{ section.id }} .zb-container { padding:0 14px; }\n    }\n\n    .zb-img-wrap {\n      position:relative;\n      overflow:hidden;\n      border-radius:var(--radius);\n      box-shadow:var(--shadow);\n      margin:0 auto;\n    }\n    .zb-img {\n      display:block;\n      width:100%;\n      height:auto;\n      user-select:none;\n      pointer-events:none;\n    }\n    .zb-base { position:relative; z-index:1; }\n    .zb-overlay {\n      position:absolute;\n      inset:0;\n      z-index:2;\n      clip-path:inset(0 0 0 50%);\n      transition:clip-path .08s linear;\n    }\n\n    .zb-handle {\n      position:absolute;\n      top:0;\n      left:50%;\n      transform:translateX(-50%);\n      width:2px;\n      height:100%;\n      background:rgba(255,255,255,.95);\n      border-left:1px solid rgba(0,0,0,.25);\n      border-right:1px solid rgba(0,0,0,.25);\n      z-index:3;\n      cursor:ew-resize;\n    }\n    .zb-handle::before {\n      content:\"↔︎\";\n      position:absolute;\n      top:50%;\n      left:50%;\n      transform:translate(-50%,-50%);\n      display:grid;\n      place-items:center;\n      width:var(--handle-btn);\n      height:var(--handle-btn);\n      border-radius:999px;\n      background:rgba(255,255,255,.96);\n      border:1px solid rgba(0,0,0,.12);\n      box-shadow:0 4px 12px rgba(0,0,0,.18);\n      font-size:16px;\n      font-weight:700;\n      color:#222;\n    }\n  .zb-label {\n      position:absolute;\n      top:10px;\n      z-index:4;\n      padding:5px 9px;\n      border-radius:999px;\n      font-weight:700;\n      font-size:11px;\n      background:rgba(0,0,0,.55);\n      color:#fff;\n      backdrop-filter:saturate(140%) blur(4px);\n      user-select:none;\n    }\n    .zb-label--left { left:10px; }\n    .zb-label--right { right:10px; }\n  </style>\n\n  <script>\n    (function(){\n      const root = document.getElementById('zb-compare-{{ section.id }}');\n      if(!root) return;\n      const overlay = root.querySelector('.zb-overlay');\n      const imgWrap = root.querySelector('.zb-img-wrap');\n      const handle = root.querySelector('.zb-handle');\n\n      function setClip(ratio){\n        ratio = Math.max(0.02, Math.min(0.98, ratio));\n        overlay.style.clipPath = `inset(0 0 0 ${ratio*100}%)`;\n        handle.style.left = `${ratio*100}%`;\n      }\n      function posFromEvent(e){\n        const rect = imgWrap.getBoundingClientRect();\n        const clientX = e.touches ? e.touches[0].clientX : e.clientX;\n        return (clientX - rect.left) / rect.width;\n      }\n\n      let dragging = false;\n      const start = e => { dragging = true; setClip(posFromEvent(e)); e.preventDefault(); };\n      const move  = e => { if(!dragging) return; setClip(posFromEvent(e)); };\n      const end   = () => dragging = false;\n\n      handle.addEventListener('mousedown', start);\n      window.addEventListener('mousemove', move);\n      window.addEventListener('mouseup', end);\n      handle.addEventListener('touchstart', start, {passive:false});\n      window.addEventListener('touchmove', move, {passive:false});\n      window.addEventListener('touchend', end);\n\n      setClip(0.5);\n    })();\n  </script>\n</div>\n<!-- ===== /ZENBROSSE | Version allégée ===== -->",
         "background": "",
         "background_gradient": "",
         "text_color": ""
