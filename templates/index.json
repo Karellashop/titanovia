@@ -173,10 +173,17 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "subheading_YJ7NpM": {
+          "type": "subheading",
+          "settings": {
+            "text": "De la panique à la sérénité en quelques minutes seulement."
+          }
         }
       },
       "block_order": [
-        "heading_gEniJ7"
+        "heading_gEniJ7",
+        "subheading_YJ7NpM"
       ],
       "name": "Rich text",
       "settings": {
